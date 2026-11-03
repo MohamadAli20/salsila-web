@@ -12,3 +12,17 @@ function buildDescendantView(graph, rootId, maxGenerations=99){
  for(const id of queue){const list=[];for(const mate of mates.get(id)||[])if(!used.has(mate)){used.add(mate);list.push(mate);}companions.set(id,list);}
  return {rootId,levels,parents,children,companions,ids:used};
 }
+
+// Includes every reachable directed branch, independently of the current UI
+// depth. Connected context cards are not counted as descendants.
+function descendantRecords(graph,rootId){
+ const projection=buildDescendantView(graph,rootId,99),labels=new Map(graph.labels.map(l=>[l.id,l]));
+ return [...projection.levels].filter(([id])=>id!==rootId).map(([id,steps])=>({id,name:labels.get(id).name,aliases:labels.get(id).aliases||[],steps})).sort((a,b)=>a.steps-b.steps||a.name.localeCompare(b.name));
+}
+
+// Compare recorded path lengths, not visual rows or proven biological ages.
+function generationGapReport(graph,constraint){
+ function pathTo(target){const projection=buildDescendantView(graph,constraint.anchor,99);if(!projection.levels.has(target))return null;const path=[target];let current=target;while(projection.parents.has(current)){current=projection.parents.get(current);path.unshift(current);}return {steps:projection.levels.get(target),path};}
+ const paths=constraint.members.map(id=>({id,...(pathTo(id)||{steps:null,path:[]})}));
+ return {anchor:constraint.anchor,paths,difference:paths.every(p=>p.steps!==null)?Math.max(...paths.map(p=>p.steps))-Math.min(...paths.map(p=>p.steps)):null,confirmedMissingGenerations:null};
+}

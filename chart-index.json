@@ -346,21 +346,90 @@
     },
     {
       "id": "chart-038",
-      "name": "Kadi sa Binidayan",
+      "name": "Sayyidna Tuan Muhammad Said",
       "x": 258,
       "y": 341,
       "width": 176,
       "height": 46,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Kadi sa Binidayan",
+        "Hadi sa Binidayan",
+        "Haji sa Binidayan",
+        "Sayyidna"
+      ],
+      "publicFigure": true,
+      "badge": "Pioneer Hajj Pilgrim",
+      "profileTitle": "Islamic scholar · early Hajj pilgrim of Lanao",
+      "biography": {
+        "heading": "Kawashima Midori: pilgrimage and Islamic learning",
+        "summary": "Known locally as Kadi (or Hadi) sa Binidayan, Sayyidna Tuan Muhammad Said is studied by Kawashima Midori through local oral accounts and manuscripts of the early nineteenth century.",
+        "facts": [
+          {
+            "text": "Kawashima’s 2017 paper reports an oral account describing Sayyidna as one of the earliest Hajj pilgrims from the Lake Lanao area.",
+            "sourceUrl": "https://doi.org/10.69341/2000107"
+          },
+          {
+            "text": "In that account, Sayyidna was the first person from southern Lake Lanao to study Islam in Mecca for an extended period and return safely. This is a narrower claim than being the first Hajj pilgrim of the Philippines.",
+            "sourceUrl": "https://doi.org/10.69341/2000107"
+          },
+          {
+            "text": "Kawashima’s 2019 chapter, Connecting Mindanao to Hijaz, continues the study of Sayyidna’s journey.",
+            "sourceUrl": "https://kawashimamidori.jp/research_activities.html"
+          }
+        ],
+        "identityNote": "The English badge “Pioneer Hajj Pilgrim” reflects the qualified oral-tradition account. The separate chart entry Tuan sa Binidayan is not merged with this scholar. The research does not independently authenticate all family links in this chart.",
+        "sources": [
+          {
+            "title": "Kawashima Midori (2017), The Journeys of Two Mindanao Ulama, pp. 8–11; canonical DOI",
+            "url": "https://doi.org/10.69341/2000107"
+          },
+          {
+            "title": "Kawashima Midori: author’s publications list (2017 paper and 2019 chapter)",
+            "url": "https://kawashimamidori.jp/research_activities.html"
+          },
+          {
+            "title": "Connecting Mindanao to Hijaz (2019), pp. 73–128; repository record",
+            "url": "https://sophia.repo.nii.ac.jp/records/2003208"
+          }
+        ]
+      }
     },
     {
       "id": "chart-039",
-      "name": "Tuan",
+      "name": "Tuan sa Binidayan",
       "x": 484,
       "y": 348,
       "width": 104,
       "height": 40,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Tuan"
+      ],
+      "biography": {
+        "heading": "Name research",
+        "summary": "The related genealogy account uses the name Tuan sa Binidayan for the parent of Amai Makapondag. A full personal name has not been established for this specific chart entry.",
+        "facts": [],
+        "identityNote": "Do not merge this entry with Sayyidna Tuan Muhammad Said solely because both include “Tuan.” The chart shows Tuan and Kadi sa Binidayan as separate entries; the article about Muhammad Said identifies that scholar as Kadi sa Binidayan.",
+        "sources": [
+          {
+            "title": "Ontay genealogy: Ameroden sa Bayang (Tuan sa Binidayan / Amai Makapondag)",
+            "url": "https://acmaly88.page.tl/AMERODEN-SA-BAYANG.htm"
+          },
+          {
+            "title": "Ontay genealogy: Kadi and the separate Tuan entry",
+            "url": "https://acmaly88.page.tl/GOGODAN-SA-BINIDAYAN.htm"
+          },
+          {
+            "title": "Identity caution: article about Kadi / Tuan Muhammad Said",
+            "url": "https://acmaly88.page.tl/SO-KADI-SA-BINIDAYAN.htm"
+          },
+          {
+            "title": "Kawashima Midori: author’s research bibliography",
+            "url": "https://kawashimamidori.jp/research_activities.html"
+          }
+        ]
+      }
     },
     {
       "id": "chart-040",
@@ -1159,7 +1228,8 @@
       "y": 987,
       "width": 121,
       "height": 43,
-      "personId": "dimaporo"
+      "personId": "dimaporo",
+      "layoutBadge": "Reported cousin level"
     },
     {
       "id": "chart-127",
@@ -1208,12 +1278,47 @@
     },
     {
       "id": "chart-132",
-      "name": "Sult. Ali",
+      "name": "Mohamad Ali Dimaporo",
       "x": 806,
       "y": 1018,
       "width": 115,
       "height": 39,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Sult. Ali",
+        "Mohammad Ali Dimaporo",
+        "Sultan Ali Dimaporo"
+      ],
+      "publicFigure": true,
+      "biography": {
+        "heading": "Public service and historical records",
+        "summary": "A public official associated with the Lanao provinces and Mindanao State University.",
+        "facts": [
+          {
+            "text": "Represented the Second Legislative District of Lanao del Sur after the 1987 congressional elections.",
+            "sourceUrl": "https://lawphil.net/judjuris/juri1991/oct1991/gr_96859_1991.html"
+          },
+          {
+            "text": "Listed by Mindanao State University as Acting President from 1976 to 1986.",
+            "sourceUrl": "https://www.msumain.edu.ph/the-msu-system-presidents/"
+          }
+        ],
+        "sources": [
+          {
+            "title": "Supreme Court decision: Dimaporo v. Mitra (1991)",
+            "url": "https://lawphil.net/judjuris/juri1991/oct1991/gr_96859_1991.html"
+          },
+          {
+            "title": "Mindanao State University: System Presidents",
+            "url": "https://www.msumain.edu.ph/the-msu-system-presidents/"
+          },
+          {
+            "title": "Ontay genealogy: Sultan Ali Dimaporo; Dimaporo and Borngao identification",
+            "url": "https://acmaly88.page.tl/SULTAN-ALI-DIMAPORO.htm"
+          }
+        ],
+        "identityNote": "The source transcription calls this entry “Sult. Ali.” The genealogy account identifies Sultan Ali as Mohamad Ali Dimaporo and names Dimaporo and Borngao as parents. This is distinct from the earlier Dimaporo entry. Biographical sources do not independently verify every chart connection."
+      }
     },
     {
       "id": "chart-133",
@@ -1640,6 +1745,58 @@
       "width": 96,
       "height": 46,
       "personId": null
+    },
+    {
+      "id": "chart-personal-missing-ancestor",
+      "name": "Unknown parent of Samurong",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "transcriptionNote": "Child of Maruhom and parent of Samurong, according to your family account. Name unknown. It is not known whether this ancestor is Samurong’s father or mother.",
+      "unknownName": true
+    },
+    {
+      "id": "chart-personal-samurong",
+      "name": "Samurong",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "transcriptionNote": "Grandchild of Maruhom through one unnamed parent, according to your family account. Reported full first cousin of the earlier Dimaporo entry, displayed at the same level at your request. The shared ancestors remain unresolved; the recorded paths from Maruhom differ by one step. Samurong’s mother is reported to have Malaysian origins; her name and ethnicity are unspecified. It is not established whether that mother is the child of Maruhom.",
+      "unknownName": false,
+      "layoutBadge": "Reported cousin level"
+    },
+    {
+      "id": "chart-personal-bayango-parent",
+      "name": "Unknown father of Bayango",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "transcriptionNote": "Reported father of Bayango Gandamazir and connected partner of Samurong. Reported to come from the Digadong clan; the intervening ancestors are unknown. This clan association is not encoded as a direct child relationship to Digadong.",
+      "unknownName": true
+    },
+    {
+      "id": "chart-personal-bayango",
+      "name": "Bayango Gandamazir",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "transcriptionNote": "Reported child of Samurong and the unnamed father from the Digadong clan. Reported connected partner and second cousin of Kalanda Ginaronia. Their shared ancestor and connecting generations remain unresolved; no gender is inferred from the name.",
+      "unknownName": false
+    },
+    {
+      "id": "chart-personal-kalanda",
+      "name": "Kalanda Ginaronia",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "transcriptionNote": "Reported by you as your paternal grandfather, connected to Bayango Gandamazir. You report that Bayango and Kalanda are second cousins and that Kalanda has ancestry from Digadong. The intervening ancestors, number of generations and shared ancestor are not yet established.",
+      "unknownName": false,
+      "aliases": [
+        "Kalanda Ginaronai"
+      ]
+    },
+    {
+      "id": "chart-personal-digadong-gap",
+      "name": "Missing ancestry · Digadong",
+      "recordSource": "family-account",
+      "recordKind": "ancestry-gap",
+      "ancestryGap": true,
+      "transcriptionNote": "This is a placeholder for an unknown ancestry span between Digadong and Kalanda Ginaronia, not a known individual or a single confirmed generation. Names and the number of intermediate generations are still to be supplied."
     }
   ],
   "edges": [
@@ -2892,6 +3049,43 @@
       "to": "chart-170",
       "type": "lineage",
       "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-personal-missing-ancestor",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "note": "Parent–child connection supplied by the user; not independently verified."
+    },
+    {
+      "from": "chart-personal-missing-ancestor",
+      "to": "chart-personal-samurong",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "note": "Parent–child connection supplied by the user; not independently verified."
+    },
+    {
+      "from": "chart-personal-samurong",
+      "to": "chart-personal-bayango-parent",
+      "type": "connection",
+      "recordSource": "family-account",
+      "note": "Connected partners in the user’s family account."
+    },
+    {
+      "from": "chart-personal-samurong",
+      "otherOrigin": "chart-personal-bayango-parent",
+      "to": "chart-personal-bayango",
+      "type": "lineage",
+      "junctionId": "family-junction-samurong",
+      "recordSource": "family-account",
+      "note": "Reported child of Samurong and the unnamed father of Bayango."
+    },
+    {
+      "from": "chart-personal-bayango",
+      "to": "chart-personal-kalanda",
+      "type": "connection",
+      "recordSource": "family-account",
+      "note": "Reported married connection; neutral display labels retained."
     }
   ],
   "unresolvedConnections": [
@@ -4338,6 +4532,77 @@
       "branches": [
         "chart-169"
       ]
+    },
+    {
+      "id": "family-junction-samurong",
+      "origins": [
+        "chart-personal-samurong",
+        "chart-personal-bayango-parent"
+      ],
+      "branches": [
+        "chart-personal-bayango"
+      ],
+      "recordSource": "family-account"
+    }
+  ],
+  "reportedRelationships": [
+    {
+      "from": "chart-personal-samurong",
+      "targetName": "Dimaporo (original chart entry)",
+      "type": "reported-first-cousins",
+      "status": "unresolved",
+      "note": "User requests alignment with the Dimaporo entry as full first cousins. The shared ancestors and any intervening missing generations remain unverified. The current paths from Maruhom have different recorded step counts; this report is not used to manufacture ancestry.",
+      "recordSource": "family-account",
+      "targetId": "chart-126",
+      "identityStatus": "display-target-identified-by-user"
+    },
+    {
+      "from": "chart-personal-bayango-parent",
+      "targetName": "Digadong clan",
+      "type": "reported-clan-origin",
+      "status": "unresolved",
+      "note": "Clan origin only; intervening ancestors are unknown. Not a direct parent–child link to Digadong.",
+      "recordSource": "family-account"
+    },
+    {
+      "from": "chart-personal-bayango",
+      "targetId": "chart-personal-kalanda",
+      "targetName": "Kalanda Ginaronia",
+      "type": "reported-second-cousins",
+      "status": "unresolved",
+      "recordSource": "family-account",
+      "note": "You report Bayango Gandamazir and Kalanda Ginaronia as second cousins. Their common ancestor and the connecting generations have not yet been identified. This is retained as a family account, not a calculated kinship result."
+    }
+  ],
+  "layoutConstraints": [
+    {
+      "id": "samurong-dimaporo-cousin-level",
+      "type": "same-level",
+      "members": [
+        "chart-personal-samurong",
+        "chart-126"
+      ],
+      "anchor": "chart-060",
+      "recordSource": "family-account",
+      "note": "Same display level requested by the user for reported full first cousins Samurong and Dimaporo. This identifies the earlier Dimaporo entry, not Mohamad Ali Dimaporo. Alignment does not verify missing ancestors or alter recorded links."
+    }
+  ],
+  "ancestryGaps": [
+    {
+      "from": "chart-019",
+      "to": "chart-personal-digadong-gap",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "gapId": "digadong-kalanda",
+      "note": "Reported ancestry connection; intervening identities and generation count unknown. Not an immediate parent–child claim."
+    },
+    {
+      "from": "chart-personal-digadong-gap",
+      "to": "chart-personal-kalanda",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "gapId": "digadong-kalanda",
+      "note": "Missing ancestry to be completed. The placeholder represents an unknown span, not a single ancestor or generation."
     }
   ]
 }

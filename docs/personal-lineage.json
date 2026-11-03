@@ -1,0 +1,76 @@
+{
+  "source": "User family account, 2026-11-03",
+  "labels": [
+    "chart-personal-missing-ancestor",
+    "chart-personal-samurong",
+    "chart-personal-bayango-parent",
+    "chart-personal-bayango",
+    "chart-personal-kalanda",
+    "chart-personal-digadong-gap"
+  ],
+  "edges": [
+    {
+      "from": "chart-060",
+      "to": "chart-personal-missing-ancestor",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "note": "Parent–child connection supplied by the user; not independently verified."
+    },
+    {
+      "from": "chart-personal-missing-ancestor",
+      "to": "chart-personal-samurong",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "note": "Parent–child connection supplied by the user; not independently verified."
+    },
+    {
+      "from": "chart-personal-samurong",
+      "to": "chart-personal-bayango-parent",
+      "type": "connection",
+      "recordSource": "family-account",
+      "note": "Connected partners in the user’s family account."
+    },
+    {
+      "from": "chart-personal-samurong",
+      "otherOrigin": "chart-personal-bayango-parent",
+      "to": "chart-personal-bayango",
+      "type": "lineage",
+      "junctionId": "family-junction-samurong",
+      "recordSource": "family-account",
+      "note": "Reported child of Samurong and the unnamed father of Bayango."
+    },
+    {
+      "from": "chart-personal-bayango",
+      "to": "chart-personal-kalanda",
+      "type": "connection",
+      "recordSource": "family-account",
+      "note": "Reported married connection; neutral display labels retained."
+    }
+  ],
+  "unresolved": [
+    "Identity and gender of the intermediate child of Maruhom",
+    "Name of Bayango’s father and intervening Digadong-clan ancestors",
+    "Identity of Sultan Dimaporo and common ancestors underlying the reported first-cousin relationship",
+    "Name and ethnicity of Samurong’s mother; whether she is the child of Maruhom",
+    "Intervening Digadong–Kalanda ancestors and their generation count",
+    "Shared ancestor supporting the reported Bayango–Kalanda second-cousin relationship"
+  ],
+  "ancestryGaps": [
+    {
+      "from": "chart-019",
+      "to": "chart-personal-digadong-gap",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "gapId": "digadong-kalanda",
+      "note": "Reported ancestry connection; intervening identities and generation count unknown. Not an immediate parent–child claim."
+    },
+    {
+      "from": "chart-personal-digadong-gap",
+      "to": "chart-personal-kalanda",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "gapId": "digadong-kalanda",
+      "note": "Missing ancestry to be completed. The placeholder represents an unknown span, not a single ancestor or generation."
+    }
+  ]
+}

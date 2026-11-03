@@ -3,11 +3,11 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 const chart=JSON.parse(readFileSync('chart-index.json','utf8'));
 const fixture=JSON.parse(readFileSync('docs/transcription-connections.json','utf8'));
-const id=name=>{if(name==='Shiek (Kadi branch)')return 'chart-022';if(name==='Shiek (Anginta branch)')return 'chart-098';const hits=chart.labels.filter(p=>p.name===name);assert.equal(hits.length,1,'Ambiguous/missing label: '+name);return hits[0].id;};
+const id=name=>{if(name==='Shiek (Kadi branch)')return 'chart-022';if(name==='Shiek (Anginta branch)')return 'chart-098';const hits=chart.labels.filter(p=>(p.name===name||p.aliases?.includes(name)));assert.equal(hits.length,1,'Ambiguous/missing label: '+name);return hits[0].id;};
 const key=e=>e.type==='connection'?'connection:'+ [e.from,e.to].sort().join('|'):'lineage:'+ [e.from,e.otherOrigin].filter(Boolean).sort().join('|')+'>'+e.to;
 const expected=[];
 for(const group of fixture.groups){const origins=group.origins.map(id);if(origins.length===2)expected.push(key({from:origins[0],to:origins[1],type:'connection'}));for(const target of group.targets)expected.push(key({from:origins[0],otherOrigin:origins[1],to:id(target),type:'lineage'}));}
-assert.deepEqual(chart.edges.map(key).sort(),expected.sort(),'Active graph differs from updated transcription');
+assert.deepEqual(chart.edges.filter(e=>e.recordSource!=='family-account').map(key).sort(),expected.sort(),'Active graph differs from updated transcription');
 assert.equal(new Set(chart.edges.map(key)).size,chart.edges.length,'Duplicate edges');
 const descendants=vm.runInNewContext(readFileSync('descendants.js','utf8')+'\n;buildDescendantView;');
 const direct=name=>new Set([...descendants(chart,id(name),2).levels].filter(([,depth])=>depth===1).map(([entry])=>entry));

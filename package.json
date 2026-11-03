@@ -5,8 +5,10 @@
   "description": "A living genealogy archive of Ranao",
   "scripts": {
     "dev": "python3 dev_server.py",
-    "check": "node --check app.js && node check-transcription.mjs && node check-layout.mjs && node check-data.mjs && node --check community.js && node --check genealogy-model.js && node check-community.mjs",
+    "check": "node --check app.js && node check-transcription.mjs && node check-layout.mjs && node check-personal-lineage.mjs && node check-descendant-navigation.mjs && node check-data.mjs && node --check community.js && node --check genealogy-model.js && node check-community.mjs",
     "check:transcription": "node check-transcription.mjs",
-    "check:layout": "node check-layout.mjs"
+    "check:layout": "node check-layout.mjs",
+    "check:personal": "node check-personal-lineage.mjs",
+    "check:descendants": "node check-descendant-navigation.mjs"
   }
 }

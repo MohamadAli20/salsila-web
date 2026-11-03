@@ -563,6 +563,24 @@
       "author": "Hosted by Ontay & Marogong.Net",
       "url": "https://img.webme.com/pic/a/acmaly88/sayawachart-page-001.jpg",
       "description": "A genealogical reference tracing the Sayawa lineage and its family connections in Binidayan and Bayang, Ranao."
+    },
+    {
+      "id": "kawashima-2017",
+      "region": "binidayan",
+      "type": "research",
+      "title": "The Journeys of Two Mindanao Ulama (2017)",
+      "author": "Kawashima Midori · Journal of Philippine Local History & Heritage 3(1), pp. 1–40",
+      "url": "https://doi.org/10.69341/2000107",
+      "description": "Research on early Mindanao scholars, including Sayyidna Tuan Muhammad Said / Kadi sa Binidayan. Distinguishes local oral traditions from manuscript evidence."
+    },
+    {
+      "id": "kawashima-2019",
+      "region": "binidayan",
+      "type": "research",
+      "title": "Connecting Mindanao to Hijaz (2019)",
+      "author": "Kawashima Midori · The Library of an Islamic Scholar of Mindanao, chapter 3, pp. 73–128",
+      "url": "https://doi.org/10.69341/2003208",
+      "description": "Research chapter on the journey of Sayyidna Tuan Muhammad Said, catalogued in the author’s bibliography. Publication metadata was checked; the full repository chapter was unavailable during this review."
     }
   ]
 }

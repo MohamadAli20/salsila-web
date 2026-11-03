@@ -1,0 +1,15 @@
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const chart=JSON.parse(readFileSync('chart-index.json','utf8'));
+const {buildDescendantView,descendantRecords}=vm.runInNewContext(readFileSync('descendants.js','utf8')+';({buildDescendantView,descendantRecords});');
+const rows=descendantRecords(chart,'chart-060'),ids=new Set(rows.map(r=>r.id));
+for(const id of ['chart-132','chart-personal-samurong','chart-personal-bayango'])assert(ids.has(id),'Deep descendant missing: '+id);
+assert(!ids.has('chart-060'));assert(!ids.has('chart-058'),'Connected context is not a descendant');assert(rows.some(r=>r.steps>=6));assert(rows.some(r=>r.aliases.includes('Sult. Ali')));
+assert(!buildDescendantView(chart,'chart-060',2).levels.has('chart-132'),'Fixture must reproduce the old two-step limitation');
+const code=readFileSync('app.js','utf8'),fn=code.slice(code.indexOf('function startFromPerson('),code.indexOf('\nfunction renderDescendants('));
+const fields={search:{value:'filter'},depth:{value:'2'}};let view;
+const context={chartRoot:null,chartMode:false,focusRoot:'old',selected:'old',profileTab:'sources',collapsed:new Set(['old']),$:id=>fields[id],renderProfile(){},setView(v){view=v;}};
+vm.createContext(context);vm.runInContext(fn+';startFromPerson("chart-060");',context);assert.equal(fields.depth.value,'99');assert.equal(context.chartRoot,'chart-060');assert.equal(view,'tree');
+const scholar=chart.labels.find(l=>l.id==='chart-038');assert.equal(scholar.badge,'Pioneer Hajj Pilgrim');assert(scholar.biography.sources.some(s=>s.url==='https://doi.org/10.69341/2000107'));assert(scholar.biography.facts.some(f=>f.text.includes('oral account')));assert.notEqual(scholar.id,chart.labels.find(l=>l.id==='chart-039').id);
+console.log(`Verified ${rows.length} Maruhom descendant records across all steps, distant family entries, exclusion of connected context, all-descendants navigation default, and the qualified Kawashima research badge.`);

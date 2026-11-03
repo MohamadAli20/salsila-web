@@ -13,7 +13,7 @@ console.log(`Verified ${data.people.length} person records, ${data.unions.length
 
 const chart=JSON.parse(readFileSync('chart-index.json','utf8'));const cs=code.indexOf('function validateChart('),ce=code.indexOf('\nasync function init',cs);const validateChart=vm.runInNewContext('('+code.slice(cs,ce)+')');validateChart(chart,data);const png=readFileSync(chart.image);if(png.readUInt32BE(16)!==chart.width||png.readUInt32BE(20)!==chart.height)throw Error('Chart image dimensions do not match the index.');console.log(`Verified complete ${chart.width}×${chart.height} source image and ${chart.labels.length} native graph entries and ${chart.edges.length} typed connection references.`);
 const buildDescendantView=vm.runInNewContext(readFileSync('descendants.js','utf8')+'\n;buildDescendantView;');
-const chartId=name=>chart.labels.find(p=>p.name===name).id;
+const chartId=name=>chart.labels.find(p=>p.name===name||p.aliases?.includes(name)).id;
 const maruhom=chartId('Maruhom'),shortView=buildDescendantView(chart,maruhom,2),longView=buildDescendantView(chart,maruhom,99);
 for(const name of ['Inaipindima','Diamburun','Ama Deca','Ginarapandi','Anginta'])if(!shortView.ids.has(chartId(name)))throw Error('Missing direct descendant: '+name);
 if(shortView.ids.has(chartId('Mangotara')))throw Error('Generation limit ignored');

@@ -10,7 +10,7 @@ An interactive genealogy archive starting with Binidayan and Bayang in Ranao. Or
 
 ## Two genealogy views
 
-**Full family tree** is the default Binidayan view. It renders 179 chart entries as HTML cards and 190 chart connections as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
+**Full family tree** is the default Binidayan view. It renders 179 source-chart entries plus 6 family-account entries (including one unknown ancestry-span placeholder) as HTML cards, with 195 recorded connections and 2 dashed pending ancestry routes as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
 
 **Branch view · partial** retains the smaller structured parent/partnership dataset, with generation controls, collapse/expand, and focused branches. Bayang currently uses this structured view. Both views use our own design.
 
@@ -21,6 +21,10 @@ The original comparison image is expected at `assets/sayawa-chart.png`; it is cu
 The updated 2026-11-03 text review covers 190 connections across 34 sections: 173 directed branches and 17 red connecting lines of unspecified relationship. Shared source junctions are distinct from direct box branches; the Olodan route remains unresolved. Run `npm run check:transcription` for its regression checks; see `docs/connection-audit.md` for corrections and remaining uncertainty.
 
 The displayed tree uses automatic family rows and clear routing lanes rather than scanned coordinates. Unrelated crossing routes have visible gaps; shared source trunks remain connected. `npm run check:layout` verifies card and line collisions. The user has confirmed Maruhom → Anginta and Anginta’s marriage to Amai Pondag.
+
+The family-account extension records Maruhom → unnamed parent → Samurong, Samurong's unnamed connected partner, their reported child Bayango Gandamazir, and the connection to Kalanda Ginaronai. It does not infer the unknown parent's gender, the maternal line, Malaysian ethnicity, the Digadong-clan generations, or the common ancestor behind the reported cousin relationship. See `docs/personal-lineage.json` and run `npm run check:personal`.
+
+Mohamad Ali Dimaporo has a public-figure badge and a click-to-open sourced biography. The old “Sult. Ali” label remains searchable. Tuan is expanded to the supported contextual name “Tuan sa Binidayan”; a full personal name is not established. It is not merged with Tuan Muhammad Said / Kadi sa Binidayan.
 
 ## Files and persistence
 
@@ -58,3 +62,11 @@ Shared accounts, server-enforced access controls, invitations, moderator decisio
 
 Validation: `npm run check`. Model checks cover required evidence, ancestry cycles, duplicate claims, unsafe URLs, import validation, and rejection of a fabricated `verified` status. Browser QA used fictional example people on a separate localhost origin; tested draft creation, source entry, review-request state, a disputed note, reload persistence and a downloadable JSON export. `docs/community-workspace-preview.png` shows the fictional QA example. The main preview's workspace remains empty.
 # salsila-web
+
+The Kadi sa Binidayan entry is now shown as Sayyidna Tuan Muhammad Said with a **Pioneer Hajj Pilgrim** badge and citations to Kawashima Midori's 2017 paper and 2019 chapter. These are also listed in Sources. The title reflects a qualified oral account rather than an absolute first-pilgrim claim. Tuan sa Binidayan remains a separate entry.
+
+Selecting a starting person now shows all descendant branches by default. The canvas **Descendants (N)** button opens a searchable list across every recorded chart step, so distant entries can be located without reading the entire zoomed-out graph. Run `npm run check:descendants` for navigation and source-label regressions.
+
+The canvas **🔍 Zoom** button magnifies the selected name. The user-reported cousin pair Samurong and the original Dimaporo entry now share a display row; **View cousin level 🔍** frames them together. The generation note compares their existing paths from Maruhom (2 versus 3 recorded steps) and reports a one-step discrepancy without inventing an extra ancestor or a verified missing-generation count.
+
+Kalanda Ginaronia has a pending ancestry route from Digadong. Its placeholder represents an unknown span, not a known individual or one generation. Bayango and Kalanda are reported second cousins according to the family account; their common ancestor is unresolved. Pending routes do not contribute to descendant counts or calculated kinship.
