@@ -30,8 +30,25 @@ function layoutChart(graph, visibleIds=null, density='compressed'){
  const rows=[];for(const k of queue){const r=ranks.get(k);(rows[r]??=[]).push(k);}
  for(let r=0;r<rows.length;r++)rows[r]??=[];
  const order=new Map();for(let r=0;r<rows.length;r++){const bary=k=>{const list=[...incoming.get(k)];return list.length?list.reduce((s,n)=>s+(order.get(n)||0),0)/list.length:0;};rows[r].sort((a,b)=>bary(a)-bary(b));for(const c of alignments){const keys=[...new Set(c.members.map(find))];if(keys.every(k=>rows[r].includes(k))){const first=Math.min(...keys.map(k=>rows[r].indexOf(k)));rows[r]=rows[r].filter(k=>!keys.includes(k));rows[r].splice(first,0,...keys);}}rows[r].forEach((k,i)=>order.set(k,i));}
+ const displayLevels=new Map(ranks);
+ // Wrap whole connected groups; aligned cousins remain in the same band.
+ if(density==='ultra'){
+  const wrapped=[];
+  for(const row of rows){let band=[],count=0;
+   for(let i=0;i<row.length;i++){let block=[row[i]];
+    const alignment=alignments.find(c=>find(c.members[0])===row[i]);
+    if(alignment){const keys=[...new Set(alignment.members.map(find))];if(keys.every((k,j)=>row[i+j]===k)){block=keys;i+=keys.length-1;}}
+    const size=block.reduce((n,k)=>n+groups.get(k).length,0);
+    if(count&&count+size>6){wrapped.push(band);band=[];count=0;}
+    band.push(...block);count+=size;
+   }
+   if(band.length)wrapped.push(band);
+  }
+  rows.splice(0,rows.length,...wrapped);rows.forEach((row,r)=>row.forEach(k=>ranks.set(k,r)));
+ }
+ const ultra=density==='ultra';
  const compact=density!=='spacious';
- const W=compact?160:210,H=compact?72:94,GAP=compact?24:46,PAD=compact?40:60,TRACK=14,GROUP_GAP=compact?12:45,ROW_GAP=compact?55:95;
+ const W=ultra?148:compact?160:210,H=ultra?66:compact?72:94,GAP=ultra?14:compact?24:46,PAD=compact?40:60,TRACK=14,GROUP_GAP=ultra?6:compact?12:45,ROW_GAP=ultra?55:compact?55:95;
  const rowWidth=row=>row.reduce((sum,k)=>sum+groups.get(k).length*(W+GAP)+GROUP_GAP,0);
  const contentWidth=Math.max(1,...rows.map(rowWidth));
  const nets=new Map(),lineage=edges.filter(e=>e.type!=='connection');
@@ -41,11 +58,13 @@ function layoutChart(graph, visibleIds=null, density='compressed'){
  for(const [key,list]of nets){const r=ranks.get(find(list[0].from));sourceSlots.set(key,outCount[r]++);}
  for(const e of lineage){const r=ranks.get(find(e.to));targetSlots.set(e,inCount[r]++);}
  const longEdges=lineage.filter(e=>ranks.get(find(e.to))-ranks.get(find(e.from))>1);
- const gutter=PAD+longEdges.length*TRACK,positions=new Map(),rowY=[];
+ const longLanes=new Map(),laneEnds=[];
+ for(const e of [...longEdges].sort((a,b)=>ranks.get(find(a.from))-ranks.get(find(b.from)))){const start=ranks.get(find(e.from)),end=ranks.get(find(e.to));let lane=ultra?laneEnds.findIndex(n=>n<start):-1;if(lane<0)lane=laneEnds.length;laneEnds[lane]=end;longLanes.set(e,lane);}
+ const gutter=PAD+laneEnds.length*TRACK,positions=new Map(),rowY=[];
  let y=PAD;
  for(let r=0;r<rows.length;r++){
   rowY[r]=y;let x=gutter+(contentWidth-rowWidth(rows[r]))/2;
-  for(const k of rows[r]){for(const id of groups.get(k)){positions.set(id,{x,y,width:W,height:H,rank:r});x+=W+GAP;}x+=GROUP_GAP;}
+  for(const k of rows[r]){for(const id of groups.get(k)){positions.set(id,{x,y,width:W,height:H,rank:r,displayLevel:displayLevels.get(k)});x+=W+GAP;}x+=GROUP_GAP;}
   y+=H+ROW_GAP+(outCount[r]+(inCount[r+1]||0))*TRACK;
  }
  const bounds={width:contentWidth+gutter*2,height:y+PAD},routes=[];
@@ -55,7 +74,6 @@ function layoutChart(graph, visibleIds=null, density='compressed'){
  const sourceX=rows.map(()=>[]);
  for(const [key,list]of nets){const e=list[0],a=positions.get(e.from);let x=a.x+sourceOffset(e);if(e.otherOrigin){const b=positions.get(e.otherOrigin),left=a.x<b.x?a:b,right=a.x<b.x?b:a;x=(left.x+W+right.x)/2;}sourceX[a.rank].push(x);}
  const targetX=new Map();for(const e of lineage){const b=positions.get(e.to),list=ports.get(e.to);let x=b.x+W*.6+(list.indexOf(e)-(list.length-1)/2)*18;const blocked=sourceX[b.rank-1]||[];while(blocked.some(n=>Math.abs(n-x)<12))x+=14;targetX.set(e,x);}
- let longIndex=0;
  for(const e of edges){const a=positions.get(e.from),b=positions.get(e.to),key=e.type==='connection'?[e.from,e.to].sort().join('|'):netKey(e);let points;
   if(e.type==='connection'){
    const left=a.x<b.x?a:b,right=a.x<b.x?b:a;points=[{x:left.x+W,y:left.y+H/2},{x:right.x,y:right.y+H/2}];
@@ -67,7 +85,7 @@ function layoutChart(graph, visibleIds=null, density='compressed'){
    if(tr===sr+1)points=[{x:sx,y:sy},{x:sx,y:sourceY},{x:tx,y:sourceY},{x:tx,y:ty}];
    else{
     const targetY=rowY[tr]-28-targetSlots.get(e)*TRACK;
-    const lane=longIndex++*TRACK+PAD/2;
+    const lane=longLanes.get(e)*TRACK+PAD/2;
     const laneX=(sx+tx)/2<bounds.width/2?lane:bounds.width-lane;
     points=[{x:sx,y:sy},{x:sx,y:sourceY},{x:laneX,y:sourceY},{x:laneX,y:targetY},{x:tx,y:targetY},{x:tx,y:ty}];
    }
@@ -86,7 +104,7 @@ function layoutChart(graph, visibleIds=null, density='compressed'){
  }
  route.pieces=pieces;route.d=pieces.map(([a,b])=>`M ${a.x} ${a.y} L ${b.x} ${b.y}`).join(' ');
  }
- return {positions,bounds,routes};
+ return {positions,bounds,routes,bands:ultra?rows.map((row,r)=>({level:displayLevels.get(row[0]),x:gutter,y:rowY[r]-22})):[]};
 }
 
 // Pending ancestry is diagram context only. It never enters descendant or

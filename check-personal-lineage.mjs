@@ -24,7 +24,7 @@ console.log('Verified reported grandchild chain, distinct unknown identities, un
 assert.deepEqual(graph.ancestryGaps,fixture.ancestryGaps);
 assert(!build(graph,'chart-019',99).levels.has(kalanda),'Pending ancestry must not become established descent');
 assert(!graph.edges.some(e=>e.to==='chart-personal-digadong-gap'||e.from==='chart-personal-digadong-gap'));
-assert.equal(graph.labels.find(l=>l.id===kalanda).name,'Kalanda Ginaronai');
+assert.equal(graph.labels.find(l=>l.id===kalanda).name,'Calanda Ginaronai');
 
 assert(!build(graph,sam,99).levels.has('chart-personal-bayango'));
 assert.equal(graph.labels.find(l=>l.id===father).placeOfOrigin,'Poon a Baebao');

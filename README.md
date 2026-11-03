@@ -22,7 +22,7 @@ The updated 2026-11-03 text review covers 190 connections across 34 sections: 17
 
 The displayed tree uses automatic family rows and clear routing lanes rather than scanned coordinates. Unrelated crossing routes have visible gaps; shared source trunks remain connected. `npm run check:layout` verifies card and line collisions. The user has confirmed Maruhom → Anginta and Anginta’s marriage to Amai Pondag.
 
-The corrected family account records Maruhom → unnamed parent → Samurong (female), whose second spouse was Ginaronai from Poon a Baebao. Their child is Kalanda Ginaronai, connected to Bayango Gandamazir. Bayango comes from Digadong through an unknown ancestry span. Ginaronai is identified as male by the user; unspecified entries retain neutral labels. See `docs/personal-lineage.json` and run `npm run check:personal`.
+The corrected family account records Maruhom → unnamed parent → Samurong (female), whose second spouse was Ginaronai from Poon a Baebao. Their child is Calanda Ginaronai, connected to Bayango Gandamazir. Bayango comes from Digadong through an unknown ancestry span. Ginaronai is identified as male by the user; unspecified entries retain neutral labels. See `docs/personal-lineage.json` and run `npm run check:personal`.
 
 Mohamad Ali Dimaporo has a public-figure badge and a click-to-open sourced biography. The old “Sult. Ali” label remains searchable. Tuan is expanded to the supported contextual name “Tuan sa Binidayan”; a full personal name is not established. It is not merged with Tuan Muhammad Said / Kadi sa Binidayan.
 
@@ -69,10 +69,12 @@ Selecting a starting person now shows all descendant branches by default. The ca
 
 The canvas **🔍 Zoom** button magnifies the selected name. The user-reported cousin pair Samurong and the original Dimaporo entry now share a display row; **View cousin level 🔍** frames them together. The generation note compares their existing paths from Maruhom (2 versus 3 recorded steps) and reports a one-step discrepancy without inventing an extra ancestor or a verified missing-generation count.
 
-Bayango Gandamazir has a pending ancestry route from Digadong. Its placeholder represents an unknown span, not a known individual or one generation. Bayango and Kalanda are reported second cousins according to the family account; their common ancestor is unresolved. Pending routes do not contribute to descendant counts or calculated kinship.
+Bayango Gandamazir has a pending ancestry route from Digadong. Its placeholder represents an unknown span, not a known individual or one generation. Bayango and Calanda are reported second cousins according to the family account; their common ancestor is unresolved. Pending routes do not contribute to descendant counts or calculated kinship.
 
 Samurong’s unnamed Malaysian mother has a separate family-account card, attributed to the user’s father. Her connection to the unnamed child of Maruhom remains unresolved; these records may refer to the same person, but are not merged without clarification.
 
 The Layout selector defaults to Compressed, with tighter spaces between cards, groups, and generations. Spacious restores the wider layout. Both options retain all entries and connections and automatically fit the canvas when switched.
 
 Compact overview now uses name-only cards by default. Full detailed tree restores card details. Focus family shows the selected entry’s immediate recorded family connections; Show more expands another step. Per-card +/− controls collapse or expand descendants. Expand branches restores collapsed branches; Fit branch frames the selected entry’s visible descendants, and Fit all restores the whole chart.
+
+Ultra compact is the default: connected groups wrap into bands of about six cards, with chart-level labels distinguishing wrapped rows from ancestry generations. Initial distant branches collapse at the third chart level, with hidden-descendant counts. Expand branches and Fit all reveal the full diagram. Search reveals collapsed entries. Long connector lanes are reused only for non-overlapping spans. The fully expanded view is narrower but taller than Compact overview.

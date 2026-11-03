@@ -36,3 +36,5 @@
 .compact-tree .native-initial,.compact-tree .native-copy small{display:none}.compact-tree .native-node{padding:8px 12px 22px;justify-content:center;text-align:center}.compact-tree .native-copy strong{font-size:12px;line-height:1.25}.chart-fold{position:absolute;z-index:2;width:24px;height:24px;border:1px solid #bac8ad;border-radius:5px;background:#fffef9;color:var(--green);font-size:18px;line-height:20px;cursor:pointer}.chart-fold:focus-visible{outline:3px solid #aa8842}.chart-mode-bar>.button{min-height:44px;font-size:11px;padding:8px}.zoom{flex-wrap:wrap}.zoom #fit-branch{font-size:10px}
 
 .canvas-selection{flex-wrap:wrap}.canvas-selection>span{flex-basis:100%}#canvas-focus,#canvas-fold{background:#edeede;color:var(--green)}@media(max-width:650px){.canvas-selection>button{flex:1 1 28%}}
+
+.ultra-tree .native-node{padding:5px 8px 24px;border-radius:5px}.ultra-tree .native-copy strong{font-size:11px;line-height:1.15}.chart-level{position:absolute;font-size:10px;line-height:14px;color:#63765e;white-space:nowrap;pointer-events:none}.chart-fold.has-count{width:58px;font-size:11px;background:#e9efdf;font-weight:600}

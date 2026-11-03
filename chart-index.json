@@ -1759,7 +1759,7 @@
       "name": "Samurong",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "Grandchild of Maruhom through one unnamed parent, according to your family account. Reported full first cousin of the earlier Dimaporo entry, displayed at the same level at your request. The shared ancestors remain unresolved; the recorded paths from Maruhom differ by one step. According to your father, Samurong’s mother was Malaysian. Her name and specific ethnicity are not yet known. It is not established whether that mother is the child of Maruhom. Correction supplied by you: Samurong is a woman. Ginaronai from Poon a Baebao was her second spouse; their child is Kalanda Ginaronai. The earlier attribution of Bayango as her child was corrected.",
+      "transcriptionNote": "Grandchild of Maruhom through one unnamed parent, according to your family account. Reported full first cousin of the earlier Dimaporo entry, displayed at the same level at your request. The shared ancestors remain unresolved; the recorded paths from Maruhom differ by one step. According to your father, Samurong’s mother was Malaysian. Her name and specific ethnicity are not yet known. It is not established whether that mother is the child of Maruhom. Correction supplied by you: Samurong is a woman. Ginaronai from Poon a Baebao was her second spouse; their child is Calanda Ginaronai. The earlier attribution of Bayango as her child was corrected.",
       "unknownName": false,
       "layoutBadge": "Reported cousin level",
       "gender": "female",
@@ -1777,29 +1777,29 @@
       "name": "Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "According to your corrected family account, Ginaronai was a man from Poon a Baebao, the second husband of Samurong, and the father of Kalanda Ginaronai.",
+      "transcriptionNote": "According to your corrected family account, Ginaronai was a man from Poon a Baebao, the second husband of Samurong, and the father of Calanda Ginaronai.",
       "unknownName": false,
       "placeOfOrigin": "Poon a Baebao",
       "gender": "male",
-      "profileTitle": "Husband of Samurong · Father of Kalanda Ginaronai"
+      "profileTitle": "Husband of Samurong · Father of Calanda Ginaronai"
     },
     {
       "id": "chart-personal-bayango",
       "name": "Bayango Gandamazir",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "According to your corrected family account, Bayango Gandamazir comes from the Digadong lineage; the intervening ancestors and generation count are unknown. Connected partner and reported second cousin of Kalanda Ginaronai; their shared ancestor remains unresolved. Bayango is not recorded as a child of Samurong.",
+      "transcriptionNote": "According to your corrected family account, Bayango Gandamazir comes from the Digadong lineage; the intervening ancestors and generation count are unknown. Connected partner and reported second cousin of Calanda Ginaronai; their shared ancestor remains unresolved. Bayango is not recorded as a child of Samurong.",
       "unknownName": false
     },
     {
       "id": "chart-personal-kalanda",
-      "name": "Kalanda Ginaronai",
+      "name": "Calanda Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "According to your corrected family account, Kalanda Ginaronai is the child of Samurong and Ginaronai from Poon a Baebao. You previously identified Kalanda as your paternal grandfather and connected partner of Bayango Gandamazir. Bayango and Kalanda are reported second cousins; their common ancestor remains unresolved.",
+      "transcriptionNote": "According to your corrected family account, Calanda Ginaronai is the child of Samurong and Ginaronai from Poon a Baebao. You previously identified Calanda as your paternal grandfather and connected partner of Bayango Gandamazir. Bayango and Calanda are reported second cousins; their common ancestor remains unresolved.",
       "unknownName": false,
       "aliases": [
-        "Kalanda Ginaronia"
+        "Calanda Ginaronia"
       ]
     },
     {
@@ -4607,11 +4607,11 @@
     {
       "from": "chart-personal-bayango",
       "targetId": "chart-personal-kalanda",
-      "targetName": "Kalanda Ginaronai",
+      "targetName": "Calanda Ginaronai",
       "type": "reported-second-cousins",
       "status": "unresolved",
       "recordSource": "family-account",
-      "note": "You report Bayango Gandamazir and Kalanda Ginaronai as second cousins. Their common ancestor and the connecting generations have not yet been identified. This is retained as a family account, not a calculated kinship result."
+      "note": "You report Bayango Gandamazir and Calanda Ginaronai as second cousins. Their common ancestor and the connecting generations have not yet been identified. This is retained as a family account, not a calculated kinship result."
     }
   ],
   "layoutConstraints": [

@@ -54,3 +54,9 @@ assert(familyNeighborhood(graph,'chart-personal-samurong',2).size>near.size);
 const folded=pruneChartBranches(graph,new Set(graph.labels.map(l=>l.id)),new Set(['chart-personal-samurong']));
 assert(folded.has('chart-personal-samurong'));assert(!folded.has('chart-personal-kalanda'));
 console.log('Verified family neighborhoods, progressive expansion, and collapsed branch layouts.');
+const ultra=verify(null,'ultra');
+assert(ultra.bounds.width<full.bounds.width);
+assert.equal(ultra.routes.length,full.routes.length);
+assert.equal(ultra.positions.get(samurong).y,ultra.positions.get(dimaporo).y);
+for(const label of graph.labels){verify(descendants(graph,label.id,2).ids,'ultra');verify(familyNeighborhood(graph,label.id,1),'ultra');}
+console.log(`Ultra compact bounds ${ultra.bounds.width}×${ultra.bounds.height}; wrapped families retain every connection.`);
