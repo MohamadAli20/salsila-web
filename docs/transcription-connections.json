@@ -1,0 +1,740 @@
+{
+  "source": "docs/updated-transcription.txt",
+  "groups": [
+    {
+      "origins": [
+        "Adap’n Pazaolan"
+      ],
+      "targets": [
+        "Maupaat Barao"
+      ]
+    },
+    {
+      "origins": [
+        "Potre Kaizadan"
+      ],
+      "targets": [
+        "Daisalong sa Binidayan"
+      ]
+    },
+    {
+      "origins": [
+        "Maupaat Barao",
+        "Daisalong sa Binidayan"
+      ],
+      "targets": [
+        "Sayawa",
+        "Pondag",
+        "Ampaso"
+      ]
+    },
+    {
+      "origins": [
+        "Sayawa",
+        "Bae sa Buntong"
+      ],
+      "targets": [
+        "Lami",
+        "Gadaolan",
+        "Datu Amana sa Binidayan",
+        "Datu Candia"
+      ]
+    },
+    {
+      "origins": [
+        "Lami"
+      ],
+      "targets": [
+        "Akonga & Boroa"
+      ]
+    },
+    {
+      "origins": [
+        "Gadaolan"
+      ],
+      "targets": [
+        "Digadong"
+      ]
+    },
+    {
+      "origins": [
+        "Datu Candia"
+      ],
+      "targets": [
+        "Tara",
+        "Mino"
+      ]
+    },
+    {
+      "origins": [
+        "Digadong"
+      ],
+      "targets": [
+        "Inai Toron",
+        "Inai Ulad",
+        "Datumomin",
+        "Inai Kalilang"
+      ]
+    },
+    {
+      "origins": [
+        "Datu Amana sa Binidayan"
+      ],
+      "targets": [
+        "Sapaatulah",
+        "Sult Tampasok",
+        "Andingoray",
+        "Kaharoden"
+      ]
+    },
+    {
+      "origins": [
+        "Sapaatulah"
+      ],
+      "targets": [
+        "Kadi sa Binidayan"
+      ]
+    },
+    {
+      "origins": [
+        "Sult Tampasok"
+      ],
+      "targets": [
+        "Alongan a Datu sa Binidayan"
+      ]
+    },
+    {
+      "origins": [
+        "Andingoray"
+      ],
+      "targets": [
+        "Datumaas"
+      ]
+    },
+    {
+      "origins": [
+        "Datumaas"
+      ],
+      "targets": [
+        "Maupaat"
+      ]
+    },
+    {
+      "origins": [
+        "Maupaat"
+      ],
+      "targets": [
+        "Lumb"
+      ]
+    },
+    {
+      "origins": [
+        "Kaharoden"
+      ],
+      "targets": [
+        "Dayangindo"
+      ]
+    },
+    {
+      "origins": [
+        "Kadi sa Binidayan"
+      ],
+      "targets": [
+        "Umba",
+        "Shiek (Kadi branch)",
+        "Paki",
+        "Tuan"
+      ]
+    },
+    {
+      "origins": [
+        "Tuan"
+      ],
+      "targets": [
+        "Macapondag"
+      ]
+    },
+    {
+      "origins": [
+        "Macapondag"
+      ],
+      "targets": [
+        "Pundogar"
+      ]
+    },
+    {
+      "origins": [
+        "Alongan a Datu sa Binidayan"
+      ],
+      "targets": [
+        "Amai Bayora",
+        "Maruhom"
+      ]
+    },
+    {
+      "origins": [
+        "Amai Bayora"
+      ],
+      "targets": [
+        "Datumangoda"
+      ]
+    },
+    {
+      "origins": [
+        "Lumb",
+        "Maruhom"
+      ],
+      "targets": [
+        "Inaipindima",
+        "Diamburun",
+        "Ama Deca",
+        "Ginarapandi"
+      ]
+    },
+    {
+      "origins": [
+        "Inaipindima"
+      ],
+      "targets": [
+        "Pirawa"
+      ]
+    },
+    {
+      "origins": [
+        "Maruhom"
+      ],
+      "targets": [
+        "Anginta"
+      ]
+    },
+    {
+      "origins": [
+        "Ginarapandi"
+      ],
+      "targets": [
+        "Mangotara",
+        "Pakalangot",
+        "Paramanis"
+      ]
+    },
+    {
+      "origins": [
+        "Mangotara"
+      ],
+      "targets": [
+        "Zolaika",
+        "Adawia",
+        "Batawi Datumulok",
+        "Sultan Dangcogan",
+        "Tangcolo",
+        "H. Racman",
+        "Mariga",
+        "Botawan",
+        "Dimaporo"
+      ]
+    },
+    {
+      "origins": [
+        "Paramanis"
+      ],
+      "targets": [
+        "Sapiro & Posaka & Bato",
+        "Macatoon",
+        "Macarimpas"
+      ]
+    },
+    {
+      "origins": [
+        "Macarimpas"
+      ],
+      "targets": [
+        "Roxas Ramos · Sultan sa Wato"
+      ]
+    },
+    {
+      "origins": [
+        "Dayangindo"
+      ],
+      "targets": [
+        "Sambae + Radiatua"
+      ]
+    },
+    {
+      "origins": [
+        "Sambae + Radiatua"
+      ],
+      "targets": [
+        "Gagamuk + Radia-Ali"
+      ]
+    },
+    {
+      "origins": [
+        "Gagamuk + Radia-Ali"
+      ],
+      "targets": [
+        "Mokayan + Bara"
+      ]
+    },
+    {
+      "origins": [
+        "Mokayan + Bara"
+      ],
+      "targets": [
+        "Bobonga + Marug"
+      ]
+    },
+    {
+      "origins": [
+        "Bobonga + Marug"
+      ],
+      "targets": [
+        "Madaya",
+        "Romsik",
+        "Piti-Ilan",
+        "Salamat",
+        "Bolosan",
+        "Manggis"
+      ]
+    },
+    {
+      "origins": [
+        "Madaya"
+      ],
+      "targets": [
+        "Batang"
+      ]
+    },
+    {
+      "origins": [
+        "Batang"
+      ],
+      "targets": [
+        "Zaman"
+      ]
+    },
+    {
+      "origins": [
+        "Romsik"
+      ],
+      "targets": [
+        "Amboa"
+      ]
+    },
+    {
+      "origins": [
+        "Amboa"
+      ],
+      "targets": [
+        "Paporo"
+      ]
+    },
+    {
+      "origins": [
+        "Manggis",
+        "Dimasangca"
+      ],
+      "targets": [
+        "Zaalika",
+        "Galawan",
+        "Bacaro",
+        "Borngao",
+        "Pangcoga"
+      ]
+    },
+    {
+      "origins": [
+        "Bacaro"
+      ],
+      "targets": [
+        "Dimapinto"
+      ]
+    },
+    {
+      "origins": [
+        "Dimasangca"
+      ],
+      "targets": [
+        "Alangadi",
+        "Amero",
+        "Pundamdag"
+      ]
+    },
+    {
+      "origins": [
+        "Alangadi"
+      ],
+      "targets": [
+        "H. Satar"
+      ]
+    },
+    {
+      "origins": [
+        "Pundamdag"
+      ],
+      "targets": [
+        "Laks"
+      ]
+    },
+    {
+      "origins": [
+        "Macatoon",
+        "Zaalika"
+      ],
+      "targets": [
+        "Inai Arba & Dayang",
+        "Moomina",
+        "Rangiris"
+      ]
+    },
+    {
+      "origins": [
+        "Pondag",
+        "Potre Gombae"
+      ],
+      "targets": [
+        "Abidar",
+        "Gamad"
+      ]
+    },
+    {
+      "origins": [
+        "Abidar"
+      ],
+      "targets": [
+        "Manog"
+      ]
+    },
+    {
+      "origins": [
+        "Manog"
+      ],
+      "targets": [
+        "Moyao"
+      ]
+    },
+    {
+      "origins": [
+        "Gamad"
+      ],
+      "targets": [
+        "Fatima"
+      ]
+    },
+    {
+      "origins": [
+        "Mino",
+        "Moyao"
+      ],
+      "targets": [
+        "Palawan",
+        "Bandara"
+      ]
+    },
+    {
+      "origins": [
+        "Diwan"
+      ],
+      "targets": [
+        "Amdag"
+      ]
+    },
+    {
+      "origins": [
+        "Amdag"
+      ],
+      "targets": [
+        "Ameroden sa Bayang"
+      ]
+    },
+    {
+      "origins": [
+        "Fatima",
+        "Ameroden sa Bayang"
+      ],
+      "targets": [
+        "D. Cabugatan",
+        "D. Simban"
+      ]
+    },
+    {
+      "origins": [
+        "D. Cabugatan"
+      ],
+      "targets": [
+        "Palawan a Olama sa Basak"
+      ]
+    },
+    {
+      "origins": [
+        "Palawan a Olama sa Basak"
+      ],
+      "targets": [
+        "Datu Abdal"
+      ]
+    },
+    {
+      "origins": [
+        "Datu Abdal"
+      ],
+      "targets": [
+        "Ganayo",
+        "Luman"
+      ]
+    },
+    {
+      "origins": [
+        "Luman"
+      ],
+      "targets": [
+        "H. Omar"
+      ]
+    },
+    {
+      "origins": [
+        "Datumangoda",
+        "Ganayo"
+      ],
+      "targets": [
+        "Macadiar",
+        "Pagariongan",
+        "Datu Manong",
+        "Macarangkat"
+      ]
+    },
+    {
+      "origins": [
+        "Datumangoda"
+      ],
+      "targets": [
+        "Sangcopan"
+      ]
+    },
+    {
+      "origins": [
+        "Sangcopan"
+      ],
+      "targets": [
+        "Taoki"
+      ]
+    },
+    {
+      "origins": [
+        "Taoki"
+      ],
+      "targets": [
+        "Matala"
+      ]
+    },
+    {
+      "origins": [
+        "Macarangkat"
+      ],
+      "targets": [
+        "Lopak",
+        "Kamli",
+        "Payongan",
+        "Gao & More"
+      ]
+    },
+    {
+      "origins": [
+        "Matala",
+        "Batawi Datumulok"
+      ],
+      "targets": [
+        "Malamit",
+        "Gakut",
+        "Bukhari",
+        "Bukilan"
+      ]
+    },
+    {
+      "origins": [
+        "Batawi Datumulok"
+      ],
+      "targets": [
+        "Malindato"
+      ]
+    },
+    {
+      "origins": [
+        "Batawi Datumulok",
+        "Lopak"
+      ],
+      "targets": []
+    },
+    {
+      "origins": [
+        "Lopak"
+      ],
+      "targets": [
+        "Muliloda",
+        "Magidala",
+        "S’mpayar"
+      ]
+    },
+    {
+      "origins": [
+        "Sultan Dangcogan",
+        "Kamli"
+      ],
+      "targets": [
+        "Baong"
+      ]
+    },
+    {
+      "origins": [
+        "Sultan Dangcogan"
+      ],
+      "targets": [
+        "Gomama",
+        "Sowaib",
+        "Barabad",
+        "Pitaga",
+        "M’lukba",
+        "Pantalan"
+      ]
+    },
+    {
+      "origins": [
+        "Dimaporo"
+      ],
+      "targets": [
+        "Osinta"
+      ]
+    },
+    {
+      "origins": [
+        "Dimaporo",
+        "Borngao"
+      ],
+      "targets": [
+        "Sult. Ali",
+        "Naga",
+        "Monib",
+        "Macacna",
+        "Minango"
+      ]
+    },
+    {
+      "origins": [
+        "Ampaso"
+      ],
+      "targets": [
+        "Asahid",
+        "Duma sa Madamba",
+        "Ginto",
+        "Blak sa Madalum",
+        "Anol",
+        "Amba sa Uyaan",
+        "Asamat"
+      ]
+    },
+    {
+      "origins": [
+        "Asamat"
+      ],
+      "targets": [
+        "Babayoalan"
+      ]
+    },
+    {
+      "origins": [
+        "Bandara",
+        "Babayoalan"
+      ],
+      "targets": [
+        "Datu & Itoraga",
+        "Sult Papanok"
+      ]
+    },
+    {
+      "origins": [
+        "Sult Papanok"
+      ],
+      "targets": [
+        "Apaki & Lopayo",
+        "Odal & Monar",
+        "Pondaagan",
+        "Oranto",
+        "Amai Darnang",
+        "Amai Pondag"
+      ]
+    },
+    {
+      "origins": [
+        "Amai Pondag",
+        "Anginta"
+      ],
+      "targets": [
+        "Suma",
+        "Shiek (Anginta branch)",
+        "Dimasangca"
+      ]
+    },
+    {
+      "origins": [
+        "Amai Pondag"
+      ],
+      "targets": [
+        "Gondarangin",
+        "Lomabao",
+        "Maulad & Polayagan & More"
+      ]
+    },
+    {
+      "origins": [
+        "Datu Manong"
+      ],
+      "targets": [
+        "Maintok",
+        "Angkay",
+        "Dinganoman"
+      ]
+    },
+    {
+      "origins": [
+        "Maintok"
+      ],
+      "targets": [
+        "Odato",
+        "Azis",
+        "Dianib",
+        "Bilan"
+      ]
+    },
+    {
+      "origins": [
+        "Dinganoman",
+        "Pangcoga"
+      ],
+      "targets": [
+        "Torondaya",
+        "Borongan",
+        "H. Rahman",
+        "Gibon",
+        "Arma",
+        "Sultan Abdulmadid",
+        "Tarotopn",
+        "Aliasgar"
+      ]
+    },
+    {
+      "origins": [
+        "Pantalan",
+        "Sultan Abdulmadid"
+      ],
+      "targets": [
+        "Pasayod Dimaporo Maruhom"
+      ]
+    },
+    {
+      "origins": [
+        "Pasayod Dimaporo Maruhom"
+      ],
+      "targets": [
+        "Datu Ontay"
+      ]
+    }
+  ]
+}

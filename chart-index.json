@@ -11,7 +11,8 @@
       "y": 18,
       "width": 290,
       "height": 57,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Grandson of Alionden of Sulu — user-supplied partial transcription, 2026-11-03."
     },
     {
       "id": "chart-002",
@@ -38,7 +39,8 @@
       "y": 18,
       "width": 289,
       "height": 58,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Granddaughter of Kabunsoan — user-supplied partial transcription, 2026-11-03."
     },
     {
       "id": "chart-005",
@@ -56,7 +58,8 @@
       "y": 100,
       "width": 239,
       "height": 65,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Apo o Rahmatulah — user-supplied partial transcription, 2026-11-03."
     },
     {
       "id": "chart-007",
@@ -74,7 +77,8 @@
       "y": 99,
       "width": 191,
       "height": 65,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Apo o Dadiyoba — user-supplied partial transcription, 2026-11-03."
     },
     {
       "id": "chart-009",
@@ -164,7 +168,8 @@
       "y": 175,
       "width": 213,
       "height": 45,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Arrow from Ampaso’s shared vertical line. The source does not establish whether this box is a separate person, title, or alternate name."
     },
     {
       "id": "chart-019",
@@ -254,7 +259,8 @@
       "y": 228,
       "width": 213,
       "height": 46,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Arrow from Ampaso’s shared vertical line. The source does not establish whether this box is a separate person, title, or alternate name."
     },
     {
       "id": "chart-029",
@@ -326,7 +332,8 @@
       "y": 286,
       "width": 213,
       "height": 45,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "Arrow from Ampaso’s shared vertical line. The source does not establish whether this box is a separate person, title, or alternate name."
     },
     {
       "id": "chart-037",
@@ -429,12 +436,15 @@
     },
     {
       "id": "chart-048",
-      "name": "Babayolan",
+      "name": "Babayoalan",
       "x": 1256,
       "y": 395,
       "width": 166,
       "height": 45,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Babayolan"
+      ]
     },
     {
       "id": "chart-049",
@@ -488,7 +498,10 @@
       "y": 505,
       "width": 156,
       "height": 46,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Kharoden"
+      ]
     },
     {
       "id": "chart-055",
@@ -582,12 +595,15 @@
     },
     {
       "id": "chart-065",
-      "name": "Macdiar",
+      "name": "Macadiar",
       "x": 925,
       "y": 505,
       "width": 141,
       "height": 46,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Macdiar"
+      ]
     },
     {
       "id": "chart-066",
@@ -623,7 +639,8 @@
       "y": 550,
       "width": 104,
       "height": 45,
-      "personId": null
+      "personId": null,
+      "transcriptionNote": "The arrow to Olodan exits below the grouped box near Oranto. The updated transcription does not establish whether Oranto alone or the whole group is its origin. Excluded from branch traversal."
     },
     {
       "id": "chart-070",
@@ -843,12 +860,15 @@
     },
     {
       "id": "chart-094",
-      "name": "Lomaao",
+      "name": "Lomabao",
       "x": 1275,
       "y": 743,
       "width": 163,
       "height": 47,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Lomaao"
+      ]
     },
     {
       "id": "chart-095",
@@ -1082,7 +1102,10 @@
       "y": 718,
       "width": 236,
       "height": 40,
-      "personId": "batawi"
+      "personId": "batawi",
+      "aliases": [
+        "Battawi Datumulok"
+      ]
     },
     {
       "id": "chart-121",
@@ -1212,12 +1235,15 @@
     },
     {
       "id": "chart-135",
-      "name": "Macna",
+      "name": "Macacna",
       "x": 806,
       "y": 1134,
       "width": 115,
       "height": 39,
-      "personId": null
+      "personId": null,
+      "aliases": [
+        "Macna"
+      ]
     },
     {
       "id": "chart-136",
@@ -1617,6 +1643,1277 @@
     }
   ],
   "edges": [
+    {
+      "from": "chart-001",
+      "to": "chart-002",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-004",
+      "to": "chart-003",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-003",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-005",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-003",
+      "junctionId": "chart-junction-1"
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-007",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-003",
+      "junctionId": "chart-junction-1"
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-010",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-003",
+      "junctionId": "chart-junction-1"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-006",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-012",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-006",
+      "junctionId": "chart-junction-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-020",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-006",
+      "junctionId": "chart-junction-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-029",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-006",
+      "junctionId": "chart-junction-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-013",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-006",
+      "junctionId": "chart-junction-2"
+    },
+    {
+      "from": "chart-012",
+      "to": "chart-011",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-020",
+      "to": "chart-019",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-013",
+      "to": "chart-023",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-013",
+      "to": "chart-031",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-070",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-071",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-072",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-073",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-037",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-042",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-053",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-054",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-037",
+      "to": "chart-038",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-042",
+      "to": "chart-043",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-053",
+      "to": "chart-055",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-055",
+      "to": "chart-057",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-057",
+      "to": "chart-058",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-054",
+      "to": "chart-056",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-021",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-022",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-030",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-039",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-039",
+      "to": "chart-040",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-040",
+      "to": "chart-044",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-043",
+      "to": "chart-059",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-043",
+      "to": "chart-060",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-059",
+      "to": "chart-061",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-060",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-078",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-060",
+      "junctionId": "chart-junction-3"
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-079",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-060",
+      "junctionId": "chart-junction-3"
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-080",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-060",
+      "junctionId": "chart-junction-3"
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-081",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-060",
+      "junctionId": "chart-junction-3"
+    },
+    {
+      "from": "chart-078",
+      "to": "chart-082",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-096",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "relationship": "parent-child",
+      "relationshipSource": "User clarification: Anginta is the child of Maruhom."
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-111",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-112",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-113",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-083",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-084",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-120",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-121",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-122",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-123",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-124",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-125",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-126",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-109",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-110",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-114",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-114",
+      "to": "chart-115",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-056",
+      "to": "chart-074",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-074",
+      "to": "chart-075",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-075",
+      "to": "chart-076",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-076",
+      "to": "chart-077",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-099",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-100",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-101",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-102",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-103",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-104",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-099",
+      "to": "chart-105",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-105",
+      "to": "chart-107",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-100",
+      "to": "chart-106",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-106",
+      "to": "chart-108",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-171",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-117",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-171",
+      "junctionId": "chart-junction-4"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-172",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-171",
+      "junctionId": "chart-junction-4"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-173",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-171",
+      "junctionId": "chart-junction-4"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-127",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-171",
+      "junctionId": "chart-junction-4"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-168",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-171",
+      "junctionId": "chart-junction-4"
+    },
+    {
+      "from": "chart-173",
+      "to": "chart-174",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-176",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-177",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-178",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-176",
+      "to": "chart-175",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-178",
+      "to": "chart-179",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-117",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-116",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-117",
+      "junctionId": "chart-junction-5"
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-118",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-117",
+      "junctionId": "chart-junction-5"
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-119",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-117",
+      "junctionId": "chart-junction-5"
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-008",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-014",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-008",
+      "junctionId": "chart-junction-6"
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-015",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-008",
+      "junctionId": "chart-junction-6"
+    },
+    {
+      "from": "chart-014",
+      "to": "chart-024",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-024",
+      "to": "chart-032",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-015",
+      "to": "chart-025",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-032",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-045",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-032",
+      "junctionId": "chart-junction-7"
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-046",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-032",
+      "junctionId": "chart-junction-7"
+    },
+    {
+      "from": "chart-009",
+      "to": "chart-016",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-016",
+      "to": "chart-026",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-026",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-033",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-026",
+      "junctionId": "chart-junction-8"
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-034",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-026",
+      "junctionId": "chart-junction-8"
+    },
+    {
+      "from": "chart-033",
+      "to": "chart-041",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-041",
+      "to": "chart-064",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-064",
+      "to": "chart-063",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-064",
+      "to": "chart-066",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-066",
+      "to": "chart-090",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-063",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-065",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-063",
+      "junctionId": "chart-junction-9"
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-087",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-063",
+      "junctionId": "chart-junction-9"
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-088",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-063",
+      "junctionId": "chart-junction-9"
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-089",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-063",
+      "junctionId": "chart-junction-9"
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-062",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-062",
+      "to": "chart-085",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-085",
+      "to": "chart-086",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-145",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-146",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-147",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-148",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-120",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-137",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-120",
+      "junctionId": "chart-junction-10"
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-138",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-120",
+      "junctionId": "chart-junction-10"
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-139",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-120",
+      "junctionId": "chart-junction-10"
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-140",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-120",
+      "junctionId": "chart-junction-10"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-141",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-145",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-142",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-143",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-144",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-146",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-149",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-146",
+      "junctionId": "chart-junction-12"
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-128",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-129",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-130",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-150",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-151",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-152",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-131",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-127",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-132",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-127",
+      "junctionId": "chart-junction-13"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-133",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-127",
+      "junctionId": "chart-junction-13"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-134",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-127",
+      "junctionId": "chart-junction-13"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-135",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-127",
+      "junctionId": "chart-junction-13"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-136",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-127",
+      "junctionId": "chart-junction-13"
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-017",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-018",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-027",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-028",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-035",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-036",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-047",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-047",
+      "to": "chart-048",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-048",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-067",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-048",
+      "junctionId": "chart-junction-14"
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-068",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-048",
+      "junctionId": "chart-junction-14"
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-049",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-050",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-051",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-052",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-091",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-092",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-096",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source.",
+      "relationship": "spouse",
+      "relationshipSource": "User clarification: Anginta is married to Amai Pondag."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-097",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-096",
+      "junctionId": "chart-junction-15"
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-098",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-096",
+      "junctionId": "chart-junction-15"
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-171",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-096",
+      "junctionId": "chart-junction-15"
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-093",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-094",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-095",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-088",
+      "to": "chart-165",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-088",
+      "to": "chart-166",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-088",
+      "to": "chart-167",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-165",
+      "to": "chart-161",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-165",
+      "to": "chart-162",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-165",
+      "to": "chart-163",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-165",
+      "to": "chart-164",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-168",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-154",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-155",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-156",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-157",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-158",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-153",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-159",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-167",
+      "to": "chart-160",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-168",
+      "junctionId": "chart-junction-16"
+    },
+    {
+      "from": "chart-152",
+      "to": "chart-153",
+      "type": "connection",
+      "note": "Red connecting line; relationship unspecified by the source."
+    },
+    {
+      "from": "chart-152",
+      "to": "chart-169",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established.",
+      "otherOrigin": "chart-153",
+      "junctionId": "chart-junction-17"
+    },
+    {
+      "from": "chart-169",
+      "to": "chart-170",
+      "type": "lineage",
+      "note": "Directed chart branch in updated user transcription; immediate parentage is not established."
+    }
+  ],
+  "unresolvedConnections": [
+    {
+      "from": "chart-052",
+      "to": "chart-069",
+      "reason": "The arrow to Olodan exits below the grouped box near Oranto. The updated transcription does not establish whether Oranto alone or the whole group is its origin. Excluded from branch traversal."
+    }
+  ],
+  "review": {
+    "date": "2026-11-03",
+    "status": "Reviewed against the updated 34-section user transcription. Red links are connections of unspecified relationship; arrows describe source branches, not proven biological parentage.",
+    "source": "docs/updated-transcription.txt",
+    "sequentialArrowInterpretations": [
+      "Section 11 is read as the continuing chain Dayangindo → Sambae + Radiatua → Gagamuk + Radia-Ali → Mokayan + Bara → Bobonga + Marug.",
+      "Section 17 is read as the continuing chain Diwan → Amdag → Ameroden sa Bayang."
+    ],
+    "excludedUnconfirmedRoutes": "Earlier routes absent from this expanded transcription are archived in supersededConnections, including Odato/Azis/Dianib/Bilan/Maintok/Angkay links into the lower-right group.",
+    "imageAvailable": false,
+    "layout": "Automatic layered layout follows text connections; original image coordinates are retained only as source references."
+  },
+  "supersededConnections": [
     {
       "from": "chart-001",
       "to": "chart-002",
@@ -2180,8 +3477,8 @@
     {
       "from": "chart-126",
       "to": "chart-127",
-      "type": "partnership",
-      "note": ""
+      "type": "lineage",
+      "note": "Directed connection in user-supplied partial transcription, 2026-11-03; immediate parentage is not independently established."
     },
     {
       "from": "chart-126",
@@ -2190,44 +3487,34 @@
       "note": ""
     },
     {
-      "from": "chart-126",
+      "from": "chart-127",
       "to": "chart-132",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-127",
-      "unionId": "chart-union-10"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
-      "from": "chart-126",
+      "from": "chart-127",
       "to": "chart-133",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-127",
-      "unionId": "chart-union-10"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
-      "from": "chart-126",
+      "from": "chart-127",
       "to": "chart-134",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-127",
-      "unionId": "chart-union-10"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
-      "from": "chart-126",
+      "from": "chart-127",
       "to": "chart-135",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-127",
-      "unionId": "chart-union-10"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
-      "from": "chart-126",
+      "from": "chart-127",
       "to": "chart-136",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-127",
-      "unionId": "chart-union-10"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
       "from": "chart-120",
@@ -2296,24 +3583,20 @@
     {
       "from": "chart-031",
       "to": "chart-032",
-      "type": "partnership",
-      "note": ""
+      "type": "lineage",
+      "note": "Directed connection in user-supplied partial transcription, 2026-11-03; immediate parentage is not independently established."
     },
     {
       "from": "chart-031",
       "to": "chart-045",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-032",
-      "unionId": "chart-union-4"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
       "from": "chart-031",
       "to": "chart-046",
       "type": "lineage",
-      "note": "",
-      "otherParent": "chart-032",
-      "unionId": "chart-union-4"
+      "note": "User-supplied partial transcription, 2026-11-03; single outgoing chart connection, without inferred second parent."
     },
     {
       "from": "chart-015",
@@ -2814,9 +4097,7 @@
       "to": "chart-141",
       "type": "lineage",
       "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
-    }
-  ],
-  "unresolvedConnections": [
+    },
     {
       "from": "chart-034",
       "to": "chart-041",
@@ -2836,28 +4117,42 @@
       "from": "chart-089",
       "to": "chart-152",
       "reason": "Previous transcription removed; route/junction requires further source confirmation."
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-032",
+      "type": "partnership",
+      "note": "",
+      "reason": "Previous partnership interpretation superseded by user-supplied directed arrow, 2026-11-03; shared parentage is not established."
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-127",
+      "type": "partnership",
+      "note": "",
+      "reason": "Previous partnership interpretation superseded by user-supplied directed arrow, 2026-11-03; shared parentage is not established."
     }
   ],
-  "unions": [
+  "junctions": [
     {
-      "id": "chart-union-1",
-      "partners": [
+      "id": "chart-junction-1",
+      "origins": [
         "chart-002",
         "chart-003"
       ],
-      "children": [
+      "branches": [
         "chart-005",
         "chart-007",
         "chart-010"
       ]
     },
     {
-      "id": "chart-union-2",
-      "partners": [
+      "id": "chart-junction-2",
+      "origins": [
         "chart-005",
         "chart-006"
       ],
-      "children": [
+      "branches": [
         "chart-012",
         "chart-020",
         "chart-029",
@@ -2865,45 +4160,12 @@
       ]
     },
     {
-      "id": "chart-union-3",
-      "partners": [
-        "chart-007",
-        "chart-008"
+      "id": "chart-junction-3",
+      "origins": [
+        "chart-058",
+        "chart-060"
       ],
-      "children": [
-        "chart-014",
-        "chart-015"
-      ]
-    },
-    {
-      "id": "chart-union-4",
-      "partners": [
-        "chart-031",
-        "chart-032"
-      ],
-      "children": [
-        "chart-045",
-        "chart-046"
-      ]
-    },
-    {
-      "id": "chart-union-5",
-      "partners": [
-        "chart-025",
-        "chart-026"
-      ],
-      "children": [
-        "chart-033",
-        "chart-034"
-      ]
-    },
-    {
-      "id": "chart-union-6",
-      "partners": [
-        "chart-060",
-        "chart-058"
-      ],
-      "children": [
+      "branches": [
         "chart-078",
         "chart-079",
         "chart-080",
@@ -2911,36 +4173,84 @@
       ]
     },
     {
-      "id": "chart-union-7",
-      "partners": [
-        "chart-046",
-        "chart-048"
+      "id": "chart-junction-4",
+      "origins": [
+        "chart-104",
+        "chart-171"
       ],
-      "children": [
-        "chart-067",
-        "chart-068",
-        "chart-091",
-        "chart-092"
+      "branches": [
+        "chart-117",
+        "chart-172",
+        "chart-173",
+        "chart-127",
+        "chart-168"
       ]
     },
     {
-      "id": "chart-union-8",
-      "partners": [
-        "chart-092",
-        "chart-096"
+      "id": "chart-junction-5",
+      "origins": [
+        "chart-110",
+        "chart-117"
       ],
-      "children": [
-        "chart-097",
-        "chart-098"
+      "branches": [
+        "chart-116",
+        "chart-118",
+        "chart-119"
       ]
     },
     {
-      "id": "chart-union-9",
-      "partners": [
-        "chart-120",
-        "chart-086"
+      "id": "chart-junction-6",
+      "origins": [
+        "chart-007",
+        "chart-008"
       ],
-      "children": [
+      "branches": [
+        "chart-014",
+        "chart-015"
+      ]
+    },
+    {
+      "id": "chart-junction-7",
+      "origins": [
+        "chart-031",
+        "chart-032"
+      ],
+      "branches": [
+        "chart-045",
+        "chart-046"
+      ]
+    },
+    {
+      "id": "chart-junction-8",
+      "origins": [
+        "chart-025",
+        "chart-026"
+      ],
+      "branches": [
+        "chart-033",
+        "chart-034"
+      ]
+    },
+    {
+      "id": "chart-junction-9",
+      "origins": [
+        "chart-061",
+        "chart-063"
+      ],
+      "branches": [
+        "chart-065",
+        "chart-087",
+        "chart-088",
+        "chart-089"
+      ]
+    },
+    {
+      "id": "chart-junction-10",
+      "origins": [
+        "chart-086",
+        "chart-120"
+      ],
+      "branches": [
         "chart-137",
         "chart-138",
         "chart-139",
@@ -2948,12 +4258,30 @@
       ]
     },
     {
-      "id": "chart-union-10",
-      "partners": [
+      "id": "chart-junction-11",
+      "origins": [
+        "chart-120",
+        "chart-145"
+      ],
+      "branches": []
+    },
+    {
+      "id": "chart-junction-12",
+      "origins": [
+        "chart-121",
+        "chart-146"
+      ],
+      "branches": [
+        "chart-149"
+      ]
+    },
+    {
+      "id": "chart-junction-13",
+      "origins": [
         "chart-126",
         "chart-127"
       ],
-      "children": [
+      "branches": [
         "chart-132",
         "chart-133",
         "chart-134",
@@ -2962,45 +4290,54 @@
       ]
     },
     {
-      "id": "chart-union-11",
-      "partners": [
-        "chart-110",
-        "chart-117"
+      "id": "chart-junction-14",
+      "origins": [
+        "chart-046",
+        "chart-048"
       ],
-      "children": [
-        "chart-116",
-        "chart-118",
-        "chart-119"
+      "branches": [
+        "chart-067",
+        "chart-068"
       ]
     },
     {
-      "id": "chart-union-12",
-      "partners": [
-        "chart-104",
+      "id": "chart-junction-15",
+      "origins": [
+        "chart-092",
+        "chart-096"
+      ],
+      "branches": [
+        "chart-097",
+        "chart-098",
         "chart-171"
-      ],
-      "children": [
-        "chart-117",
-        "chart-172",
-        "chart-173",
-        "chart-168",
-        "chart-127"
       ]
     },
     {
-      "id": "chart-union-13",
-      "partners": [
-        "chart-153",
-        "chart-152"
+      "id": "chart-junction-16",
+      "origins": [
+        "chart-167",
+        "chart-168"
       ],
-      "children": [
+      "branches": [
+        "chart-154",
+        "chart-155",
+        "chart-156",
+        "chart-157",
+        "chart-158",
+        "chart-153",
+        "chart-159",
+        "chart-160"
+      ]
+    },
+    {
+      "id": "chart-junction-17",
+      "origins": [
+        "chart-152",
+        "chart-153"
+      ],
+      "branches": [
         "chart-169"
       ]
     }
-  ],
-  "review": {
-    "date": "2026-11-03",
-    "status": "Partial visual audit; unresolved routes are excluded from descendant calculation.",
-    "source": "assets/sayawa-chart.png"
-  }
+  ]
 }

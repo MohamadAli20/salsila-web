@@ -33,10 +33,10 @@ if(findKinship(fixture,'aaa','bbb').label!=='Second cousins')throw Error('Second
 if(findKinship(fixture,'aaa','bb').label!=='First cousins · once removed')throw Error('Removed cousin calculation failed');
 console.log('Verified kinship: first/second cousins, once removed, siblings, ancestors, and unknown relationships.');
 const hasLink=(a,b,type='lineage')=>chart.edges.some(e=>e.from===chartId(a)&&e.to===chartId(b)&&e.type===type);
-for(const [a,b] of [['Asahid','Duma sa Madamba'],['Ginto','Blak sa Madalum'],['Anol','Amba sa Uyaan']])if(hasLink(a,b)||!hasLink(a,b,'partnership'))throw Error('Partnership mistranscribed as child: '+a);
+for(const name of ['Asahid','Duma sa Madamba','Ginto','Blak sa Madalum','Anol','Amba sa Uyaan','Asamat'])if(!hasLink('Ampaso',name))throw Error('Missing Ampaso box branch: '+name);
 if(hasLink('Asamat','Datu & Itoraga')||!hasLink('Bandara','Datu & Itoraga'))throw Error('Babayolan union branch incorrect');
 const lumbView=buildDescendantView(chart,chartId('Lumb'),2);if(lumbView.levels.has(chartId('Anginta'))||!lumbView.levels.has(chartId('Ginarapandi')))throw Error('Spouse offspring leaked across unions');
 const borngaoView=buildDescendantView(chart,chartId('Borngao'),2);if(borngaoView.levels.has(chartId('Osinta'))||!borngaoView.levels.has(chartId('Sult. Ali')))throw Error('Dimaporo unions mixed');
 const matalaView=buildDescendantView(chart,chartId('Matala'),2);if(!matalaView.levels.has(chartId('Bukilan'))||matalaView.levels.has(chartId('Malindato')))throw Error('Matala child junction incorrect');
-for(const u of chart.unions)for(const child of u.children)if(!chart.edges.some(e=>e.unionId===u.id&&e.to===child&&u.partners.includes(e.from)&&u.partners.includes(e.otherParent)))throw Error('Union references inconsistent');
-console.log('Verified corrected partnership types, source junctions, and separation of offspring from different unions.');
+for(const u of chart.junctions)for(const child of u.branches)if(!chart.edges.some(e=>e.junctionId===u.id&&e.to===child&&u.origins.includes(e.from)&&u.origins.includes(e.otherOrigin)))throw Error('Union references inconsistent');
+console.log('Verified Ampaso branches, source junctions, and separation of direct and shared branches.');

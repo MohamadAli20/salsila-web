@@ -1,0 +1,52 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+const chart=JSON.parse(readFileSync('chart-index.json','utf8'));
+const fixture=JSON.parse(readFileSync('docs/transcription-connections.json','utf8'));
+const id=name=>{if(name==='Shiek (Kadi branch)')return 'chart-022';if(name==='Shiek (Anginta branch)')return 'chart-098';const hits=chart.labels.filter(p=>p.name===name);assert.equal(hits.length,1,'Ambiguous/missing label: '+name);return hits[0].id;};
+const key=e=>e.type==='connection'?'connection:'+ [e.from,e.to].sort().join('|'):'lineage:'+ [e.from,e.otherOrigin].filter(Boolean).sort().join('|')+'>'+e.to;
+const expected=[];
+for(const group of fixture.groups){const origins=group.origins.map(id);if(origins.length===2)expected.push(key({from:origins[0],to:origins[1],type:'connection'}));for(const target of group.targets)expected.push(key({from:origins[0],otherOrigin:origins[1],to:id(target),type:'lineage'}));}
+assert.deepEqual(chart.edges.map(key).sort(),expected.sort(),'Active graph differs from updated transcription');
+assert.equal(new Set(chart.edges.map(key)).size,chart.edges.length,'Duplicate edges');
+const descendants=vm.runInNewContext(readFileSync('descendants.js','utf8')+'\n;buildDescendantView;');
+const direct=name=>new Set([...descendants(chart,id(name),2).levels].filter(([,depth])=>depth===1).map(([entry])=>entry));
+const expectDirect=(root,names)=>assert.deepEqual([...direct(root)].sort(),names.map(id).sort(),'Wrong branches for '+root);
+expectDirect('Ampaso',['Asahid','Duma sa Madamba','Ginto','Blak sa Madalum','Anol','Amba sa Uyaan','Asamat']);
+expectDirect('Lumb',['Inaipindima','Diamburun','Ama Deca','Ginarapandi']);
+assert(direct('Maruhom').has(id('Anginta')));
+expectDirect('Ganayo',['Macadiar','Pagariongan','Datu Manong','Macarangkat']);
+assert(direct('Datumangoda').has(id('Sangcopan')));
+expectDirect('Moyao',['Palawan','Bandara']);
+expectDirect('Borngao',['Sult. Ali','Naga','Monib','Macacna','Minango']);
+assert(direct('Dimaporo').has(id('Osinta')));
+expectDirect('Matala',['Malamit','Gakut','Bukhari','Bukilan']);
+expectDirect('Kamli',['Baong']);
+expectDirect('Sultan Dangcogan',['Baong','Gomama','Sowaib','Barabad','Pitaga','M’lukba','Pantalan']);
+expectDirect('Anginta',['Suma','Shiek (Anginta branch)','Dimasangca']);
+expectDirect('Datu Manong',['Maintok','Angkay','Dinganoman']);
+expectDirect('Maintok',['Odato','Azis','Dianib','Bilan']);
+expectDirect('Ama Deca',[]);
+assert(direct('Mangotara').has(id('Zolaika'))&&direct('Mangotara').has(id('Adawia')));
+expectDirect('Tangcolo',[]);
+expectDirect('Sult Papanok',['Apaki & Lopayo','Odal & Monar','Pondaagan','Oranto','Amai Darnang','Amai Pondag']);
+expectDirect('Bandara',['Datu & Itoraga','Sult Papanok']);
+expectDirect('Oranto',[]);
+assert.equal(chart.unresolvedConnections.length,1);assert.equal(chart.unresolvedConnections[0].to,id('Olodan'));
+for(const [name,alias] of [['Kaharoden','Kharoden'],['Batawi Datumulok','Battawi Datumulok'],['Macadiar','Macdiar'],['Lomabao','Lomaao']])assert(chart.labels.find(p=>p.id===id(name)).aliases.includes(alias));
+assert.equal(chart.labels.filter(p=>p.name==='Shiek').length,2);
+for(const name of ['Adap’n Pazaolan','Potre Kaizadan','Bae sa Buntong','Potre Gombae'])assert(chart.labels.find(p=>p.id===id(name)).transcriptionNote);
+for(const j of chart.junctions){assert(chart.edges.some(e=>e.type==='connection'&&[e.from,e.to].every(n=>j.origins.includes(n))));for(const target of j.branches)assert(chart.edges.some(e=>e.junctionId===j.id&&e.to===target&&j.origins.includes(e.from)&&j.origins.includes(e.otherOrigin)));}
+const ids=new Set(chart.labels.map(p=>p.id)),visiting=new Set(),done=new Set();function visit(n){assert(!visiting.has(n),'Directed cycle: '+n);if(done.has(n))return;visiting.add(n);for(const e of chart.edges)if(e.type==='lineage'&&(e.from===n||e.otherOrigin===n)){assert(ids.has(e.to));visit(e.to);}visiting.delete(n);done.add(n);}for(const n of ids)visit(n);
+// A red line must never produce marriage or biological kinship claims, even
+// when either chart entry also has a similarly named structured record.
+const code=readFileSync('app.js','utf8'),family=JSON.parse(readFileSync('family.json','utf8'));
+const relationship=vm.runInNewContext(code.slice(code.indexOf('function describeRelationship('),code.indexOf('\nfunction showEdgeTooltip'))+'\n;describeRelationship;',{chart,structuredId(){throw Error('Chart relationship leaked into structured inference');}});
+assert.equal(relationship(id('Mino'),id('Moyao'),'comparison').label,'Connected boxes');
+assert.equal(relationship(id('Dimaporo'),id('Borngao'),'connection').label,'Connected boxes');
+assert.equal(relationship(id('Mangotara'),id('Zolaika'),'lineage').label,'Directed chart branch');
+assert.equal(relationship(id('Lumb'),id('Anginta'),'comparison').label,'Relationship not established');
+assert.equal(relationship(id('Maruhom'),id('Anginta'),'comparison').label,'Parent / child');
+assert.equal(relationship(id('Anginta'),id('Amai Pondag'),'comparison').label,'Connected boxes');
+const start=code.indexOf('function validateChart('),end=code.indexOf('\nasync function init',start);const validate=vm.runInNewContext('('+code.slice(start,end)+')');validate(chart,family);
+console.log(`Verified ${expected.length} updated connections, ${chart.junctions.length} neutral junctions, isolated direct branches, distinct Shiek entries, aliases, unresolved Olodan, neutral relationship labels, and cycle safety.`);

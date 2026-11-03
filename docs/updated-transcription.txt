@@ -1,0 +1,479 @@
+TEXT-BASED TRANSCRIPTION NG LARAWAN
+
+PAANO BASAHIN:
+→  = direksiyon ng arrow sa larawan
+── = pulang linyang nagdurugtong sa dalawang pangalan
+├─ / └─ = mga sangay ng isang linya
+
+Ang mga koneksiyon sa ibaba ay ayon sa drawing.
+Walang legend sa larawan na tahasang nagpapaliwanag sa lahat
+ng uri ng relasyon. Ang pulang dugtong ay pinanatiling dugtong;
+hindi awtomatikong nilagyan ng salitang “mag-asawa.”
+
+Kapag mula mismo sa kahon ng isang pangalan ang arrow,
+sa pangalang iyon ko inilagay ang sangay.
+
+
+1. PINAKAITAAS NA MGA PANGALAN
+
+ADAP’N PAZAOLAN
+(Grandson of Alionden of Sulu)
+    → MAUPAAT BARAO
+
+POTRE KAIZADAN
+(Granddaughter of Kabunsoan)
+    → DAISALONG SA BINIDAYAN
+
+MAUPAAT BARAO ── DAISALONG SA BINIDAYAN
+    ├─ SAYAWA
+    ├─ PONDAG
+    └─ AMPASO
+
+
+2. SAYAWA AT BAE SA BUNTONG
+
+SAYAWA ── BAE SA BUNTONG
+          (Apo o Rahmatulah)
+    ├─ LAMI
+    │   └─ AKONGA & BOROA
+    ├─ GADAOLAN
+    │   └─ DIGADONG
+    ├─ DATU AMANA SA BINIDAYAN
+    └─ DATU CANDIA
+        ├─ TARA
+        └─ MINO
+
+
+3. DIGADONG
+
+DIGADONG
+    ├─ INAI TORON
+    ├─ INAI ULAD
+    ├─ DATUMOMIN
+    └─ INAI KALILANG
+
+
+4. DATU AMANA SA BINIDAYAN
+
+DATU AMANA SA BINIDAYAN
+    ├─ SAPAATULAH
+    │   └─ KADI SA BINIDAYAN
+    ├─ SULT TAMPASOK
+    │   └─ ALONGAN A DATU SA BINIDAYAN
+    ├─ ANDINGORAY
+    │   └─ DATUMAAS
+    │       └─ MAUPAAT
+    │           └─ LUMB
+    └─ KAHARODEN
+        └─ DAYANGINDO
+
+
+5. KADI SA BINIDAYAN
+
+KADI SA BINIDAYAN
+    ├─ UMBA
+    ├─ SHIEK
+    ├─ PAKI
+    └─ TUAN
+        └─ MACAPONDAG
+            └─ PUNDOGAR
+
+
+6. ALONGAN A DATU SA BINIDAYAN
+
+ALONGAN A DATU SA BINIDAYAN
+    ├─ AMAI BAYORA
+    │   └─ DATUMANGODA
+    └─ MARUHOM
+
+
+7. LUMB AT MARUHOM
+
+LUMB ── MARUHOM
+    │
+    └─ Berdeng sangay mula sa kanilang pulang dugtong:
+        ├─ INAIPINDIMA
+        │   └─ PIRAWA
+        ├─ DIAMBURUN
+        ├─ AMA DECA
+        └─ GINARAPANDI
+
+MARUHOM
+    └─ ANGINTA
+       [Hiwalay na mahabang berdeng arrow mula mismo
+        sa ibabang bahagi ng kahon ni MARUHOM.]
+
+PALIWANAG:
+Ang apat na nasa unang grupo ay malinaw na konektado
+sa dugtong nina LUMB at MARUHOM.
+Si ANGINTA ay malinaw na konektado kay MARUHOM;
+hindi tahasang ipinapakita ng arrow kung kasama si LUMB.
+
+
+8. GINARAPANDI
+
+GINARAPANDI
+    ├─ MANGOTARA
+    ├─ PAKALANGOT
+    └─ PARAMANIS
+
+
+9. MANGOTARA
+
+MANGOTARA
+    ├─ ZOLAIKA
+    ├─ ADAWIA
+    ├─ BATAWI DATUMULOK
+    ├─ SULTAN DANGCOGAN
+    ├─ TANGCOLO
+    ├─ H. RACMAN
+    ├─ MARIGA
+    ├─ BOTAWAN
+    └─ DIMAPORO
+
+
+10. PARAMANIS
+
+PARAMANIS
+    ├─ SAPIRO & POSAKA & BATO
+    ├─ MACATOON
+    └─ MACARIMPAS
+        └─ ROXAS RAMOS
+           SULTAN SA WATO
+
+
+11. DAYANGINDO
+
+DAYANGINDO
+    → SAMBAE + RADIATUA
+    → GAGAMUK + RADIA-ALI
+    → MOKAYAN + BARA
+    → BOBONGA + MARUG
+
+
+12. BOBONGA + MARUG
+
+BOBONGA + MARUG
+    ├─ MADAYA
+    │   └─ BATANG
+    │       └─ ZAMAN
+    ├─ ROMSIK
+    │   └─ AMBOA
+    │       └─ PAPORO
+    ├─ PITI-ILAN
+    ├─ SALAMAT
+    ├─ BOLOSAN
+    └─ MANGGIS
+
+
+13. MANGGIS AT DIMASANGCA
+
+MANGGIS ── DIMASANGCA
+    │
+    └─ Itim na sangay mula sa kanilang pulang dugtong:
+        ├─ ZAALIKA
+        ├─ GALAWAN
+        ├─ BACARO
+        │   └─ DIMAPINTO
+        ├─ BORNGAO
+        └─ PANGCOGA
+           [Mahabang linyang dumaraan sa ibaba
+            ng larawan papuntang kanan.]
+
+DIMASANGCA
+    │
+    └─ Hiwalay na sangay mula sa ilalim ng kahon:
+        ├─ ALANGADI
+        │   └─ H. SATAR
+        ├─ AMERO
+        └─ PUNDAMDAG
+            └─ LAKS
+
+
+14. MACATOON AT ZAALIKA
+
+MACATOON ── ZAALIKA
+    ├─ INAI ARBA & DAYANG
+    ├─ MOOMINA
+    └─ RANGIRIS
+
+
+15. PONDAG AT POTRE GOMBAE
+
+PONDAG ── POTRE GOMBAE
+          (Apo o Dadiyoba)
+    ├─ ABIDAR
+    │   └─ MANOG
+    │       └─ MOYAO
+    └─ GAMAD
+        └─ FATIMA
+
+
+16. MINO AT MOYAO
+
+MINO ── MOYAO
+    ├─ PALAWAN
+    └─ BANDARA
+
+
+17. DIWAN
+
+DIWAN
+    → AMDAG
+    → AMERODEN SA BAYANG
+
+
+18. FATIMA AT AMERODEN SA BAYANG
+
+FATIMA ── AMERODEN SA BAYANG
+    ├─ D. CABUGATAN
+    │   └─ PALAWAN A OLAMA SA BASAK
+    │       └─ DATU ABDAL
+    └─ D. SIMBAN
+
+
+19. DATU ABDAL
+
+DATU ABDAL
+    ├─ GANAYO
+    │  [Asul na arrow pakaliwa.]
+    └─ LUMAN
+        └─ H. OMAR
+
+
+20. DATUMANGODA AT GANAYO
+
+DATUMANGODA ── GANAYO
+    │
+    └─ Asul na sangay mula sa kanilang pulang dugtong:
+        ├─ MACADIAR
+        ├─ PAGARIONGAN
+        ├─ DATU MANONG
+        └─ MACARANGKAT
+
+DATUMANGODA
+    │
+    └─ Hiwalay na itim na arrow mula sa kahon:
+        └─ SANGCOPAN
+            └─ TAOKI
+                └─ MATALA
+
+
+21. MACARANGKAT
+
+MACARANGKAT
+    ├─ LOPAK
+    ├─ KAMLI
+    ├─ PAYONGAN
+    └─ GAO & MORE
+
+
+22. MATALA AT BATAWI DATUMULOK
+
+MATALA ── BATAWI DATUMULOK
+    │
+    └─ Itim na sangay mula sa kanilang pulang dugtong:
+        ├─ MALAMIT
+        ├─ GAKUT
+        ├─ BUKHARI
+        └─ BUKILAN
+
+BATAWI DATUMULOK
+    └─ MALINDATO
+       [Hiwalay na itim na linya mula sa itaas
+        ng kahon ni BATAWI DATUMULOK.]
+
+
+23. BATAWI DATUMULOK AT LOPAK
+
+BATAWI DATUMULOK ── LOPAK
+
+LOPAK
+    ├─ MULILODA
+    ├─ MAGIDALA
+    └─ S’MPAYAR
+       [Ang itim na sangay ay lumalabas sa kanan
+        ng kahon ni LOPAK.]
+
+
+24. SULTAN DANGCOGAN AT KAMLI
+
+SULTAN DANGCOGAN ── KAMLI
+    └─ BAONG
+       [Asul na linya mula sa pulang dugtong.]
+
+SULTAN DANGCOGAN
+    │
+    └─ Hiwalay na itim na sangay mula sa kahon:
+        ├─ GOMAMA
+        ├─ SOWAIB
+        ├─ BARABAD
+        ├─ PITAGA
+        ├─ M’LUKBA
+        └─ PANTALAN
+
+
+25. DIMAPORO AT BORNGAO
+
+DIMAPORO
+    └─ OSINTA
+
+DIMAPORO ── BORNGAO
+    ├─ SULT. ALI
+    ├─ NAGA
+    ├─ MONIB
+    ├─ MACACNA
+    └─ MINANGO
+
+PALIWANAG:
+Pulang dugtong ang nasa pagitan ng DIMAPORO at BORNGAO.
+Hindi ito arrow na “DIMAPORO → BORNGAO.”
+
+
+26. AMPASO
+
+AMPASO
+    │
+    └─ Mga kahong may arrow mula sa iisang patayong linya:
+        ├─ ASAHID
+        ├─ DUMA SA MADAMBA
+        ├─ GINTO
+        ├─ BLAK SA MADALUM
+        ├─ ANOL
+        ├─ AMBA SA UYAAN
+        └─ ASAMAT
+
+PALIWANAG:
+Magkatapat sa drawing ang:
+    ASAHID / DUMA SA MADAMBA
+    GINTO / BLAK SA MADALUM
+    ANOL / AMBA SA UYAAN
+
+Parehong palabas mula sa gitnang linya ang kanilang mga arrow.
+Walang pulang dugtong na nagpapakitang magkapares sila.
+Hindi rin malinaw kung ang nasa kanan ay hiwalay na tao,
+titulo, o ibang tawag; pinanatili rito ang mismong mga kahon.
+
+
+27. ASAMAT
+
+ASAMAT
+    └─ BABAYOALAN
+
+
+28. BANDARA AT BABAYOALAN
+
+BANDARA ── BABAYOALAN
+    ├─ DATU & ITORAGA
+    └─ SULT PAPANOK
+
+
+29. SULT PAPANOK
+
+SULT PAPANOK
+    ├─ APAKI & LOPAYO
+    ├─ ODAL & MONAR
+    ├─ PONDAAGAN
+    ├─ ORANTO
+    ├─ AMAI DARNANG
+    └─ AMAI PONDAG
+
+ORANTO / ILALIM NG PINAGSAMANG KAHON
+    └─ OLODAN
+
+PALIWANAG:
+Ang arrow papuntang OLODAN ay lumalabas sa ilalim
+ng grupong kahon, sa bahaging may ORANTO.
+Hindi malinaw kung ORANTO lamang o ang buong grupo
+ang tinutukoy na pinagmulan.
+
+
+30. AMAI PONDAG AT ANGINTA
+
+AMAI PONDAG ── ANGINTA
+    │
+    └─ Berdeng sangay mula sa kanilang pulang dugtong:
+        ├─ SUMA
+        ├─ SHIEK
+        └─ DIMASANGCA
+           [Ang berdeng linya ay umiikot sa kanang gilid
+            at pinakailalim, saka umaakyat sa kaliwa.]
+
+AMAI PONDAG
+    │
+    └─ Hiwalay na itim na sangay mula sa kahon:
+        ├─ GONDARANGIN
+        ├─ LOMABAO
+        └─ MAULAD & POLAYAGAN & MORE
+
+
+31. DATU MANONG
+
+DATU MANONG
+    │
+    └─ Mahabang asul na linya papuntang kanan:
+        ├─ MAINTOK
+        ├─ ANGKAY
+        └─ DINGANOMAN
+
+
+32. MAINTOK
+
+MAINTOK
+    ├─ ODATO
+    ├─ AZIS
+    ├─ DIANIB
+    └─ BILAN
+
+
+33. DINGANOMAN AT PANGCOGA
+
+DINGANOMAN ── PANGCOGA
+    ├─ TORONDAYA
+    ├─ BORONGAN
+    ├─ H. RAHMAN
+    ├─ GIBON
+    ├─ ARMA
+    ├─ SULTAN ABDULMADID
+    ├─ TAROTOPN
+    └─ ALIASGAR
+
+
+34. PANTALAN AT SULTAN ABDULMADID
+
+PANTALAN ── SULTAN ABDULMADID
+    └─ PASAYOD DIMAPORO MARUHOM
+        └─ DATU ONTAY
+
+
+MAHAHALAGANG PAGWAWASTO SA UNANG TRANSCRIPTION
+
+• Naidagdag ang mga sangay nina LUMB at MARUHOM.
+
+• ANGINTA:
+  Ang arrow ay mula mismo kay MARUHOM.
+  Hindi sapat ang drawing para tiyaking anak din ni LUMB.
+
+• MINO ── MOYAO:
+  Pulang dugtong; mula rito ang PALAWAN at BANDARA.
+
+• DIMAPORO ── BORNGAO:
+  Pulang dugtong, hindi magulang-patungong-anak na arrow.
+
+• AMPASO:
+  Hindi dapat gawing magkapareha ang magkatapat na kahon
+  nang walang malinaw na batayan sa larawan.
+
+• BATAWI DATUMULOK ang nababasang pangalan,
+  hindi “BATTAWI DATUMULOK.”
+
+• KAHARODEN ang nababasang pangalan,
+  hindi “KHARODEN.”
+
+• Ang mga pangalang may “&”, “+”, o “& MORE”
+  ay pinanatili gaya ng pagkakasulat sa iisang kahon.
+
+• Magkaibang lokasyon ang dalawang SHIEK:
+  isa sa sangay ni KADI SA BINIDAYAN,
+  isa sa berdeng sangay nina AMAI PONDAG at ANGINTA.
+  Hindi sila awtomatikong itinuring na iisang tao.

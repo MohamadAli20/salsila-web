@@ -10,13 +10,17 @@ An interactive genealogy archive starting with Binidayan and Bayang in Ranao. Or
 
 ## Two genealogy views
 
-**Full family tree** is the default Binidayan view. It renders 179 chart entries as HTML cards and 188 typed chart connections as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
+**Full family tree** is the default Binidayan view. It renders 179 chart entries as HTML cards and 190 chart connections as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
 
 **Branch view · partial** retains the smaller structured parent/partnership dataset, with generation controls, collapse/expand, and focused branches. Bayang currently uses this structured view. Both views use our own design.
 
-`chart-index.json` contains names, source-relative positions, and draft lineage/partnership links. Labels that group multiple names or unnamed descendants are retained as written, so 179 entries does not mean 179 distinct individuals. Lineage arrows are chart connections and should not be read automatically as immediate biological parentage. All transcription and genealogical claims require review against the source. Ambiguous identities are not merged between the two data models.
+`chart-index.json` contains names, source-reference positions, and draft directed branches and neutral connecting lines. Labels that group multiple names or unnamed descendants are retained as written, so 179 entries does not mean 179 distinct individuals. Lineage arrows are chart connections and should not be read automatically as immediate biological parentage. All transcription and genealogical claims require review against the source. Ambiguous identities are not merged between the two data models.
 
-The original supplied image is retained at `assets/sayawa-chart.png` for comparison. Source links and author attribution are in the Sources library. No claim of independently verified genealogical accuracy is made.
+The original comparison image is expected at `assets/sayawa-chart.png`; it is currently missing from this checkout. Source links and author attribution are in the Sources library. No claim of independently verified genealogical accuracy is made.
+
+The updated 2026-11-03 text review covers 190 connections across 34 sections: 173 directed branches and 17 red connecting lines of unspecified relationship. Shared source junctions are distinct from direct box branches; the Olodan route remains unresolved. Run `npm run check:transcription` for its regression checks; see `docs/connection-audit.md` for corrections and remaining uncertainty.
+
+The displayed tree uses automatic family rows and clear routing lanes rather than scanned coordinates. Unrelated crossing routes have visible gaps; shared source trunks remain connected. `npm run check:layout` verifies card and line collisions. The user has confirmed Maruhom → Anginta and Anginta’s marriage to Amai Pondag.
 
 ## Files and persistence
 

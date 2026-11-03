@@ -6,7 +6,7 @@ function findKinship(family, firstId, secondId){
  const parents=new Map();for(const u of family.unions)for(const child of u.children)parents.set(child,u.partners.filter(id=>!id.startsWith('unknown-')));
  const ancestors=id=>{const distances=new Map([[id,0]]),queue=[id];for(let i=0;i<queue.length;i++){const current=queue[i];for(const p of parents.get(current)||[])if(!distances.has(p)){distances.set(p,distances.get(current)+1);queue.push(p);}}return distances;};
  const aa=ancestors(firstId),bb=ancestors(secondId),a=people.get(firstId).name,b=people.get(secondId).name;
- if(family.unions.some(u=>u.partners.includes(firstId)&&u.partners.includes(secondId)))return {label:'Partners / spouses',detail:a+' and '+b+' share a recorded partnership.'};
+ if(family.unions.some(u=>u.partners.includes(firstId)&&u.partners.includes(secondId)))return {label:'Connected people',detail:a+' and '+b+' share a recorded connection.'};
  function ancestorLabel(n){return n===1?'Parent / child':n===2?'Grandparent / grandchild':n===3?'Great-grandparent / great-grandchild':`${n-2}× great-grandparent / grandchild`;}
  if(aa.has(secondId))return {label:ancestorLabel(aa.get(secondId)),detail:b+' is a recorded ancestor of '+a+'.'};
  if(bb.has(firstId))return {label:ancestorLabel(bb.get(firstId)),detail:a+' is a recorded ancestor of '+b+'.'};
