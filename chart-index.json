@@ -1,0 +1,3006 @@
+{
+  "width": 1650,
+  "height": 1275,
+  "image": "assets/sayawa-chart.png",
+  "source": "sayawa-chart",
+  "labels": [
+    {
+      "id": "chart-001",
+      "name": "Adap’n Pazaolan",
+      "x": 84,
+      "y": 18,
+      "width": 290,
+      "height": 57,
+      "personId": null
+    },
+    {
+      "id": "chart-002",
+      "name": "Maupaat Barao",
+      "x": 432,
+      "y": 18,
+      "width": 303,
+      "height": 57,
+      "personId": null
+    },
+    {
+      "id": "chart-003",
+      "name": "Daisalong sa Binidayan",
+      "x": 903,
+      "y": 18,
+      "width": 398,
+      "height": 58,
+      "personId": null
+    },
+    {
+      "id": "chart-004",
+      "name": "Potre Kaizadan",
+      "x": 1336,
+      "y": 18,
+      "width": 289,
+      "height": 58,
+      "personId": null
+    },
+    {
+      "id": "chart-005",
+      "name": "Sayawa",
+      "x": 220,
+      "y": 106,
+      "width": 193,
+      "height": 51,
+      "personId": null
+    },
+    {
+      "id": "chart-006",
+      "name": "Bae sa Buntong",
+      "x": 463,
+      "y": 100,
+      "width": 239,
+      "height": 65,
+      "personId": null
+    },
+    {
+      "id": "chart-007",
+      "name": "Pondag",
+      "x": 731,
+      "y": 106,
+      "width": 190,
+      "height": 52,
+      "personId": null
+    },
+    {
+      "id": "chart-008",
+      "name": "Potre Gombae",
+      "x": 962,
+      "y": 99,
+      "width": 191,
+      "height": 65,
+      "personId": null
+    },
+    {
+      "id": "chart-009",
+      "name": "Diwan",
+      "x": 1184,
+      "y": 100,
+      "width": 139,
+      "height": 47,
+      "personId": "diwan"
+    },
+    {
+      "id": "chart-010",
+      "name": "Ampaso",
+      "x": 1365,
+      "y": 106,
+      "width": 187,
+      "height": 51,
+      "personId": null
+    },
+    {
+      "id": "chart-011",
+      "name": "Akonga & Boroa",
+      "x": 58,
+      "y": 167,
+      "width": 203,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-012",
+      "name": "Lami",
+      "x": 285,
+      "y": 168,
+      "width": 122,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-013",
+      "name": "Datu Candia",
+      "x": 590,
+      "y": 168,
+      "width": 175,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-014",
+      "name": "Abidar",
+      "x": 794,
+      "y": 168,
+      "width": 122,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-015",
+      "name": "Gamad",
+      "x": 947,
+      "y": 168,
+      "width": 127,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-016",
+      "name": "Amdag",
+      "x": 1093,
+      "y": 160,
+      "width": 135,
+      "height": 40,
+      "personId": "amdag"
+    },
+    {
+      "id": "chart-017",
+      "name": "Asahid",
+      "x": 1238,
+      "y": 175,
+      "width": 147,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-018",
+      "name": "Duma sa Madamba",
+      "x": 1404,
+      "y": 175,
+      "width": 213,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-019",
+      "name": "Digadong",
+      "x": 58,
+      "y": 228,
+      "width": 204,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-020",
+      "name": "Gadaolan",
+      "x": 285,
+      "y": 227,
+      "width": 122,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-021",
+      "name": "Umba",
+      "x": 483,
+      "y": 212,
+      "width": 105,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-022",
+      "name": "Shiek",
+      "x": 483,
+      "y": 254,
+      "width": 105,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-023",
+      "name": "Tara",
+      "x": 619,
+      "y": 227,
+      "width": 146,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-024",
+      "name": "Manog",
+      "x": 795,
+      "y": 227,
+      "width": 122,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-025",
+      "name": "Fatima",
+      "x": 947,
+      "y": 227,
+      "width": 127,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-026",
+      "name": "Ameroden sa Bayang",
+      "x": 1093,
+      "y": 213,
+      "width": 135,
+      "height": 60,
+      "personId": "ameroden"
+    },
+    {
+      "id": "chart-027",
+      "name": "Ginto",
+      "x": 1238,
+      "y": 228,
+      "width": 147,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-028",
+      "name": "Blak sa Madalum",
+      "x": 1404,
+      "y": 228,
+      "width": 213,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-029",
+      "name": "Datu Amana sa Binidayan",
+      "x": 58,
+      "y": 286,
+      "width": 350,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-030",
+      "name": "Paki",
+      "x": 484,
+      "y": 299,
+      "width": 104,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-031",
+      "name": "Mino",
+      "x": 619,
+      "y": 286,
+      "width": 146,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-032",
+      "name": "Moyao",
+      "x": 795,
+      "y": 285,
+      "width": 122,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-033",
+      "name": "D. Cabugatan",
+      "x": 927,
+      "y": 295,
+      "width": 156,
+      "height": 37,
+      "personId": null
+    },
+    {
+      "id": "chart-034",
+      "name": "D. Simban",
+      "x": 1106,
+      "y": 295,
+      "width": 121,
+      "height": 37,
+      "personId": null
+    },
+    {
+      "id": "chart-035",
+      "name": "Anol",
+      "x": 1238,
+      "y": 286,
+      "width": 147,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-036",
+      "name": "Amba sa Uyaan",
+      "x": 1404,
+      "y": 286,
+      "width": 213,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-037",
+      "name": "Sapaatulah",
+      "x": 84,
+      "y": 341,
+      "width": 156,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-038",
+      "name": "Kadi sa Binidayan",
+      "x": 258,
+      "y": 341,
+      "width": 176,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-039",
+      "name": "Tuan",
+      "x": 484,
+      "y": 348,
+      "width": 104,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-040",
+      "name": "Macapondag",
+      "x": 601,
+      "y": 349,
+      "width": 148,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-041",
+      "name": "Palawan a Olama sa Basak",
+      "x": 948,
+      "y": 341,
+      "width": 236,
+      "height": 65,
+      "personId": null
+    },
+    {
+      "id": "chart-042",
+      "name": "Sult Tampasok",
+      "x": 84,
+      "y": 394,
+      "width": 156,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-043",
+      "name": "Alongan a Datu sa Binidayan",
+      "x": 258,
+      "y": 394,
+      "width": 292,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-044",
+      "name": "Pundogar",
+      "x": 609,
+      "y": 403,
+      "width": 152,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-045",
+      "name": "Palawan",
+      "x": 795,
+      "y": 341,
+      "width": 122,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-046",
+      "name": "Bandara",
+      "x": 795,
+      "y": 395,
+      "width": 122,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-047",
+      "name": "Asamat",
+      "x": 1238,
+      "y": 342,
+      "width": 147,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-048",
+      "name": "Babayolan",
+      "x": 1256,
+      "y": 395,
+      "width": 166,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-049",
+      "name": "Apaki & Lopayo",
+      "x": 1449,
+      "y": 351,
+      "width": 166,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-050",
+      "name": "Odal & Monar",
+      "x": 1449,
+      "y": 399,
+      "width": 166,
+      "height": 43,
+      "personId": null
+    },
+    {
+      "id": "chart-051",
+      "name": "Pondaagan",
+      "x": 1449,
+      "y": 442,
+      "width": 166,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-052",
+      "name": "Oranto",
+      "x": 1449,
+      "y": 486,
+      "width": 166,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-053",
+      "name": "Andingoray",
+      "x": 84,
+      "y": 452,
+      "width": 156,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-054",
+      "name": "Kaharoden",
+      "x": 84,
+      "y": 505,
+      "width": 156,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-055",
+      "name": "Datumaas",
+      "x": 258,
+      "y": 452,
+      "width": 150,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-056",
+      "name": "Dayangindo",
+      "x": 258,
+      "y": 505,
+      "width": 150,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-057",
+      "name": "Maupaat",
+      "x": 424,
+      "y": 452,
+      "width": 126,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-058",
+      "name": "Lumb",
+      "x": 424,
+      "y": 505,
+      "width": 126,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-059",
+      "name": "Amai Bayora",
+      "x": 590,
+      "y": 451,
+      "width": 151,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-060",
+      "name": "Maruhom",
+      "x": 590,
+      "y": 505,
+      "width": 151,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-061",
+      "name": "Datumangoda",
+      "x": 765,
+      "y": 451,
+      "width": 150,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-062",
+      "name": "Sangcopan",
+      "x": 765,
+      "y": 505,
+      "width": 150,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-063",
+      "name": "Ganayo",
+      "x": 925,
+      "y": 452,
+      "width": 121,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-064",
+      "name": "Datu Abdal",
+      "x": 1065,
+      "y": 452,
+      "width": 150,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-065",
+      "name": "Macdiar",
+      "x": 925,
+      "y": 505,
+      "width": 141,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-066",
+      "name": "Luman",
+      "x": 1107,
+      "y": 505,
+      "width": 108,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-067",
+      "name": "Datu & Itoraga",
+      "x": 1255,
+      "y": 451,
+      "width": 166,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-068",
+      "name": "Sult Papanok",
+      "x": 1255,
+      "y": 505,
+      "width": 166,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-069",
+      "name": "Olodan",
+      "x": 1511,
+      "y": 550,
+      "width": 104,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-070",
+      "name": "Inai Toron",
+      "x": 49,
+      "y": 564,
+      "width": 155,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-071",
+      "name": "Inai Ulad",
+      "x": 49,
+      "y": 618,
+      "width": 155,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-072",
+      "name": "Datumomin",
+      "x": 49,
+      "y": 669,
+      "width": 155,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-073",
+      "name": "Inai Kalilang",
+      "x": 49,
+      "y": 718,
+      "width": 155,
+      "height": 24,
+      "personId": null
+    },
+    {
+      "id": "chart-074",
+      "name": "Sambae + Radiatua",
+      "x": 211,
+      "y": 564,
+      "width": 198,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-075",
+      "name": "Gagamuk + Radia-Ali",
+      "x": 211,
+      "y": 622,
+      "width": 198,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-076",
+      "name": "Mokayan + Bara",
+      "x": 211,
+      "y": 675,
+      "width": 198,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-077",
+      "name": "Bobonga + Marug",
+      "x": 211,
+      "y": 734,
+      "width": 198,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-078",
+      "name": "Inaipindima",
+      "x": 451,
+      "y": 574,
+      "width": 152,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-079",
+      "name": "Diamburun",
+      "x": 451,
+      "y": 622,
+      "width": 152,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-080",
+      "name": "Ama Deca",
+      "x": 451,
+      "y": 670,
+      "width": 152,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-081",
+      "name": "Ginarapandi",
+      "x": 451,
+      "y": 718,
+      "width": 152,
+      "height": 39,
+      "personId": "ginarapandi"
+    },
+    {
+      "id": "chart-082",
+      "name": "Pirawa",
+      "x": 637,
+      "y": 574,
+      "width": 114,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-083",
+      "name": "Zolaika",
+      "x": 637,
+      "y": 622,
+      "width": 114,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-084",
+      "name": "Adawia",
+      "x": 637,
+      "y": 670,
+      "width": 114,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-085",
+      "name": "Taoki",
+      "x": 765,
+      "y": 551,
+      "width": 106,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-086",
+      "name": "Matala",
+      "x": 765,
+      "y": 608,
+      "width": 106,
+      "height": 77,
+      "personId": null
+    },
+    {
+      "id": "chart-087",
+      "name": "Pagariongan",
+      "x": 913,
+      "y": 574,
+      "width": 153,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-088",
+      "name": "Datu Manong",
+      "x": 913,
+      "y": 613,
+      "width": 153,
+      "height": 24,
+      "personId": null
+    },
+    {
+      "id": "chart-089",
+      "name": "Macarangkat",
+      "x": 913,
+      "y": 637,
+      "width": 153,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-090",
+      "name": "H. Omar",
+      "x": 1107,
+      "y": 581,
+      "width": 108,
+      "height": 43,
+      "personId": null
+    },
+    {
+      "id": "chart-091",
+      "name": "Amai Darnang",
+      "x": 1255,
+      "y": 574,
+      "width": 166,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-092",
+      "name": "Amai Pondag",
+      "x": 1255,
+      "y": 622,
+      "width": 166,
+      "height": 49,
+      "personId": null
+    },
+    {
+      "id": "chart-093",
+      "name": "Gondarangin",
+      "x": 1275,
+      "y": 685,
+      "width": 163,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-094",
+      "name": "Lomaao",
+      "x": 1275,
+      "y": 743,
+      "width": 163,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-095",
+      "name": "Maulad & Polayagan & More",
+      "x": 1275,
+      "y": 804,
+      "width": 292,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-096",
+      "name": "Anginta",
+      "x": 1474,
+      "y": 630,
+      "width": 142,
+      "height": 42,
+      "personId": null
+    },
+    {
+      "id": "chart-097",
+      "name": "Suma",
+      "x": 1470,
+      "y": 689,
+      "width": 127,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-098",
+      "name": "Shiek",
+      "x": 1470,
+      "y": 743,
+      "width": 127,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-099",
+      "name": "Madaya",
+      "x": 58,
+      "y": 789,
+      "width": 110,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-100",
+      "name": "Romsik",
+      "x": 58,
+      "y": 835,
+      "width": 110,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-101",
+      "name": "Piti-Ilan",
+      "x": 58,
+      "y": 884,
+      "width": 110,
+      "height": 53,
+      "personId": null
+    },
+    {
+      "id": "chart-102",
+      "name": "Salamat",
+      "x": 58,
+      "y": 943,
+      "width": 110,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-103",
+      "name": "Bolosan",
+      "x": 58,
+      "y": 992,
+      "width": 110,
+      "height": 53,
+      "personId": null
+    },
+    {
+      "id": "chart-104",
+      "name": "Manggis",
+      "x": 58,
+      "y": 1053,
+      "width": 146,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-105",
+      "name": "Batang",
+      "x": 187,
+      "y": 789,
+      "width": 98,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-106",
+      "name": "Amboa",
+      "x": 188,
+      "y": 835,
+      "width": 100,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-107",
+      "name": "Zaman",
+      "x": 303,
+      "y": 789,
+      "width": 106,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-108",
+      "name": "Paporo",
+      "x": 303,
+      "y": 835,
+      "width": 106,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-109",
+      "name": "Sapiro & Posaka & Bato",
+      "x": 188,
+      "y": 892,
+      "width": 221,
+      "height": 43,
+      "personId": null
+    },
+    {
+      "id": "chart-110",
+      "name": "Macatoon",
+      "x": 211,
+      "y": 937,
+      "width": 131,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-111",
+      "name": "Mangotara",
+      "x": 450,
+      "y": 765,
+      "width": 154,
+      "height": 41,
+      "personId": "mangotara"
+    },
+    {
+      "id": "chart-112",
+      "name": "Pakalangot",
+      "x": 450,
+      "y": 812,
+      "width": 154,
+      "height": 42,
+      "personId": "pakalangot"
+    },
+    {
+      "id": "chart-113",
+      "name": "Paramanis",
+      "x": 450,
+      "y": 860,
+      "width": 154,
+      "height": 47,
+      "personId": "paramanis"
+    },
+    {
+      "id": "chart-114",
+      "name": "Macarimpas",
+      "x": 435,
+      "y": 914,
+      "width": 171,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-115",
+      "name": "Roxas Ramos · Sultan sa Wato",
+      "x": 435,
+      "y": 970,
+      "width": 171,
+      "height": 60,
+      "personId": null
+    },
+    {
+      "id": "chart-116",
+      "name": "Inai Arba & Dayang",
+      "x": 188,
+      "y": 987,
+      "width": 235,
+      "height": 42,
+      "personId": null
+    },
+    {
+      "id": "chart-117",
+      "name": "Zaalika",
+      "x": 230,
+      "y": 1054,
+      "width": 101,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-118",
+      "name": "Moomina",
+      "x": 341,
+      "y": 1054,
+      "width": 105,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-119",
+      "name": "Rangiris",
+      "x": 458,
+      "y": 1054,
+      "width": 106,
+      "height": 47,
+      "personId": null
+    },
+    {
+      "id": "chart-120",
+      "name": "Batawi Datumulok",
+      "x": 637,
+      "y": 718,
+      "width": 236,
+      "height": 40,
+      "personId": "batawi"
+    },
+    {
+      "id": "chart-121",
+      "name": "Sultan Dangcogan",
+      "x": 637,
+      "y": 765,
+      "width": 236,
+      "height": 41,
+      "personId": "dangcogan"
+    },
+    {
+      "id": "chart-122",
+      "name": "Tangcolo",
+      "x": 645,
+      "y": 812,
+      "width": 121,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-123",
+      "name": "H. Racman",
+      "x": 645,
+      "y": 857,
+      "width": 121,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-124",
+      "name": "Mariga",
+      "x": 645,
+      "y": 914,
+      "width": 121,
+      "height": 46,
+      "personId": "mariga"
+    },
+    {
+      "id": "chart-125",
+      "name": "Botawan",
+      "x": 645,
+      "y": 949,
+      "width": 121,
+      "height": 39,
+      "personId": "camid"
+    },
+    {
+      "id": "chart-126",
+      "name": "Dimaporo",
+      "x": 645,
+      "y": 987,
+      "width": 121,
+      "height": 43,
+      "personId": "dimaporo"
+    },
+    {
+      "id": "chart-127",
+      "name": "Borngao",
+      "x": 623,
+      "y": 1055,
+      "width": 132,
+      "height": 45,
+      "personId": null
+    },
+    {
+      "id": "chart-128",
+      "name": "Gomama",
+      "x": 794,
+      "y": 812,
+      "width": 101,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-129",
+      "name": "Sowaib",
+      "x": 794,
+      "y": 857,
+      "width": 101,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-130",
+      "name": "Barabad",
+      "x": 794,
+      "y": 897,
+      "width": 101,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-131",
+      "name": "Osinta",
+      "x": 806,
+      "y": 974,
+      "width": 115,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-132",
+      "name": "Sult. Ali",
+      "x": 806,
+      "y": 1018,
+      "width": 115,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-133",
+      "name": "Naga",
+      "x": 806,
+      "y": 1057,
+      "width": 115,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-134",
+      "name": "Monib",
+      "x": 806,
+      "y": 1095,
+      "width": 115,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-135",
+      "name": "Macna",
+      "x": 806,
+      "y": 1134,
+      "width": 115,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-136",
+      "name": "Minango",
+      "x": 806,
+      "y": 1174,
+      "width": 115,
+      "height": 30,
+      "personId": null
+    },
+    {
+      "id": "chart-137",
+      "name": "Malamit",
+      "x": 1107,
+      "y": 687,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-138",
+      "name": "Gakut",
+      "x": 1107,
+      "y": 732,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-139",
+      "name": "Bukhari",
+      "x": 1107,
+      "y": 778,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-140",
+      "name": "Bukilan",
+      "x": 1107,
+      "y": 824,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-141",
+      "name": "Malindato",
+      "x": 1107,
+      "y": 871,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-142",
+      "name": "Muliloda",
+      "x": 1107,
+      "y": 916,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-143",
+      "name": "Magidala",
+      "x": 1107,
+      "y": 965,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-144",
+      "name": "S’mpayar",
+      "x": 1107,
+      "y": 1010,
+      "width": 127,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-145",
+      "name": "Lopak",
+      "x": 928,
+      "y": 718,
+      "width": 137,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-146",
+      "name": "Kamli",
+      "x": 928,
+      "y": 765,
+      "width": 137,
+      "height": 41,
+      "personId": null
+    },
+    {
+      "id": "chart-147",
+      "name": "Payongan",
+      "x": 928,
+      "y": 812,
+      "width": 137,
+      "height": 40,
+      "personId": null
+    },
+    {
+      "id": "chart-148",
+      "name": "Gao & More",
+      "x": 928,
+      "y": 860,
+      "width": 137,
+      "height": 42,
+      "personId": null
+    },
+    {
+      "id": "chart-149",
+      "name": "Baong",
+      "x": 928,
+      "y": 909,
+      "width": 137,
+      "height": 41,
+      "personId": null
+    },
+    {
+      "id": "chart-150",
+      "name": "Pitaga",
+      "x": 928,
+      "y": 957,
+      "width": 137,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-151",
+      "name": "M’lukba",
+      "x": 928,
+      "y": 1004,
+      "width": 137,
+      "height": 43,
+      "personId": null
+    },
+    {
+      "id": "chart-152",
+      "name": "Pantalan",
+      "x": 928,
+      "y": 1060,
+      "width": 137,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-153",
+      "name": "Sultan Abdulmadid",
+      "x": 1113,
+      "y": 1060,
+      "width": 286,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-154",
+      "name": "Torondaya",
+      "x": 1268,
+      "y": 869,
+      "width": 131,
+      "height": 43,
+      "personId": null
+    },
+    {
+      "id": "chart-155",
+      "name": "Borongan",
+      "x": 1268,
+      "y": 912,
+      "width": 131,
+      "height": 37,
+      "personId": null
+    },
+    {
+      "id": "chart-156",
+      "name": "H. Rahman",
+      "x": 1268,
+      "y": 949,
+      "width": 131,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-157",
+      "name": "Gibon",
+      "x": 1268,
+      "y": 987,
+      "width": 131,
+      "height": 33,
+      "personId": null
+    },
+    {
+      "id": "chart-158",
+      "name": "Arma",
+      "x": 1268,
+      "y": 1020,
+      "width": 131,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-159",
+      "name": "Tarotopn",
+      "x": 1268,
+      "y": 1105,
+      "width": 131,
+      "height": 39,
+      "personId": null
+    },
+    {
+      "id": "chart-160",
+      "name": "Aliasgar",
+      "x": 1268,
+      "y": 1144,
+      "width": 131,
+      "height": 36,
+      "personId": null
+    },
+    {
+      "id": "chart-161",
+      "name": "Odato",
+      "x": 1429,
+      "y": 869,
+      "width": 117,
+      "height": 35,
+      "personId": null
+    },
+    {
+      "id": "chart-162",
+      "name": "Azis",
+      "x": 1429,
+      "y": 904,
+      "width": 117,
+      "height": 32,
+      "personId": null
+    },
+    {
+      "id": "chart-163",
+      "name": "Dianib",
+      "x": 1429,
+      "y": 936,
+      "width": 117,
+      "height": 33,
+      "personId": null
+    },
+    {
+      "id": "chart-164",
+      "name": "Bilan",
+      "x": 1429,
+      "y": 969,
+      "width": 117,
+      "height": 28,
+      "personId": null
+    },
+    {
+      "id": "chart-165",
+      "name": "Maintok",
+      "x": 1429,
+      "y": 1005,
+      "width": 117,
+      "height": 48,
+      "personId": null
+    },
+    {
+      "id": "chart-166",
+      "name": "Angkay",
+      "x": 1429,
+      "y": 1060,
+      "width": 117,
+      "height": 44,
+      "personId": null
+    },
+    {
+      "id": "chart-167",
+      "name": "Dinganoman",
+      "x": 1429,
+      "y": 1112,
+      "width": 117,
+      "height": 50,
+      "personId": null
+    },
+    {
+      "id": "chart-168",
+      "name": "Pangcoga",
+      "x": 1442,
+      "y": 1190,
+      "width": 145,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-169",
+      "name": "Pasayod Dimaporo Maruhom",
+      "x": 947,
+      "y": 1119,
+      "width": 291,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-170",
+      "name": "Datu Ontay",
+      "x": 944,
+      "y": 1174,
+      "width": 308,
+      "height": 38,
+      "personId": null
+    },
+    {
+      "id": "chart-171",
+      "name": "Dimasangca",
+      "x": 58,
+      "y": 1118,
+      "width": 146,
+      "height": 49,
+      "personId": null
+    },
+    {
+      "id": "chart-172",
+      "name": "Galawan",
+      "x": 220,
+      "y": 1118,
+      "width": 110,
+      "height": 49,
+      "personId": null
+    },
+    {
+      "id": "chart-173",
+      "name": "Bacaro",
+      "x": 340,
+      "y": 1118,
+      "width": 126,
+      "height": 49,
+      "personId": null
+    },
+    {
+      "id": "chart-174",
+      "name": "Dimapinto",
+      "x": 507,
+      "y": 1118,
+      "width": 157,
+      "height": 49,
+      "personId": null
+    },
+    {
+      "id": "chart-175",
+      "name": "H. Satar",
+      "x": 38,
+      "y": 1190,
+      "width": 115,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-176",
+      "name": "Alangadi",
+      "x": 165,
+      "y": 1190,
+      "width": 123,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-177",
+      "name": "Amero",
+      "x": 297,
+      "y": 1190,
+      "width": 116,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-178",
+      "name": "Pundamdag",
+      "x": 423,
+      "y": 1190,
+      "width": 142,
+      "height": 46,
+      "personId": null
+    },
+    {
+      "id": "chart-179",
+      "name": "Laks",
+      "x": 575,
+      "y": 1190,
+      "width": 96,
+      "height": 46,
+      "personId": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "chart-001",
+      "to": "chart-002",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-004",
+      "to": "chart-003",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-003",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-005",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-003",
+      "unionId": "chart-union-1"
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-007",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-003",
+      "unionId": "chart-union-1"
+    },
+    {
+      "from": "chart-002",
+      "to": "chart-010",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-003",
+      "unionId": "chart-union-1"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-006",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-012",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-006",
+      "unionId": "chart-union-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-020",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-006",
+      "unionId": "chart-union-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-029",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-006",
+      "unionId": "chart-union-2"
+    },
+    {
+      "from": "chart-005",
+      "to": "chart-013",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-006",
+      "unionId": "chart-union-2"
+    },
+    {
+      "from": "chart-012",
+      "to": "chart-011",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-020",
+      "to": "chart-019",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-070",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-071",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-072",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-019",
+      "to": "chart-073",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-037",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-042",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-053",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-029",
+      "to": "chart-054",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-037",
+      "to": "chart-038",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-021",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-022",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-030",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-039",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-013",
+      "to": "chart-023",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-013",
+      "to": "chart-031",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-039",
+      "to": "chart-040",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-040",
+      "to": "chart-044",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-042",
+      "to": "chart-043",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-043",
+      "to": "chart-059",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-043",
+      "to": "chart-060",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-053",
+      "to": "chart-055",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-055",
+      "to": "chart-057",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-057",
+      "to": "chart-058",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-058",
+      "to": "chart-060",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-054",
+      "to": "chart-056",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-056",
+      "to": "chart-074",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-074",
+      "to": "chart-075",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-075",
+      "to": "chart-076",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-076",
+      "to": "chart-077",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-099",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-100",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-101",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-102",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-103",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-077",
+      "to": "chart-104",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-099",
+      "to": "chart-105",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-105",
+      "to": "chart-107",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-100",
+      "to": "chart-106",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-106",
+      "to": "chart-108",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-171",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-117",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-171",
+      "unionId": "chart-union-12"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-172",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-171",
+      "unionId": "chart-union-12"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-173",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-171",
+      "unionId": "chart-union-12"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-168",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-171",
+      "unionId": "chart-union-12"
+    },
+    {
+      "from": "chart-104",
+      "to": "chart-127",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-171",
+      "unionId": "chart-union-12"
+    },
+    {
+      "from": "chart-173",
+      "to": "chart-174",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-178",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-178",
+      "to": "chart-179",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-176",
+      "to": "chart-175",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-117",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-116",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-117",
+      "unionId": "chart-union-11"
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-118",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-117",
+      "unionId": "chart-union-11"
+    },
+    {
+      "from": "chart-110",
+      "to": "chart-119",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-117",
+      "unionId": "chart-union-11"
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-078",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-058",
+      "unionId": "chart-union-6"
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-079",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-058",
+      "unionId": "chart-union-6"
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-080",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-058",
+      "unionId": "chart-union-6"
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-081",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-058",
+      "unionId": "chart-union-6"
+    },
+    {
+      "from": "chart-060",
+      "to": "chart-096",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-078",
+      "to": "chart-082",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-080",
+      "to": "chart-083",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-080",
+      "to": "chart-084",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-111",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-112",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-081",
+      "to": "chart-113",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-120",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-121",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-122",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-123",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-124",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-125",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-111",
+      "to": "chart-126",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-114",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-114",
+      "to": "chart-115",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-110",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-127",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-131",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-132",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-127",
+      "unionId": "chart-union-10"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-133",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-127",
+      "unionId": "chart-union-10"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-134",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-127",
+      "unionId": "chart-union-10"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-135",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-127",
+      "unionId": "chart-union-10"
+    },
+    {
+      "from": "chart-126",
+      "to": "chart-136",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-127",
+      "unionId": "chart-union-10"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-145",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-121",
+      "to": "chart-146",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-122",
+      "to": "chart-128",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-122",
+      "to": "chart-129",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-122",
+      "to": "chart-130",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-008",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-014",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-008",
+      "unionId": "chart-union-3"
+    },
+    {
+      "from": "chart-007",
+      "to": "chart-015",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-008",
+      "unionId": "chart-union-3"
+    },
+    {
+      "from": "chart-014",
+      "to": "chart-024",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-024",
+      "to": "chart-032",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-032",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-045",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-032",
+      "unionId": "chart-union-4"
+    },
+    {
+      "from": "chart-031",
+      "to": "chart-046",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-032",
+      "unionId": "chart-union-4"
+    },
+    {
+      "from": "chart-015",
+      "to": "chart-025",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-009",
+      "to": "chart-016",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-016",
+      "to": "chart-026",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-026",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-033",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-026",
+      "unionId": "chart-union-5"
+    },
+    {
+      "from": "chart-025",
+      "to": "chart-034",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-026",
+      "unionId": "chart-union-5"
+    },
+    {
+      "from": "chart-033",
+      "to": "chart-041",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-041",
+      "to": "chart-064",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-064",
+      "to": "chart-063",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-063",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-059",
+      "to": "chart-061",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-062",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-065",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-087",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-088",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-061",
+      "to": "chart-089",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-062",
+      "to": "chart-085",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-085",
+      "to": "chart-086",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-086",
+      "to": "chart-120",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-017",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-027",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-035",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-010",
+      "to": "chart-047",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-047",
+      "to": "chart-048",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-048",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-052",
+      "to": "chart-069",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-096",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-097",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-096",
+      "unionId": "chart-union-8"
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-098",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-096",
+      "unionId": "chart-union-8"
+    },
+    {
+      "from": "chart-066",
+      "to": "chart-090",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-142",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-143",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-145",
+      "to": "chart-144",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-145",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-146",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-147",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-148",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-149",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-152",
+      "to": "chart-153",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-153",
+      "to": "chart-169",
+      "type": "lineage",
+      "note": "",
+      "otherParent": "chart-152",
+      "unionId": "chart-union-13"
+    },
+    {
+      "from": "chart-169",
+      "to": "chart-170",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-167",
+      "type": "partnership",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-154",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-155",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-156",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-157",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-158",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-159",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-168",
+      "to": "chart-160",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-161",
+      "to": "chart-154",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-162",
+      "to": "chart-155",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-163",
+      "to": "chart-156",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-164",
+      "to": "chart-157",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-164",
+      "to": "chart-158",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-165",
+      "to": "chart-159",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-166",
+      "to": "chart-160",
+      "type": "lineage",
+      "note": ""
+    },
+    {
+      "from": "chart-017",
+      "to": "chart-018",
+      "type": "partnership",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-027",
+      "to": "chart-028",
+      "type": "partnership",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-035",
+      "to": "chart-036",
+      "type": "partnership",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-067",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-048",
+      "unionId": "chart-union-7"
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-068",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-048",
+      "unionId": "chart-union-7"
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-049",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-050",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-051",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-068",
+      "to": "chart-052",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-091",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-048",
+      "unionId": "chart-union-7"
+    },
+    {
+      "from": "chart-046",
+      "to": "chart-092",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-048",
+      "unionId": "chart-union-7"
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-093",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-094",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-092",
+      "to": "chart-095",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-177",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-171",
+      "to": "chart-176",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-113",
+      "to": "chart-109",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-064",
+      "to": "chart-066",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-137",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-086",
+      "unionId": "chart-union-9"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-138",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-086",
+      "unionId": "chart-union-9"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-139",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-086",
+      "unionId": "chart-union-9"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-140",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03.",
+      "otherParent": "chart-086",
+      "unionId": "chart-union-9"
+    },
+    {
+      "from": "chart-120",
+      "to": "chart-141",
+      "type": "lineage",
+      "note": "Re-traced against supplied Sayawa chart, 2026-11-03."
+    }
+  ],
+  "unresolvedConnections": [
+    {
+      "from": "chart-034",
+      "to": "chart-041",
+      "reason": "Previous transcription removed; route/junction requires further source confirmation."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-150",
+      "reason": "Previous transcription removed; route/junction requires further source confirmation."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-151",
+      "reason": "Previous transcription removed; route/junction requires further source confirmation."
+    },
+    {
+      "from": "chart-089",
+      "to": "chart-152",
+      "reason": "Previous transcription removed; route/junction requires further source confirmation."
+    }
+  ],
+  "unions": [
+    {
+      "id": "chart-union-1",
+      "partners": [
+        "chart-002",
+        "chart-003"
+      ],
+      "children": [
+        "chart-005",
+        "chart-007",
+        "chart-010"
+      ]
+    },
+    {
+      "id": "chart-union-2",
+      "partners": [
+        "chart-005",
+        "chart-006"
+      ],
+      "children": [
+        "chart-012",
+        "chart-020",
+        "chart-029",
+        "chart-013"
+      ]
+    },
+    {
+      "id": "chart-union-3",
+      "partners": [
+        "chart-007",
+        "chart-008"
+      ],
+      "children": [
+        "chart-014",
+        "chart-015"
+      ]
+    },
+    {
+      "id": "chart-union-4",
+      "partners": [
+        "chart-031",
+        "chart-032"
+      ],
+      "children": [
+        "chart-045",
+        "chart-046"
+      ]
+    },
+    {
+      "id": "chart-union-5",
+      "partners": [
+        "chart-025",
+        "chart-026"
+      ],
+      "children": [
+        "chart-033",
+        "chart-034"
+      ]
+    },
+    {
+      "id": "chart-union-6",
+      "partners": [
+        "chart-060",
+        "chart-058"
+      ],
+      "children": [
+        "chart-078",
+        "chart-079",
+        "chart-080",
+        "chart-081"
+      ]
+    },
+    {
+      "id": "chart-union-7",
+      "partners": [
+        "chart-046",
+        "chart-048"
+      ],
+      "children": [
+        "chart-067",
+        "chart-068",
+        "chart-091",
+        "chart-092"
+      ]
+    },
+    {
+      "id": "chart-union-8",
+      "partners": [
+        "chart-092",
+        "chart-096"
+      ],
+      "children": [
+        "chart-097",
+        "chart-098"
+      ]
+    },
+    {
+      "id": "chart-union-9",
+      "partners": [
+        "chart-120",
+        "chart-086"
+      ],
+      "children": [
+        "chart-137",
+        "chart-138",
+        "chart-139",
+        "chart-140"
+      ]
+    },
+    {
+      "id": "chart-union-10",
+      "partners": [
+        "chart-126",
+        "chart-127"
+      ],
+      "children": [
+        "chart-132",
+        "chart-133",
+        "chart-134",
+        "chart-135",
+        "chart-136"
+      ]
+    },
+    {
+      "id": "chart-union-11",
+      "partners": [
+        "chart-110",
+        "chart-117"
+      ],
+      "children": [
+        "chart-116",
+        "chart-118",
+        "chart-119"
+      ]
+    },
+    {
+      "id": "chart-union-12",
+      "partners": [
+        "chart-104",
+        "chart-171"
+      ],
+      "children": [
+        "chart-117",
+        "chart-172",
+        "chart-173",
+        "chart-168",
+        "chart-127"
+      ]
+    },
+    {
+      "id": "chart-union-13",
+      "partners": [
+        "chart-153",
+        "chart-152"
+      ],
+      "children": [
+        "chart-169"
+      ]
+    }
+  ],
+  "review": {
+    "date": "2026-11-03",
+    "status": "Partial visual audit; unresolved routes are excluded from descendant calculation.",
+    "source": "assets/sayawa-chart.png"
+  }
+}

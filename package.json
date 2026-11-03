@@ -1,0 +1,10 @@
+{
+  "name": "salsilah-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A living genealogy archive of Ranao",
+  "scripts": {
+    "dev": "python3 dev_server.py",
+    "check": "node --check app.js && node check-data.mjs && node --check community.js && node --check genealogy-model.js && node check-community.mjs"
+  }
+}

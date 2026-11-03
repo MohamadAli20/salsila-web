@@ -1,0 +1,8 @@
+import vm from 'node:vm';import {readFileSync} from 'node:fs';import assert from 'node:assert/strict';
+const {validateWorkspace,addWorkspaceConnection,workspaceStatus}=vm.runInNewContext(readFileSync('genealogy-model.js','utf8')+';({validateWorkspace,addWorkspaceConnection,workspaceStatus})',{URL,structuredClone});
+const w={version:1,title:'Family',people:['a','b','c'].map(id=>({id,name:id,life:'unknown'})),connections:[],history:[]};
+const edge=(id,parent,child)=>({id,parent,child,source:'Family account, to verify',url:'',sourceType:'oral-history',stage:'draft',reviews:[]});
+let d=addWorkspaceConnection(w,edge('ab','a','b'));d=addWorkspaceConnection(d,edge('bc','b','c'));assert.equal(w.connections.length,0);assert.equal(d.connections.length,2);
+assert.throws(()=>addWorkspaceConnection(d,edge('ca','c','a')),/circular/);assert.throws(()=>addWorkspaceConnection(d,edge('dup','a','b')),/already exists/);assert.throws(()=>addWorkspaceConnection(w,{...edge('x','a','b'),url:'javascript:alert(1)'}),/HTTP/);assert.throws(()=>addWorkspaceConnection(w,{...edge('x','a','b'),source:' '}),/source/);assert.throws(()=>addWorkspaceConnection(w,{...edge('x','a','a')}),/Invalid/);
+assert.throws(()=>addWorkspaceConnection(w,{...edge('x','a','b'),stage:'verified'}),/Invalid/);assert.equal(workspaceStatus({...edge('x','a','b'),reviews:[{kind:'supports'}]}),'Draft');assert.equal(workspaceStatus({...edge('x','a','b'),stage:'review-requested'}),'Review requested · local');assert.equal(workspaceStatus({...edge('x','a','b'),reviews:[{kind:'disputes'}]}),'Disputed in notes');
+validateWorkspace(JSON.parse(JSON.stringify(d)));console.log('Verified workspace imports, required evidence, URL safety, cycle/duplicate rejection and no automatic verification from local notes.');

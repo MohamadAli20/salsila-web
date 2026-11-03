@@ -1,0 +1,568 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "binidayan",
+      "name": "Binidayan",
+      "root": "ginarapandi",
+      "intro": "The descendants of Ginarapandi · Selected branches",
+      "lineage": "Sayawa lineage",
+      "chartSource": "sayawa-chart"
+    },
+    {
+      "id": "bayang",
+      "name": "Bayang",
+      "root": "diwan",
+      "intro": "The descendants of Diwan · Selected branches",
+      "lineage": "Diwan lineage"
+    }
+  ],
+  "people": [
+    {
+      "id": "ginarapandi",
+      "name": "Ginarapandi",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "Spelling in the Binidayan source. Not established as the same name or person as “Ginaronai”."
+    },
+    {
+      "id": "apipa",
+      "name": "Apipa",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "mangotara",
+      "name": "Mangotara",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "pakalangot",
+      "name": "Pakalangot",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "The source groups these children across four marriages without identifying each mother. This display is a grouped account, not a claim that they share one mother. Additional children are mentioned but unnamed."
+    },
+    {
+      "id": "paramanis",
+      "name": "Paramanis",
+      "region": "binidayan",
+      "title": "Sa Wato",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "dampologan",
+      "name": "Dampologan",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "dangcogan",
+      "name": "Dangcogan",
+      "region": "binidayan",
+      "title": "Sultan of Wato",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "dimaporo",
+      "name": "Dimaporo",
+      "region": "binidayan",
+      "title": "Sultan of Binidayan",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "Listed as Sultan of Binidayan, a child of Mangotara and Dampologan. Identity and links to later generations require review."
+    },
+    {
+      "id": "batawi",
+      "name": "Shaiek Batawi",
+      "region": "binidayan",
+      "title": "Datumulok sa Tugaya",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "camid",
+      "name": "Botawan H. Camid",
+      "region": "binidayan",
+      "title": "Usngan sa Masiu",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "mariga",
+      "name": "Mariga",
+      "region": "binidayan",
+      "title": "Inai H. Socor",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "unknown-p",
+      "name": "Unrecorded partner(s)",
+      "region": "binidayan",
+      "title": "Pakalangot’s four marriages",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "Placeholder representing unnamed partners. Not an identified historical person."
+    },
+    {
+      "id": "dimaluna",
+      "name": "Dimaluna",
+      "region": "binidayan",
+      "title": "Sultan sa Binidayan",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "abobacar",
+      "name": "H. Abobacar",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "babayolan",
+      "name": "Babayolan",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "pakalaan",
+      "name": "Lokes I Pakalaan",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "tago",
+      "name": "Tago",
+      "region": "binidayan",
+      "title": "Panondiongan sa Ranao",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "tarintikan",
+      "name": "Tarintikan",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "rinandang",
+      "name": "Rinandang",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "makatoon",
+      "name": "Makatoon",
+      "region": "binidayan",
+      "title": "Amai Rangiris",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "makarimpas",
+      "name": "Makarimpas",
+      "region": "binidayan",
+      "title": "Amai Rohas",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "sapiro",
+      "name": "Sapiro",
+      "region": "binidayan",
+      "title": "Inabae Pimbayong",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "posaka",
+      "name": "Posaka",
+      "region": "binidayan",
+      "title": "Inai Putumos",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "batokapalan",
+      "name": "Batokapalan",
+      "region": "binidayan",
+      "title": "Amai Kowarta",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "matag",
+      "name": "Amai Matag",
+      "region": "binidayan",
+      "title": "",
+      "source": "binidayan",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "diwan",
+      "name": "Diwan",
+      "region": "bayang",
+      "title": "Bayang",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "The account separates children by marriage. This draft includes two recorded partnerships; it does not claim the branch is complete."
+    },
+    {
+      "id": "labo",
+      "name": "Labo",
+      "region": "bayang",
+      "title": "Sa Malaig",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "impah",
+      "name": "Paramata Impah",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "kalodan",
+      "name": "Datu sa Kalodan",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "sidic",
+      "name": "Maruhom Sidic",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "amdag",
+      "name": "Amdag",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "nanak",
+      "name": "Nanak",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "umba",
+      "name": "Bae Umba",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "maulana",
+      "name": "Maruhom Sarip Maulana",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "ameroden",
+      "name": "Maruhom Sarip Ameroden",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "pre",
+      "name": "Pre Bai a Labi",
+      "region": "bayang",
+      "title": "Sa Bayang",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "wata",
+      "name": "Bae a Wata",
+      "region": "bayang",
+      "title": "Sa Bayang",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "ninig",
+      "name": "Ninig",
+      "region": "bayang",
+      "title": "Sa Maguindanao",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "marigay",
+      "name": "Bae sa Marigay",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "maupaat",
+      "name": "Maupaat Sarip",
+      "region": "bayang",
+      "title": "Sa Bayang",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "polo",
+      "name": "Bae sa Polo",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "kalawi",
+      "name": "Datu sa Kalawi",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "radapan",
+      "name": "Bae sa Radapan",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    },
+    {
+      "id": "dipatuan",
+      "name": "Dipatuan",
+      "region": "bayang",
+      "title": "",
+      "source": "bayang",
+      "status": "Source account · pending family review",
+      "note": "A partial transcription of the cited genealogy. Missing relatives do not imply that no other relatives existed."
+    }
+  ],
+  "unions": [
+    {
+      "id": "ginarapandi-apipa",
+      "partners": [
+        "ginarapandi",
+        "apipa"
+      ],
+      "children": [
+        "mangotara",
+        "pakalangot",
+        "paramanis"
+      ],
+      "source": "binidayan"
+    },
+    {
+      "id": "mangotara-dampologan",
+      "partners": [
+        "mangotara",
+        "dampologan"
+      ],
+      "children": [
+        "dangcogan",
+        "dimaporo",
+        "batawi",
+        "camid",
+        "mariga"
+      ],
+      "source": "binidayan"
+    },
+    {
+      "id": "pakalangot-unknown",
+      "partners": [
+        "pakalangot",
+        "unknown-p"
+      ],
+      "children": [
+        "dimaluna",
+        "abobacar",
+        "babayolan",
+        "pakalaan",
+        "tago",
+        "tarintikan"
+      ],
+      "source": "binidayan"
+    },
+    {
+      "id": "paramanis-rinandang",
+      "partners": [
+        "paramanis",
+        "rinandang"
+      ],
+      "children": [
+        "makatoon",
+        "makarimpas",
+        "sapiro",
+        "posaka",
+        "batokapalan",
+        "matag"
+      ],
+      "source": "binidayan"
+    },
+    {
+      "id": "diwan-labo",
+      "partners": [
+        "diwan",
+        "labo"
+      ],
+      "children": [
+        "kalodan",
+        "sidic"
+      ],
+      "source": "bayang"
+    },
+    {
+      "id": "diwan-impah",
+      "partners": [
+        "diwan",
+        "impah"
+      ],
+      "children": [
+        "amdag",
+        "nanak"
+      ],
+      "source": "bayang"
+    },
+    {
+      "id": "amdag-umba",
+      "partners": [
+        "amdag",
+        "umba"
+      ],
+      "children": [
+        "maulana",
+        "ameroden",
+        "pre",
+        "wata"
+      ],
+      "source": "bayang"
+    },
+    {
+      "id": "nanak-ninig",
+      "partners": [
+        "nanak",
+        "ninig"
+      ],
+      "children": [
+        "marigay",
+        "maupaat"
+      ],
+      "source": "bayang"
+    },
+    {
+      "id": "nanak-polo",
+      "partners": [
+        "nanak",
+        "polo"
+      ],
+      "children": [
+        "kalawi",
+        "radapan",
+        "dipatuan"
+      ],
+      "source": "bayang"
+    }
+  ],
+  "sources": [
+    {
+      "id": "binidayan",
+      "title": "Gogodan sa Binidayan",
+      "author": "Datu Acmad (Ontay) M. Abdulmadid",
+      "url": "https://acmaly88.page.tl/GOGODAN-SA-BINIDAYAN.htm",
+      "description": "Published genealogy account, crediting oral accounts and earlier salsila. Transcribed relationships await independent family review."
+    },
+    {
+      "id": "bayang",
+      "title": "Salsila sa Bayang",
+      "author": "Datu Acmad (Ontay) Macagaan Abdulamdid; account attributed to Sangcopan",
+      "url": "https://acmaly88.page.tl/SALSILA-SA-BAYANG.htm",
+      "description": "Published Diwan genealogy with separate marriages and child lists. Source spellings are preserved; relationships await family review."
+    },
+    {
+      "id": "sayawa-chart",
+      "region": "binidayan",
+      "type": "chart",
+      "title": "Sayawa lineage · Original chart",
+      "author": "Hosted by Ontay & Marogong.Net",
+      "url": "https://img.webme.com/pic/a/acmaly88/sayawachart-page-001.jpg",
+      "description": "A genealogical reference tracing the Sayawa lineage and its family connections in Binidayan and Bayang, Ranao."
+    }
+  ]
+}
