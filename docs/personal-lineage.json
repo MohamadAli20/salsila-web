@@ -3,10 +3,11 @@
   "labels": [
     "chart-personal-missing-ancestor",
     "chart-personal-samurong",
-    "chart-personal-bayango-parent",
+    "chart-personal-ginaronai",
     "chart-personal-bayango",
     "chart-personal-kalanda",
-    "chart-personal-digadong-gap"
+    "chart-personal-digadong-gap",
+    "chart-personal-samurong-mother"
   ],
   "edges": [
     {
@@ -25,19 +26,24 @@
     },
     {
       "from": "chart-personal-samurong",
-      "to": "chart-personal-bayango-parent",
+      "to": "chart-personal-ginaronai",
       "type": "connection",
       "recordSource": "family-account",
-      "note": "Connected partners in the user’s family account."
+      "note": "Ginaronai from Poon a Baebao was the second spouse of Samurong, according to your correction.",
+      "relationship": "spouse",
+      "spouseOrderFor": "chart-personal-samurong",
+      "spouseOrder": 2
     },
     {
       "from": "chart-personal-samurong",
-      "otherOrigin": "chart-personal-bayango-parent",
-      "to": "chart-personal-bayango",
+      "otherOrigin": "chart-personal-ginaronai",
+      "to": "chart-personal-kalanda",
       "type": "lineage",
       "junctionId": "family-junction-samurong",
       "recordSource": "family-account",
-      "note": "Reported child of Samurong and the unnamed father of Bayango."
+      "note": "Child of Samurong and Ginaronai, according to the corrected family account.",
+      "relationship": "parent-child",
+      "relationshipSource": "Corrected family account supplied by you on 3 November 2026."
     },
     {
       "from": "chart-personal-bayango",
@@ -45,15 +51,24 @@
       "type": "connection",
       "recordSource": "family-account",
       "note": "Reported married connection; neutral display labels retained."
+    },
+    {
+      "from": "chart-personal-samurong-mother",
+      "to": "chart-personal-samurong",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "relationship": "parent-child",
+      "relationshipSource": "According to the user’s father, Samurong’s mother was Malaysian.",
+      "note": "Maternal connection reported by the user’s father. Whether this mother is the child of Maruhom remains unresolved."
     }
   ],
   "unresolved": [
     "Identity and gender of the intermediate child of Maruhom",
-    "Name of Bayango’s father and intervening Digadong-clan ancestors",
-    "Identity of Sultan Dimaporo and common ancestors underlying the reported first-cousin relationship",
     "Name and ethnicity of Samurong’s mother; whether she is the child of Maruhom",
-    "Intervening Digadong–Kalanda ancestors and their generation count",
-    "Shared ancestor supporting the reported Bayango–Kalanda second-cousin relationship"
+    "Intervening Digadong–Bayango ancestors and their generation count",
+    "Common ancestors underlying the reported Samurong–Dimaporo first-cousin relationship",
+    "Shared ancestor supporting the reported Bayango–Kalanda second-cousin relationship",
+    "Identity of Samurong’s first spouse"
   ],
   "ancestryGaps": [
     {
@@ -61,15 +76,15 @@
       "to": "chart-personal-digadong-gap",
       "type": "ancestry-gap",
       "recordSource": "family-account",
-      "gapId": "digadong-kalanda",
+      "gapId": "digadong-bayango",
       "note": "Reported ancestry connection; intervening identities and generation count unknown. Not an immediate parent–child claim."
     },
     {
       "from": "chart-personal-digadong-gap",
-      "to": "chart-personal-kalanda",
+      "to": "chart-personal-bayango",
       "type": "ancestry-gap",
       "recordSource": "family-account",
-      "gapId": "digadong-kalanda",
+      "gapId": "digadong-bayango",
       "note": "Missing ancestry to be completed. The placeholder represents an unknown span, not a single ancestor or generation."
     }
   ]

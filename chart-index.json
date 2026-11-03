@@ -1759,35 +1759,47 @@
       "name": "Samurong",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "Grandchild of Maruhom through one unnamed parent, according to your family account. Reported full first cousin of the earlier Dimaporo entry, displayed at the same level at your request. The shared ancestors remain unresolved; the recorded paths from Maruhom differ by one step. Samurong’s mother is reported to have Malaysian origins; her name and ethnicity are unspecified. It is not established whether that mother is the child of Maruhom.",
+      "transcriptionNote": "Grandchild of Maruhom through one unnamed parent, according to your family account. Reported full first cousin of the earlier Dimaporo entry, displayed at the same level at your request. The shared ancestors remain unresolved; the recorded paths from Maruhom differ by one step. According to your father, Samurong’s mother was Malaysian. Her name and specific ethnicity are not yet known. It is not established whether that mother is the child of Maruhom. Correction supplied by you: Samurong is a woman. Ginaronai from Poon a Baebao was her second spouse; their child is Kalanda Ginaronai. The earlier attribution of Bayango as her child was corrected.",
       "unknownName": false,
-      "layoutBadge": "Reported cousin level"
+      "layoutBadge": "Reported cousin level",
+      "gender": "female",
+      "maternalOriginAccount": {
+        "description": "Samurong’s mother was Malaysian.",
+        "reportedBy": "User’s father",
+        "recordSource": "family-account",
+        "recordDate": "2026-11-03",
+        "motherNameKnown": false,
+        "maruhomConnectionEstablished": false
+      }
     },
     {
-      "id": "chart-personal-bayango-parent",
-      "name": "Unknown father of Bayango",
+      "id": "chart-personal-ginaronai",
+      "name": "Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "Reported father of Bayango Gandamazir and connected partner of Samurong. Reported to come from the Digadong clan; the intervening ancestors are unknown. This clan association is not encoded as a direct child relationship to Digadong.",
-      "unknownName": true
+      "transcriptionNote": "According to your corrected family account, Ginaronai was a man from Poon a Baebao, the second husband of Samurong, and the father of Kalanda Ginaronai.",
+      "unknownName": false,
+      "placeOfOrigin": "Poon a Baebao",
+      "gender": "male",
+      "profileTitle": "Husband of Samurong · Father of Kalanda Ginaronai"
     },
     {
       "id": "chart-personal-bayango",
       "name": "Bayango Gandamazir",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "Reported child of Samurong and the unnamed father from the Digadong clan. Reported connected partner and second cousin of Kalanda Ginaronia. Their shared ancestor and connecting generations remain unresolved; no gender is inferred from the name.",
+      "transcriptionNote": "According to your corrected family account, Bayango Gandamazir comes from the Digadong lineage; the intervening ancestors and generation count are unknown. Connected partner and reported second cousin of Kalanda Ginaronai; their shared ancestor remains unresolved. Bayango is not recorded as a child of Samurong.",
       "unknownName": false
     },
     {
       "id": "chart-personal-kalanda",
-      "name": "Kalanda Ginaronia",
+      "name": "Kalanda Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "Reported by you as your paternal grandfather, connected to Bayango Gandamazir. You report that Bayango and Kalanda are second cousins and that Kalanda has ancestry from Digadong. The intervening ancestors, number of generations and shared ancestor are not yet established.",
+      "transcriptionNote": "According to your corrected family account, Kalanda Ginaronai is the child of Samurong and Ginaronai from Poon a Baebao. You previously identified Kalanda as your paternal grandfather and connected partner of Bayango Gandamazir. Bayango and Kalanda are reported second cousins; their common ancestor remains unresolved.",
       "unknownName": false,
       "aliases": [
-        "Kalanda Ginaronai"
+        "Kalanda Ginaronia"
       ]
     },
     {
@@ -1796,7 +1808,21 @@
       "recordSource": "family-account",
       "recordKind": "ancestry-gap",
       "ancestryGap": true,
-      "transcriptionNote": "This is a placeholder for an unknown ancestry span between Digadong and Kalanda Ginaronia, not a known individual or a single confirmed generation. Names and the number of intermediate generations are still to be supplied."
+      "transcriptionNote": "This is a placeholder for an unknown ancestry span between Digadong and Bayango Gandamazir, not a known individual or a single confirmed generation. Names and the number of intermediate generations are still to be supplied."
+    },
+    {
+      "id": "chart-personal-samurong-mother",
+      "name": "Unknown mother of Samurong · Malaysian",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-03",
+      "unknownName": true,
+      "gender": "female",
+      "profileTitle": "Mother of Samurong · Malaysian · family account",
+      "transcriptionNote": "According to your father, Samurong’s mother was Malaysian. Her name and specific ethnicity are unknown. It is not established whether she is the unnamed child of Maruhom; this separate entry records the maternal account without assigning that ancestry.",
+      "maternalOriginAccount": {
+        "reportedBy": "User’s father",
+        "recordSource": "family-account"
+      }
     }
   ],
   "edges": [
@@ -3066,19 +3092,24 @@
     },
     {
       "from": "chart-personal-samurong",
-      "to": "chart-personal-bayango-parent",
+      "to": "chart-personal-ginaronai",
       "type": "connection",
       "recordSource": "family-account",
-      "note": "Connected partners in the user’s family account."
+      "note": "Ginaronai from Poon a Baebao was the second spouse of Samurong, according to your correction.",
+      "relationship": "spouse",
+      "spouseOrderFor": "chart-personal-samurong",
+      "spouseOrder": 2
     },
     {
       "from": "chart-personal-samurong",
-      "otherOrigin": "chart-personal-bayango-parent",
-      "to": "chart-personal-bayango",
+      "otherOrigin": "chart-personal-ginaronai",
+      "to": "chart-personal-kalanda",
       "type": "lineage",
       "junctionId": "family-junction-samurong",
       "recordSource": "family-account",
-      "note": "Reported child of Samurong and the unnamed father of Bayango."
+      "note": "Child of Samurong and Ginaronai, according to the corrected family account.",
+      "relationship": "parent-child",
+      "relationshipSource": "Corrected family account supplied by you on 3 November 2026."
     },
     {
       "from": "chart-personal-bayango",
@@ -3086,6 +3117,15 @@
       "type": "connection",
       "recordSource": "family-account",
       "note": "Reported married connection; neutral display labels retained."
+    },
+    {
+      "from": "chart-personal-samurong-mother",
+      "to": "chart-personal-samurong",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "relationship": "parent-child",
+      "relationshipSource": "According to the user’s father, Samurong’s mother was Malaysian.",
+      "note": "Maternal connection reported by the user’s father. Whether this mother is the child of Maruhom remains unresolved."
     }
   ],
   "unresolvedConnections": [
@@ -4537,10 +4577,10 @@
       "id": "family-junction-samurong",
       "origins": [
         "chart-personal-samurong",
-        "chart-personal-bayango-parent"
+        "chart-personal-ginaronai"
       ],
       "branches": [
-        "chart-personal-bayango"
+        "chart-personal-kalanda"
       ],
       "recordSource": "family-account"
     }
@@ -4557,7 +4597,7 @@
       "identityStatus": "display-target-identified-by-user"
     },
     {
-      "from": "chart-personal-bayango-parent",
+      "from": "chart-personal-bayango",
       "targetName": "Digadong clan",
       "type": "reported-clan-origin",
       "status": "unresolved",
@@ -4567,11 +4607,11 @@
     {
       "from": "chart-personal-bayango",
       "targetId": "chart-personal-kalanda",
-      "targetName": "Kalanda Ginaronia",
+      "targetName": "Kalanda Ginaronai",
       "type": "reported-second-cousins",
       "status": "unresolved",
       "recordSource": "family-account",
-      "note": "You report Bayango Gandamazir and Kalanda Ginaronia as second cousins. Their common ancestor and the connecting generations have not yet been identified. This is retained as a family account, not a calculated kinship result."
+      "note": "You report Bayango Gandamazir and Kalanda Ginaronai as second cousins. Their common ancestor and the connecting generations have not yet been identified. This is retained as a family account, not a calculated kinship result."
     }
   ],
   "layoutConstraints": [
@@ -4593,15 +4633,15 @@
       "to": "chart-personal-digadong-gap",
       "type": "ancestry-gap",
       "recordSource": "family-account",
-      "gapId": "digadong-kalanda",
+      "gapId": "digadong-bayango",
       "note": "Reported ancestry connection; intervening identities and generation count unknown. Not an immediate parent–child claim."
     },
     {
       "from": "chart-personal-digadong-gap",
-      "to": "chart-personal-kalanda",
+      "to": "chart-personal-bayango",
       "type": "ancestry-gap",
       "recordSource": "family-account",
-      "gapId": "digadong-kalanda",
+      "gapId": "digadong-bayango",
       "note": "Missing ancestry to be completed. The placeholder represents an unknown span, not a single ancestor or generation."
     }
   ]

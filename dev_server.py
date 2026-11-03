@@ -27,5 +27,5 @@ class CleanURLHandler(SimpleHTTPRequestHandler):
 if __name__ == '__main__':
     handler = partial(CleanURLHandler, directory=str(ROOT))
     server = ThreadingHTTPServer(('127.0.0.1', 3001), handler)
-    print('Salsilah preview: http://127.0.0.1:3001/ (genealogy: /contribute)', flush=True)
+    print('Salsila preview: http://127.0.0.1:3001/ (genealogy: /contribute)', flush=True)
     server.serve_forever()

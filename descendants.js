@@ -26,3 +26,15 @@ function generationGapReport(graph,constraint){
  const paths=constraint.members.map(id=>({id,...(pathTo(id)||{steps:null,path:[]})}));
  return {anchor:constraint.anchor,paths,difference:paths.every(p=>p.steps!==null)?Math.max(...paths.map(p=>p.steps))-Math.min(...paths.map(p=>p.steps)):null,confirmedMissingGenerations:null};
 }
+
+// Neighborhood views preserve explicit links; they do not infer kinship.
+function familyNeighborhood(graph,root,radius=1){
+ const ids=new Set([root]);
+ for(let step=0;step<radius;step++){const before=new Set(ids);for(const e of graph.edges){const members=[e.from,e.to,e.otherOrigin].filter(Boolean);if(members.some(id=>before.has(id)))members.forEach(id=>ids.add(id));}}
+ for(const e of graph.edges)if(e.otherOrigin&&ids.has(e.from)&&ids.has(e.to))ids.add(e.otherOrigin);
+ return ids;
+}
+function pruneChartBranches(graph,ids,folded){
+ const hidden=new Set();for(const root of folded)for(const id of buildDescendantView(graph,root,99).levels.keys())if(id!==root)hidden.add(id);
+ return new Set([...ids].filter(id=>!hidden.has(id)||folded.has(id)));
+}

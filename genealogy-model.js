@@ -1,6 +1,6 @@
 'use strict';
 function validateWorkspace(w){
- if(!w||w.version!==1||!Array.isArray(w.people)||!Array.isArray(w.connections)||!Array.isArray(w.history)||w.people.length>500||w.connections.length>1000||w.history.length>5000)throw Error('Use a valid Salsilah workspace export (up to 500 people).');
+ if(!w||w.version!==1||!Array.isArray(w.people)||!Array.isArray(w.connections)||!Array.isArray(w.history)||w.people.length>500||w.connections.length>1000||w.history.length>5000)throw Error('Use a valid Salsila workspace export (up to 500 people).');
  const str=(s,n=300)=>typeof s==='string'&&s.length<=n;
  if(!str(w.title)||!w.title.trim())throw Error('Add a tree title.');
  const ids=new Set(),edges=new Set(),out=new Map();

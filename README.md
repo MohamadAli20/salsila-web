@@ -1,4 +1,4 @@
-# Salsilah Web
+# Salsila Web
 
 An interactive genealogy archive starting with Binidayan and Bayang in Ranao. Original ivory, forest-green, and gold interface. No build dependencies.
 
@@ -10,7 +10,7 @@ An interactive genealogy archive starting with Binidayan and Bayang in Ranao. Or
 
 ## Two genealogy views
 
-**Full family tree** is the default Binidayan view. It renders 179 source-chart entries plus 6 family-account entries (including one unknown ancestry-span placeholder) as HTML cards, with 195 recorded connections and 2 dashed pending ancestry routes as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
+**Full family tree** is the default Binidayan view. It renders 179 source-chart entries plus 7 family-account entries (including one unknown ancestry-span placeholder) as HTML cards, with 196 recorded connections and 2 dashed pending ancestry routes as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
 
 **Branch view · partial** retains the smaller structured parent/partnership dataset, with generation controls, collapse/expand, and focused branches. Bayang currently uses this structured view. Both views use our own design.
 
@@ -22,7 +22,7 @@ The updated 2026-11-03 text review covers 190 connections across 34 sections: 17
 
 The displayed tree uses automatic family rows and clear routing lanes rather than scanned coordinates. Unrelated crossing routes have visible gaps; shared source trunks remain connected. `npm run check:layout` verifies card and line collisions. The user has confirmed Maruhom → Anginta and Anginta’s marriage to Amai Pondag.
 
-The family-account extension records Maruhom → unnamed parent → Samurong, Samurong's unnamed connected partner, their reported child Bayango Gandamazir, and the connection to Kalanda Ginaronai. It does not infer the unknown parent's gender, the maternal line, Malaysian ethnicity, the Digadong-clan generations, or the common ancestor behind the reported cousin relationship. See `docs/personal-lineage.json` and run `npm run check:personal`.
+The corrected family account records Maruhom → unnamed parent → Samurong (female), whose second spouse was Ginaronai from Poon a Baebao. Their child is Kalanda Ginaronai, connected to Bayango Gandamazir. Bayango comes from Digadong through an unknown ancestry span. Ginaronai is identified as male by the user; unspecified entries retain neutral labels. See `docs/personal-lineage.json` and run `npm run check:personal`.
 
 Mohamad Ali Dimaporo has a public-figure badge and a click-to-open sourced biography. The old “Sult. Ali” label remains searchable. Tuan is expanded to the supported contextual name “Tuan sa Binidayan”; a full personal name is not established. It is not merged with Tuan Muhammad Said / Kadi sa Binidayan.
 
@@ -69,4 +69,10 @@ Selecting a starting person now shows all descendant branches by default. The ca
 
 The canvas **🔍 Zoom** button magnifies the selected name. The user-reported cousin pair Samurong and the original Dimaporo entry now share a display row; **View cousin level 🔍** frames them together. The generation note compares their existing paths from Maruhom (2 versus 3 recorded steps) and reports a one-step discrepancy without inventing an extra ancestor or a verified missing-generation count.
 
-Kalanda Ginaronia has a pending ancestry route from Digadong. Its placeholder represents an unknown span, not a known individual or one generation. Bayango and Kalanda are reported second cousins according to the family account; their common ancestor is unresolved. Pending routes do not contribute to descendant counts or calculated kinship.
+Bayango Gandamazir has a pending ancestry route from Digadong. Its placeholder represents an unknown span, not a known individual or one generation. Bayango and Kalanda are reported second cousins according to the family account; their common ancestor is unresolved. Pending routes do not contribute to descendant counts or calculated kinship.
+
+Samurong’s unnamed Malaysian mother has a separate family-account card, attributed to the user’s father. Her connection to the unnamed child of Maruhom remains unresolved; these records may refer to the same person, but are not merged without clarification.
+
+The Layout selector defaults to Compressed, with tighter spaces between cards, groups, and generations. Spacious restores the wider layout. Both options retain all entries and connections and automatically fit the canvas when switched.
+
+Compact overview now uses name-only cards by default. Full detailed tree restores card details. Focus family shows the selected entry’s immediate recorded family connections; Show more expands another step. Per-card +/− controls collapse or expand descendants. Expand branches restores collapsed branches; Fit branch frames the selected entry’s visible descendants, and Fit all restores the whole chart.

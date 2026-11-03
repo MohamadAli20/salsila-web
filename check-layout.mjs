@@ -5,9 +5,9 @@ const graph=JSON.parse(readFileSync('chart-index.json','utf8'));
 const layoutChart=vm.runInNewContext(readFileSync('chart-layout.js','utf8')+';layoutChart;');
 const descendants=vm.runInNewContext(readFileSync('descendants.js','utf8')+';buildDescendantView;');
 const gapContext=vm.runInNewContext(readFileSync('chart-layout.js','utf8')+';withAncestryGapContext;');
-function verify(ids=null){
+function verify(ids=null,density='compressed'){
  ids=gapContext(graph,ids);
- const result=layoutChart(graph,ids),boxes=[...result.positions.values()],segments=result.routes.flatMap(r=>r.pieces.map(([a,b])=>({a,b,r})));
+ const result=layoutChart(graph,ids,density),boxes=[...result.positions.values()],segments=result.routes.flatMap(r=>r.pieces.map(([a,b])=>({a,b,r})));
  assert.equal(result.positions.size,ids?.size||graph.labels.length);
  assert.equal(result.routes.length,[...graph.edges,...(graph.ancestryGaps||[])].filter(e=>(!ids||[e.from,e.to,e.otherOrigin].filter(Boolean).every(id=>ids.has(id)))).length,'A connection was lost');
  for(let i=0;i<boxes.length;i++)for(let j=i+1;j<boxes.length;j++){const a=boxes[i],b=boxes[j];assert(!(a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y),'Overlapping cards');}
@@ -38,3 +38,19 @@ assert.equal(family.positions.get(anginta).y,family.positions.get(amai).y,'Spous
 assert(graph.edges.some(e=>e.from===maruhom&&e.to===anginta&&e.relationship==='parent-child'));
 assert(graph.edges.some(e=>[e.from,e.to].includes(anginta)&&[e.from,e.to].includes(amai)&&e.relationship==='spouse'));
 console.log(`Verified all ${full.positions.size} cards and ${full.routes.length} connections, all ${graph.labels.length} focused views, 5 deep views, no box collisions or unrelated visible line overlaps, and Maruhom → Anginta — Amai Pondag placement.`);
+
+const spacious=verify(null,"spacious");
+assert(full.bounds.width<spacious.bounds.width,"Compressed layout must be narrower");
+assert(full.bounds.height<spacious.bounds.height,"Compressed layout must be shorter");
+assert.equal(full.routes.length,spacious.routes.length);
+for(const label of graph.labels)verify(descendants(graph,label.id,2).ids,"spacious");
+console.log(`Compressed bounds ${full.bounds.width}×${full.bounds.height}; spacious ${spacious.bounds.width}×${spacious.bounds.height}. Both spacings preserve all connections.`);
+
+const {familyNeighborhood,pruneChartBranches}=vm.runInNewContext(readFileSync('descendants.js','utf8')+';({familyNeighborhood,pruneChartBranches});');
+for(const label of graph.labels){verify(familyNeighborhood(graph,label.id,1));verify(pruneChartBranches(graph,new Set(graph.labels.map(l=>l.id)),new Set([label.id])));}
+const near=familyNeighborhood(graph,'chart-personal-samurong');
+for(const id of ['chart-personal-samurong-mother','chart-personal-ginaronai','chart-personal-kalanda'])assert(near.has(id));
+assert(familyNeighborhood(graph,'chart-personal-samurong',2).size>near.size);
+const folded=pruneChartBranches(graph,new Set(graph.labels.map(l=>l.id)),new Set(['chart-personal-samurong']));
+assert(folded.has('chart-personal-samurong'));assert(!folded.has('chart-personal-kalanda'));
+console.log('Verified family neighborhoods, progressive expansion, and collapsed branch layouts.');

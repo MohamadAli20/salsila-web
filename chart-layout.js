@@ -2,7 +2,7 @@
 // Layer connected cards together, then route arrows through the clear spaces
 // between rows. Long arrows use dedicated outside lanes. At unrelated crossings
 // the horizontal stroke has a gap, so crossing routes never imply a junction.
-function layoutChart(graph, visibleIds=null){
+function layoutChart(graph, visibleIds=null, density='compressed'){
  const labels=graph.labels.filter(l=>!visibleIds||visibleIds.has(l.id)),ids=new Set(labels.map(l=>l.id));
  const edges=[...graph.edges,...(graph.ancestryGaps||[])].filter(e=>ids.has(e.from)&&ids.has(e.to)&&(!e.otherOrigin||ids.has(e.otherOrigin)));
  const parent=new Map(labels.map(l=>[l.id,l.id])),find=id=>{while(parent.get(id)!==id)id=parent.get(id);return id;};
@@ -30,8 +30,9 @@ function layoutChart(graph, visibleIds=null){
  const rows=[];for(const k of queue){const r=ranks.get(k);(rows[r]??=[]).push(k);}
  for(let r=0;r<rows.length;r++)rows[r]??=[];
  const order=new Map();for(let r=0;r<rows.length;r++){const bary=k=>{const list=[...incoming.get(k)];return list.length?list.reduce((s,n)=>s+(order.get(n)||0),0)/list.length:0;};rows[r].sort((a,b)=>bary(a)-bary(b));for(const c of alignments){const keys=[...new Set(c.members.map(find))];if(keys.every(k=>rows[r].includes(k))){const first=Math.min(...keys.map(k=>rows[r].indexOf(k)));rows[r]=rows[r].filter(k=>!keys.includes(k));rows[r].splice(first,0,...keys);}}rows[r].forEach((k,i)=>order.set(k,i));}
- const W=210,H=94,GAP=46,PAD=60,TRACK=14;
- const rowWidth=row=>row.reduce((sum,k)=>sum+groups.get(k).length*(W+GAP)+45,0);
+ const compact=density!=='spacious';
+ const W=compact?160:210,H=compact?72:94,GAP=compact?24:46,PAD=compact?40:60,TRACK=14,GROUP_GAP=compact?12:45,ROW_GAP=compact?55:95;
+ const rowWidth=row=>row.reduce((sum,k)=>sum+groups.get(k).length*(W+GAP)+GROUP_GAP,0);
  const contentWidth=Math.max(1,...rows.map(rowWidth));
  const nets=new Map(),lineage=edges.filter(e=>e.type!=='connection');
  const netKey=e=>(e.type==='ancestry-gap'?'gap:':'')+[e.from,e.otherOrigin].filter(Boolean).sort().join('|');
@@ -44,8 +45,8 @@ function layoutChart(graph, visibleIds=null){
  let y=PAD;
  for(let r=0;r<rows.length;r++){
   rowY[r]=y;let x=gutter+(contentWidth-rowWidth(rows[r]))/2;
-  for(const k of rows[r]){for(const id of groups.get(k)){positions.set(id,{x,y,width:W,height:H,rank:r});x+=W+GAP;}x+=45;}
-  y+=H+95+(outCount[r]+(inCount[r+1]||0))*TRACK;
+  for(const k of rows[r]){for(const id of groups.get(k)){positions.set(id,{x,y,width:W,height:H,rank:r});x+=W+GAP;}x+=GROUP_GAP;}
+  y+=H+ROW_GAP+(outCount[r]+(inCount[r+1]||0))*TRACK;
  }
  const bounds={width:contentWidth+gutter*2,height:y+PAD},routes=[];
  const ports=new Map();for(const e of lineage){if(!ports.has(e.to))ports.set(e.to,[]);ports.get(e.to).push(e);}
