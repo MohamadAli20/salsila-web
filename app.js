@@ -1,7 +1,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 let chart=null,chartMode=true,chartRoot=null;
-let data,region='binidayan',view='tree',selected='',profileTab='overview',focusRoot=null;
+let data,region='binidayan',view='calanda',selected='',profileTab='overview',focusRoot=null;
 let zoom=1,pan={x:0,y:0},positions=new Map(),bounds={width:1,height:1},collapsed=new Set();
 let comparedPair=null,familyFocus=null,familyRadius=1,ultraPrepared=false;
 const chartFolded=new Set();
@@ -233,7 +233,7 @@ function renderProfile(){
 function renderDirectory(){const list=$('people-list');list.replaceChildren();const q=$('search').value.toLowerCase().trim();const records=chartMode&&region==='binidayan'?chart.labels.map(l=>chartPerson(l.id)):data.people;const people=records.filter(p=>p.region===region&&!p.id.startsWith('unknown-')&&(p.name+' '+(p.title||'')+' '+(p.aliases||[]).join(' ')).toLowerCase().includes(q)).sort((a,b)=>a.name.localeCompare(b.name));for(const p of people){const row=el('button','directory-person'),name=el('span');name.append(el('strong','',p.name),el('small','',p.title||'Source-linked record'));row.append(name,el('span','',regionData().name+' ↗'));row.onclick=()=>selectPerson(p.id);list.append(row);}if(!people.length)list.append(el('p','no-results','No people match your search.'));}
 function renderSources(){const list=$('source-list');list.replaceChildren();const q=$('search').value.toLowerCase().trim();const sources=data.sources.filter(s=>(s.region||s.id)===region&&(s.title+' '+s.author+' '+s.description).toLowerCase().includes(q));for(const s of sources)list.append(sourceCard(s));if(!sources.length)list.append(el('p','no-results','No sources match your search.'));}
 function applySearch(center=true){if(view==='tree'&&chartMode&&region==='binidayan'&&chart){applyChartSearch(center);return;}const query=$('search').value.toLowerCase().trim();let match;for(const b of tree.querySelectorAll('.person')){const p=person(b.dataset.id),yes=!!query&&(p.name+' '+(p.title||'')).toLowerCase().includes(query);b.classList.toggle('match',yes);b.classList.toggle('dimmed',!!query&&!yes);if(yes&&!match)match=positions.get(p.id);}$('tree-empty').hidden=!query||!!match;if(match&&center&&view==='tree'){zoom=Math.max(zoom,.75);pan={x:canvas.clientWidth/2-(match.x+81)*zoom,y:canvas.clientHeight/2-(match.y+43)*zoom};transform();}if(view==='people')renderDirectory();if(view==='sources')renderSources();}
-function setView(next){view=next;for(const b of document.querySelectorAll('[data-view]')){b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false');}for(const name of ['tree','people','sources'])$(name+'-view').hidden=view!==name;$('view-title').textContent={tree:'genealogy',people:'people',sources:'sources'}[view];$('section-kicker').textContent={tree:'THE FAMILY TREE',people:'THE PEOPLE DIRECTORY',sources:'OUR SOURCE LIBRARY'}[view];document.querySelector('.tree-tools').hidden=view!=='tree';if(view==='tree')renderTree();if(view==='people')renderDirectory();if(view==='sources')renderSources();}
+function setView(next){view=next;document.body.classList.toggle('calanda-active',view==='calanda');for(const b of document.querySelectorAll('[data-view]')){b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false');}for(const name of ['tree','people','sources','calanda'])$(name+'-view').hidden=view!==name;$('view-title').textContent={tree:'genealogy',people:'people',sources:'sources',calanda:'family tree'}[view];$('section-kicker').textContent={tree:'THE FAMILY TREE',people:'THE PEOPLE DIRECTORY',sources:'OUR SOURCE LIBRARY',calanda:'CALANDA–BAYANGO · PAPORO–MALACO'}[view];document.querySelector('.tree-tools').hidden=view!=='tree';if(view==='tree')renderTree();if(view==='people')renderDirectory();if(view==='sources')renderSources();}
 function setRegion(id){comparedPair=null;$('compare-result').replaceChildren();chartRoot=null;region=id;chartMode=id==='binidayan';focusRoot=null;collapsed.clear();selected=chartMode&&chart?chart.labels.find(l=>l.name==='Sayawa').id:regionData().root;$('depth').value='2';$('search').value='';$('region-title').textContent=regionData().name;for(const b of document.querySelectorAll('[data-region]')){b.classList.toggle('active',b.dataset.region===id);b.setAttribute('aria-pressed',String(b.dataset.region===id));}const count=data.people.filter(p=>p.region===id&&!p.id.startsWith('unknown-')).length;$('member-count').textContent=count+' people · Selected branches';renderProfile();setView(view);}
 for(const b of document.querySelectorAll('[data-region]'))b.onclick=()=>setRegion(b.dataset.region);for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>setView(b.dataset.view);
 $('search').oninput=()=>{if(view==='tree'&&chartMode&&region==='binidayan'){if($('search').value.trim()&&chartFolded.size){chartFolded.clear();ultraPrepared=true;renderTree(false);}applyChartSearch();if(!$('search').value.trim())fit();return;}if(view==='tree'){if($('search').value.trim()){focusRoot=null;collapsed.clear();$('depth').value='99';renderTree(false);applySearch();}else{renderTree();}}else applySearch();};$('compare-go').onclick=compareRelatives;$('root-person').onchange=()=>startFromPerson($('root-person').value);$('reset-root').onclick=()=>startFromPerson(null);$('canvas-expand').onclick=()=>{const expanded=document.body.classList.toggle('workspace-expanded');$('canvas-expand').textContent=expanded?'Restore layout ↙':'Expand canvas ⤢';requestAnimationFrame(()=>fit());};$('full-chart-mode').onclick=()=>setChartMode(true);$('branch-mode').onclick=()=>setChartMode(false);$('read-chart').onclick=()=>{if(chartMode){zoom=1;const first=positions.get(chartRoot||chart.labels[0].id);pan={x:25-first.x,y:75-first.y};transform();}else setZoom(1);};$('depth').onchange=()=>renderTree();$('expand').onclick=()=>{collapsed.clear();$('depth').value='99';renderTree();};$('plus').onclick=()=>setZoom(zoom*1.25);$('minus').onclick=()=>setZoom(zoom/1.25);$('fit').onclick=()=>{if(chartMode&&(familyFocus||chartRoot||chartFolded.size))startFromPerson(null);else fit();};$('return-tree').onclick=()=>openBranch(regionData().root);$('branch').onchange=()=>openBranch($('branch').value);
@@ -279,3 +279,48 @@ function validateChart(c,d){
 }
 async function init(){try{const response=await fetch('family.json',{cache:'no-cache'});if(!response.ok)throw Error('The family data could not be loaded.');data=validate(await response.json());const chartResponse=await fetch('chart-index.json',{cache:'no-cache'});if(!chartResponse.ok)throw Error('The chart index could not be loaded.');chart=validateChart(await chartResponse.json(),data);setRegion(region);}catch(error){$('tree-empty').hidden=false;$('tree-empty').textContent=error.message;toast(error.message);}}
 init();
+
+function syncCalandaDiagramTheme(){
+ const object=$('calanda-diagram'),doc=object?.contentDocument,svg=doc?.querySelector('#tree');if(!svg)return;
+ let style=doc.getElementById('salsila-night-theme');if(!style){style=doc.createElementNS(NS,'style');style.setAttribute('id','salsila-night-theme');svg.append(style);}
+ style.textContent=document.body.dataset.theme==='night'?[  '#tree > rect:first-of-type{fill:#12211d!important}',
+  '#tree rect[stroke="#d8e5da"]{fill:#1c2b26!important;stroke:#52645a!important}',
+  '#tree rect[fill="#eff6f1"]{fill:#263b34!important;stroke:#829687!important}',
+  '#tree rect[fill="#fff0ed"]{fill:#402f2d!important;stroke:#b68c82!important}',
+  '#tree rect[fill="#eff5ff"]{fill:#293744!important;stroke:#8ba1b4!important}',
+  '#tree rect[fill="#f1ebfb"]{fill:#382f48!important;stroke:#a395bd!important}',
+  '#tree rect[fill="#fff6e3"]{fill:#433921!important;stroke:#b8a16b!important}',
+  '#tree text{fill:#edf1e8!important}',
+  '#tree text[stroke="#fffefa"]{stroke:#12211d!important}',
+  '#tree path[stroke="#507a63"]{stroke:#8ba893!important}'
+ ].join('') : '';
+}
+function initTheme(){
+ const button=$('theme-toggle');if(!button)return;
+ let theme='day';try{theme=localStorage.getItem('salsila-theme')==='night'?'night':'day';}catch{}
+ const apply=()=>{document.body.dataset.theme=theme;const night=theme==='night';button.setAttribute('aria-pressed',String(night));button.setAttribute('aria-label',night?'Switch to day mode':'Switch to night mode');button.innerHTML=night?'☼ <span>Day mode</span>':'☾ <span>Night mode</span>';document.querySelector('meta[name="theme-color"]').content=night?'#101b19':'#17483c';syncCalandaDiagramTheme();};
+ apply();button.addEventListener('click',()=>{theme=theme==='night'?'day':'night';try{localStorage.setItem('salsila-theme',theme);}catch{}apply();});
+}
+function initCalandaDiagram(){
+ const object=$('calanda-diagram');if(!object)return;
+ const frame=()=>object.contentDocument?.querySelector('#tree');
+ const mobileFrame=()=>{const svg=frame();if(!svg)return;const viewport=object.closest('.calanda-viewport');if(matchMedia('(max-width:650px)').matches){const [, ,w,h]=svg.getAttribute('viewBox').split(' ').map(Number);object.style.width=(w*.35)+'px';object.style.height=(h*.35)+'px';}else{object.style.width='100%';object.style.height='100%';viewport.scrollLeft=0;viewport.scrollTop=0;}};
+ const views={all:'0 0 10300 4600',bayango:'1200 2250 2100 1950',malaco:'3200 250 5900 4100',sultan:'3250 2950 5800 1450'};
+ const focus=key=>{const svg=frame();if(!svg)return;svg.setAttribute('viewBox',views[key]);mobileFrame();for(const button of document.querySelectorAll('[data-calanda-branch]'))button.setAttribute('aria-pressed',String(button.dataset.calandaBranch===key));const viewport=object.closest('.calanda-viewport');viewport.scrollTop=0;requestAnimationFrame(()=>{if(key==='bayango'&&matchMedia('(max-width:650px)').matches){const [x,y,w]=views[key].split(' ').map(Number),scale=object.clientWidth/w;viewport.scrollLeft=Math.max(0,(2200-x)*scale-viewport.clientWidth/2);viewport.scrollTop=Math.max(0,(3245-y)*scale-viewport.clientHeight/2);}else{viewport.scrollLeft=0;viewport.scrollTop=0;}});};
+ const zoomAt=(svg,factor,clientX,clientY)=>{const r=svg.getBoundingClientRect(),[x,y,w,h]=svg.getAttribute('viewBox').split(/\s+/).map(Number),px=Math.max(0,Math.min(1,(clientX-r.left)/Math.max(1,r.width))),py=Math.max(0,Math.min(1,(clientY-r.top)/Math.max(1,r.height))),nextW=Math.max(350,Math.min(15000,w/factor)),nextH=Math.max(250,Math.min(9000,h/factor));svg.setAttribute('viewBox',[x+px*(w-nextW),y+py*(h-nextH),nextW,nextH].join(' '));};
+ const attachGestures=()=>{const svg=frame();if(!svg||svg.dataset.zoomGestures)return;svg.dataset.zoomGestures='true';svg.style.touchAction='none';const doc=svg.ownerDocument,pointers=new Map();let pinch=null,drag=null;
+  doc.addEventListener('wheel',e=>{e.preventDefault();const delta=Math.max(-220,Math.min(220,e.deltaY));zoomAt(svg,Math.exp(-delta*.001),e.clientX,e.clientY);},{passive:false});
+  svg.addEventListener('pointerdown',e=>{if(e.pointerType!=='touch'&&e.button!==0)return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});svg.setPointerCapture(e.pointerId);if(pointers.size===1){const [x,y,w,h]=svg.getAttribute('viewBox').split(/\s+/).map(Number);drag={id:e.pointerId,x:e.clientX,y:e.clientY,box:[x,y,w,h]};}if(pointers.size===2){drag=null;const [a,b]=[...pointers.values()];pinch={distance:Math.hypot(b.x-a.x,b.y-a.y)};}});
+  svg.addEventListener('pointermove',e=>{const p=pointers.get(e.pointerId);if(!p)return;p.x=e.clientX;p.y=e.clientY;if(pointers.size===2&&pinch){const [a,b]=[...pointers.values()],distance=Math.hypot(b.x-a.x,b.y-a.y),center={x:(a.x+b.x)/2,y:(a.y+b.y)/2};zoomAt(svg,distance/Math.max(1,pinch.distance),center.x,center.y);pinch={distance};}else if(pointers.size===1&&drag?.id===e.pointerId){const r=svg.getBoundingClientRect(),[x,y,w,h]=drag.box;svg.setAttribute('viewBox',[x-(e.clientX-drag.x)*w/Math.max(1,r.width),y-(e.clientY-drag.y)*h/Math.max(1,r.height),w,h].join(' '));}});
+  for(const type of ['pointerup','pointercancel','lostpointercapture'])svg.addEventListener(type,e=>{pointers.delete(e.pointerId);if(pointers.size<2)pinch=null;if(pointers.size===0)drag=null;else if(pointers.size===1){const [id,p]=[...pointers.entries()][0],[x,y,w,h]=svg.getAttribute('viewBox').split(/\s+/).map(Number);drag={id,x:p.x,y:p.y,box:[x,y,w,h]};}});
+ };
+ document.querySelectorAll('[data-calanda-branch]').forEach(button=>button.addEventListener('click',()=>focus(button.dataset.calandaBranch)));
+ object.addEventListener('load',()=>{focus('bayango');attachGestures();syncCalandaDiagramTheme();});
+ $('calanda-zoom-in').onclick=()=>{const svg=frame();if(!svg)return;const r=svg.getBoundingClientRect();zoomAt(svg,1.25,r.left+r.width/2,r.top+r.height/2);};
+ $('calanda-zoom-out').onclick=()=>{const svg=frame();if(!svg)return;const r=svg.getBoundingClientRect();zoomAt(svg,.8,r.left+r.width/2,r.top+r.height/2);};
+ window.addEventListener('resize',mobileFrame);
+ if(frame()){focus('bayango');attachGestures();syncCalandaDiagramTheme();}
+}
+initTheme();
+init();
+initCalandaDiagram();
