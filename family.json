@@ -546,14 +546,20 @@
       "title": "Gogodan sa Binidayan",
       "author": "Datu Acmad (Ontay) M. Abdulmadid",
       "url": "https://acmaly88.page.tl/GOGODAN-SA-BINIDAYAN.htm",
-      "description": "Published genealogy account, crediting oral accounts and earlier salsila. Transcribed relationships await independent family review."
+      "description": "Published genealogy account, crediting oral accounts and earlier salsila. Transcribed relationships await independent family review.",
+      "credit": "Datu Acmad (Ontay) M. Abdulmadid. Original source: https://acmaly88.page.tl/GOGODAN-SA-BINIDAYAN.htm",
+      "backupUrl": "docs/references/binidayan-record.html",
+      "backupDescription": "Source-page text snapshot saved November 9, 2026. Images and original formatting are not included."
     },
     {
       "id": "bayang",
       "title": "Salsila sa Bayang",
       "author": "Datu Acmad (Ontay) Macagaan Abdulamdid; account attributed to Sangcopan",
       "url": "https://acmaly88.page.tl/SALSILA-SA-BAYANG.htm",
-      "description": "Published Diwan genealogy with separate marriages and child lists. Source spellings are preserved; relationships await family review."
+      "description": "Published Diwan genealogy with separate marriages and child lists. Source spellings are preserved; relationships await family review.",
+      "credit": "Datu Acmad (Ontay) Macagaan Abdulamdid; account attributed to Sangcopan. Original source: https://acmaly88.page.tl/SALSILA-SA-BAYANG.htm",
+      "backupUrl": "docs/references/bayang-record.html",
+      "backupDescription": "Source-page text snapshot saved November 9, 2026. Images and original formatting are not included."
     },
     {
       "id": "sayawa-chart",
@@ -562,7 +568,10 @@
       "title": "Sayawa lineage · Original chart",
       "author": "Hosted by Ontay & Marogong.Net",
       "url": "https://img.webme.com/pic/a/acmaly88/sayawachart-page-001.jpg",
-      "description": "A genealogical reference tracing the Sayawa lineage and its family connections in Binidayan and Bayang, Ranao."
+      "description": "A genealogical reference tracing the Sayawa lineage and its family connections in Binidayan and Bayang, Ranao.",
+      "credit": "Hosted by Ontay & Marogong.Net. Original source: https://img.webme.com/pic/a/acmaly88/sayawachart-page-001.jpg",
+      "backupUrl": "docs/references/sayawa-chart-record.html",
+      "backupDescription": "Original chart image saved November 9, 2026."
     },
     {
       "id": "kawashima-2017",
@@ -571,7 +580,10 @@
       "title": "The Journeys of Two Mindanao Ulama (2017)",
       "author": "Kawashima Midori · Journal of Philippine Local History & Heritage 3(1), pp. 1–40",
       "url": "https://doi.org/10.69341/2000107",
-      "description": "Research on early Mindanao scholars, including Sayyidna Tuan Muhammad Said / Kadi sa Binidayan. Distinguishes local oral traditions from manuscript evidence."
+      "description": "Research on early Mindanao scholars, including Sayyidna Tuan Muhammad Said / Kadi sa Binidayan. Distinguishes local oral traditions from manuscript evidence.",
+      "credit": "Kawashima Midori · Journal of Philippine Local History & Heritage 3(1), pp. 1–40. Original source: https://doi.org/10.69341/2000107",
+      "backupUrl": "docs/references/kawashima-2017-record.html",
+      "backupDescription": "Metadata and existing source description only; original document unavailable (HTTP 503). No full-text backup."
     },
     {
       "id": "kawashima-2019",
@@ -580,7 +592,35 @@
       "title": "Connecting Mindanao to Hijaz (2019)",
       "author": "Kawashima Midori · The Library of an Islamic Scholar of Mindanao, chapter 3, pp. 73–128",
       "url": "https://doi.org/10.69341/2003208",
-      "description": "Research chapter on the journey of Sayyidna Tuan Muhammad Said, catalogued in the author’s bibliography. Publication metadata was checked; the full repository chapter was unavailable during this review."
+      "description": "Research chapter on the journey of Sayyidna Tuan Muhammad Said, catalogued in the author’s bibliography. Publication metadata was checked; the full repository chapter was unavailable during this review.",
+      "credit": "Kawashima Midori · The Library of an Islamic Scholar of Mindanao, chapter 3, pp. 73–128. Original source: https://doi.org/10.69341/2003208",
+      "backupUrl": "docs/references/kawashima-2019-record.html",
+      "backupDescription": "Metadata and existing source description only; original document unavailable (HTTP 503). No full-text backup."
+    },
+    {
+      "id": "kawashima-2019-collection-history",
+      "region": "binidayan",
+      "type": "research",
+      "title": "History of the Collection of Sheik Muhammad Said bin Imam sa Bayang (2019)",
+      "author": "Kawashima Midori · The Library of an Islamic Scholar of Mindanao, chapter 2",
+      "url": "https://doi.org/10.69341/2003207",
+      "description": "Related collection-history reference. Parentage is supported separately by Kawashima’s lecture commentary, Sophia record 2005239, section II.1.",
+      "credit": "Kawashima Midori · The Library of an Islamic Scholar of Mindanao, chapter 2. Original source: https://doi.org/10.69341/2003207",
+      "backupUrl": "docs/references/kawashima-2019-collection-history-record.html",
+      "backupDescription": "Metadata and existing source description only; original document unavailable (HTTP 503). No full-text backup."
+    },
+    {
+      "id": "kawashima-usman-sophia",
+      "region": "binidayan",
+      "type": "research",
+      "title": "Usman Imam: Kawashima Midori’s lecture commentary · Sophia record 2005239",
+      "author": "Kawashima Midori · section II.1, 講師ウスマン氏について",
+      "url": "https://sophia.repo.nii.ac.jp/record/2005239/files/200000079942_000124000_173.pdf",
+      "description": "Names Usman Imam’s father Tabunawan, a mosque imam, and his unnamed mother from Bayang. The sixth-generation descendant is Tabunawan. Source uses Magonana; the equation with Magonaya needs checking. Local summary and short excerpts are preserved; the original PDF could not be downloaded during repository maintenance.",
+      "notesUrl": "docs/references/kawashima-usman-imam-record.html",
+      "discoveryNote": "Found November 9, 2026 through the built-in web research search tool using: site:sophia.repo.nii.ac.jp Tabunawan. The result returned a Sophia PDF URL and indexed Japanese text. These notes preserve excerpts and a working translation, not the original PDF; verification against the PDF is pending. Japanese search term: タブナワン.",
+      "backupDescription": "Backup contains saved research notes, short excerpts, and discovery steps. The original Sophia PDF has not been downloaded; verification against it is pending.",
+      "credit": "Kawashima Midori (commentary); Usman Imam Sheik Al-Aman; Mitsuko Saito (translation). Journal of Sophia Asian Studies 22 (2004), pp. 173–195. Original publication and repository: Sophia University."
     }
   ]
 }

@@ -148,3 +148,28 @@ body[data-theme="night"] .directory-person,body[data-theme="night"] .source-mini
 @media(max-width:820px){.calanda-layout{grid-template-columns:minmax(0,1fr)}.calanda-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px}.calanda-detail>.eyebrow:first-child,.calanda-detail h2,.calanda-detail .calanda-summary,.calanda-detail hr,.calanda-related{grid-column:1/-1}.calanda-detail hr{display:block}}
 @media(max-width:650px){.site-header{height:auto;min-height:0;padding:12px 14px;flex-wrap:wrap;gap:8px}.brand{min-width:0}.brand svg{width:34px;height:34px}.brand-copy strong{font-size:16px}.brand-copy small{font-size:8px}.header-actions{margin-left:auto;gap:5px}.header-actions .button{min-height:40px;padding:7px 9px}.theme-toggle{min-height:40px;padding:7px 9px;font-size:10px}.site-header nav{order:3;width:100%;max-width:none;height:40px;justify-content:flex-start;gap:17px;margin:4px 0 0;padding-top:3px;overflow-x:auto;border-top:1px solid var(--line)}.site-header nav button{flex:0 0 auto;font-size:10px}.site-header nav .contribute-link{flex:0 0 auto;font-size:10px}.hero{grid-template-columns:minmax(0,1fr);gap:16px;padding:26px 4px 22px}.hero h1{font-size:31px}.hero p{font-size:13px}.hero-note{max-width:310px;font-size:11px}.okir-band{right:10px;top:32px;width:76px;height:60px;opacity:.1}.calanda-active .app-shell{margin-top:0}.calanda-heading{padding:15px 14px 12px;flex-direction:column;gap:6px}.calanda-heading h2{font-size:17px}.calanda-heading>span{max-width:none;text-align:left;font-size:10px}.calanda-toolbar{padding:10px 13px;gap:9px}.calanda-toolbar>span{font-size:10px}.calanda-controls{display:grid;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.calanda-controls button{min-height:44px;padding:7px;font-size:10px}.calanda-controls [data-calanda-branch="sultan"]{grid-column:span 2}.calanda-controls #calanda-zoom-in,.calanda-controls #calanda-zoom-out{min-height:42px}.calanda-viewport{height:65vh;min-height:420px;overflow:auto;overscroll-behavior:contain}.calanda-legend{gap:8px 12px;padding:11px 13px}.calanda-legend span{font-size:10px}.calanda-detail{padding:15px}.calanda-detail h2{font-size:18px}.calanda-detail p{font-size:11px}.calanda-active .archive-note{padding-top:14px}.calanda-active footer{margin-top:14px}main{padding-inline:13px}}
 @media(max-width:380px){.site-header nav{gap:12px}.brand-copy small{letter-spacing:.08em}.header-actions .button span{display:none}.hero h1{font-size:28px}.calanda-heading h2{font-size:16px}}
+
+.account-relation{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.account-relation .button{min-height:44px;white-space:normal;font-size:11px}
+
+.calanda-viewport,.calanda-viewport iframe{-webkit-user-select:none;user-select:none}
+
+.source-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin:14px 0}.source-links a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px}
+
+/* Compact tree navigation, with one title outside the diagram. */
+.calanda-heading h2{margin:0}.calanda-toolbar .calanda-controls{display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;width:100%;gap:8px}.calanda-controls label{font-size:12px}.calanda-controls select{min-height:44px;max-width:100%;flex:1;min-width:190px;border:1px solid var(--line);border-radius:6px;padding:8px;background:var(--white);color:var(--ink)}.calanda-controls button{min-height:44px}.calanda-controls select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}@media(max-width:650px){.calanda-controls label{flex-basis:100%}.calanda-controls select{flex-basis:100%}.calanda-controls #calanda-fit{flex:1}}
+
+/* Original okir-inspired scrollwork stays outside readable content and controls. */
+.site-header{position:relative;border-bottom:2px solid var(--line)}
+.site-header:after{content:"";position:absolute;bottom:-2px;left:4.3%;width:72px;height:2px;background:var(--gold);pointer-events:none}
+.hero{isolation:isolate}.hero-copy,.hero-note{position:relative;z-index:1}
+.okir-band{background:none;background-image:url('assets/okir-scroll.svg');background-repeat:no-repeat;background-size:contain;background-position:center;width:240px;height:100px;right:2%;top:auto;bottom:0;transform:none;opacity:.27;z-index:0;pointer-events:none}
+.calanda-heading{position:relative;isolation:isolate;padding-right:150px}
+.calanda-heading:after{content:"";position:absolute;width:120px;height:42px;right:20px;top:50%;transform:translateY(-50%);background:url('assets/okir-scroll.svg') center/contain no-repeat;opacity:.48;pointer-events:none;z-index:-1}
+.calanda-tree-panel,.calanda-detail{border-top:2px solid var(--gold)}
+.calanda-detail hr{border:0;border-top:1px solid var(--line);margin:20px 0}
+.source-card{border-top:2px solid var(--gold)}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+body[data-theme="night"] .okir-band,body[data-theme="night"] .calanda-heading:after{filter:brightness(1.35)}
+@media(max-width:650px){.okir-band{width:150px;height:54px;right:0;bottom:0;top:auto;opacity:.18}.calanda-heading{padding-right:110px}.calanda-heading:after{width:80px;height:32px;right:14px;opacity:.4}}
+@media(prefers-reduced-motion:reduce){.okir-band,.calanda-heading:after{animation:none;transition:none}}
+@media(forced-colors:active){.okir-band,.calanda-heading:after{display:none}}

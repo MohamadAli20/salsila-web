@@ -9,6 +9,7 @@
     "check:transcription": "node check-transcription.mjs",
     "check:layout": "node check-layout.mjs",
     "check:personal": "node check-personal-lineage.mjs",
-    "check:descendants": "node check-descendant-navigation.mjs"
+    "check:descendants": "node check-descendant-navigation.mjs",
+    "check:calanda": "python3 check-calanda.py"
   }
 }

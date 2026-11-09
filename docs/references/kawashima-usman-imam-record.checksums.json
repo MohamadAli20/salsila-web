@@ -1,0 +1,20 @@
+{
+  "source_url": "https://sophia.repo.nii.ac.jp/record/2005239/files/200000079942_000124000_173.pdf",
+  "repository_record": "2005239",
+  "capture_date": "2026-11-09",
+  "timezone": "Asia/Manila",
+  "original_pdf_backup_status": "unavailable: HTTP 503 / repository maintenance",
+  "capture_kind": "research summary and short indexed-text excerpts, not full PDF",
+  "files": [
+    {
+      "path": "kawashima-usman-imam-record.md",
+      "bytes": 3981,
+      "sha256": "14efefe57f70f069b4abf4a7965f976bc5728bd08823d8f9eab92a28fdf2a826"
+    },
+    {
+      "path": "kawashima-usman-imam-record.html",
+      "bytes": 4971,
+      "sha256": "ae90190576e1e370659e0d48057dd14242ff034a9904139e8de7abd0664baf13"
+    }
+  ]
+}

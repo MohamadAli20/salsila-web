@@ -53,3 +53,11 @@ The canvas magnifying-glass button zooms and centers the selected name at a read
 A separate card records Samurong’s unnamed Malaysian mother, according to the user’s father. It has a maternal link to Samurong, without an asserted link to Maruhom. The maternal card and the unnamed child of Maruhom could represent the same person; their identity remains unresolved.
 
 The user explicitly identifies Ginaronai as male: Samurong’s second husband and Calanda’s father. The earlier wording about unspecified gender for Ginaronai has been removed.
+
+## Alicasan, November 9, 2026
+
+Usman Ali, Tabunawan, Mamadra, and the maternal-cousin and half-brother accounts are documented in [the November 9 evidence audit](alicasan-2026-11-09.md). The accessible 2017 Kawashima paper names Usman Imam Shiek al-Aman as a direct descendant and mentions his parents as narrators; it does not name Tabunawan. The 2019 collection-history chapter is linked as a parentage reference awaiting full-text verification.
+
+## Verified Sophia parentage correction
+
+Sophia record 2005239, Kawashima Midori’s commentary section II.1, names Tabunawan as Usman Imam’s father, identifies the unnamed mother as from Bayang, and describes **Tabunawan** as the sixth-generation descendant of Sayyidna. This supersedes earlier notes attributing parentage solely to Alicasan or treating Usman as the sixth-generation descendant. See `docs/alicasan-2026-11-09.md` for current attribution. The repository is under maintenance; `docs/references/` holds offline research notes and checksums, not a full PDF backup.

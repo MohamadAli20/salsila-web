@@ -1,5 +1,5 @@
 {
-  "source": "User family account, 2026-11-03",
+  "source": "User family accounts, November 3 and Alicasan, November 9, 2026",
   "labels": [
     "chart-personal-missing-ancestor",
     "chart-personal-samurong",
@@ -7,7 +7,14 @@
     "chart-personal-bayango",
     "chart-personal-kalanda",
     "chart-personal-digadong-gap",
-    "chart-personal-samurong-mother"
+    "chart-personal-samurong-mother",
+    "chart-personal-usman-ali",
+    "chart-personal-tabunawan",
+    "chart-personal-usman-mother",
+    "chart-personal-mamadra",
+    "chart-personal-said-usman-gap",
+    "chart-personal-tuan-magonaya",
+    "chart-personal-gandamasir"
   ],
   "edges": [
     {
@@ -29,7 +36,7 @@
       "to": "chart-personal-ginaronai",
       "type": "connection",
       "recordSource": "family-account",
-      "note": "Ginaronai from Poon a Baebao was the second spouse of Samurong, according to your correction.",
+      "note": "Ginaronai from Poon a Baebao was the second spouse of Samurong, according to the corrected family account.",
       "relationship": "spouse",
       "spouseOrderFor": "chart-personal-samurong",
       "spouseOrder": 2
@@ -43,7 +50,7 @@
       "recordSource": "family-account",
       "note": "Child of Samurong and Ginaronai, according to the corrected family account.",
       "relationship": "parent-child",
-      "relationshipSource": "Corrected family account supplied by you on 3 November 2026."
+      "relationshipSource": "Corrected family account recorded in the archive on 3 November 2026."
     },
     {
       "from": "chart-personal-bayango",
@@ -58,8 +65,85 @@
       "type": "lineage",
       "recordSource": "family-account",
       "relationship": "parent-child",
-      "relationshipSource": "According to the user’s father, Samurong’s mother was Malaysian.",
-      "note": "Maternal connection reported by the user’s father. Whether this mother is the child of Maruhom remains unresolved."
+      "relationshipSource": "According to the family account, Samurong’s mother was Malaysian.",
+      "note": "Maternal connection reported by a family informant. Whether this mother is the child of Maruhom remains unresolved."
+    },
+    {
+      "to": "chart-personal-usman-ali",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Kawashima Midori · Sophia University repository 2005239, section II.1",
+      "relationship": "parent-child",
+      "relationshipSource": "Kawashima Midori · Sophia University repository 2005239, section II.1 · father of Usman Imam",
+      "from": "chart-personal-tabunawan",
+      "sourceId": "kawashima-usman-sophia"
+    },
+    {
+      "to": "chart-personal-usman-ali",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Kawashima Midori · Sophia University repository 2005239, section II.1",
+      "relationship": "parent-child",
+      "relationshipSource": "Kawashima Midori · Sophia University repository 2005239, section II.1 · unnamed mother from Bayang",
+      "from": "chart-personal-usman-mother",
+      "sourceId": "kawashima-usman-sophia"
+    },
+    {
+      "to": "chart-personal-mamadra",
+      "type": "connection",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Alicasan, November 9, 2026",
+      "relationship": "half-brother",
+      "relationshipSource": "Alicasan, November 9, 2026",
+      "sharedParentKnown": false,
+      "from": "chart-personal-ginaronai"
+    },
+    {
+      "to": "chart-personal-usman-ali",
+      "type": "connection",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Alicasan, November 9, 2026",
+      "relationship": "sibling",
+      "relationshipSource": "Alicasan, November 9, 2026",
+      "sharedParentsKnown": false,
+      "from": "chart-personal-mamadra"
+    },
+    {
+      "from": "chart-038",
+      "to": "chart-personal-tuan-magonaya",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Family oral account recorded November 9, 2026",
+      "relationship": "parent-child",
+      "relationshipSource": "Family oral account recorded November 9, 2026",
+      "note": "Hadji Said → child called Tuan sa Magonaya · oral family account, not attributed to Kawashima research."
+    },
+    {
+      "from": "chart-personal-tuan-magonaya",
+      "to": "chart-personal-gandamasir",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Family oral account recorded November 9, 2026",
+      "relationship": "parent-child",
+      "relationshipSource": "Family oral account recorded November 9, 2026",
+      "note": "Tuan sa Magonaya → child Gandamasir · oral family account, not attributed to Kawashima research."
+    },
+    {
+      "from": "chart-personal-gandamasir",
+      "to": "chart-personal-bayango",
+      "type": "lineage",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Existing Calanda–Bayango family account",
+      "relationship": "parent-child",
+      "relationshipSource": "Existing Calanda–Bayango family account",
+      "note": "Existing Calanda–Bayango diagram: Gandamasir → Bayango · oral family account, not attributed to Kawashima research."
     }
   ],
   "unresolved": [
@@ -68,7 +152,11 @@
     "Intervening Digadong–Bayango ancestors and their generation count",
     "Common ancestors underlying the reported Samurong–Dimaporo first-cousin relationship",
     "Shared ancestor supporting the reported Bayango–Calanda second-cousin relationship",
-    "Identity of Samurong’s first spouse"
+    "Identity of Samurong’s first spouse",
+    "Shared parent of Ginaronay and Mamadra; full/half status of Mamadra–Usman siblings",
+    "Maternal common ancestors and cousin degree of Samurong and Usman’s mother",
+    "Intermediate Hadji Said → Tabunawan ancestors and generation-count convention",
+    "Whether Magonana in the Japanese text corresponds to Magonaya"
   ],
   "ancestryGaps": [
     {
@@ -86,6 +174,28 @@
       "recordSource": "family-account",
       "gapId": "digadong-bayango",
       "note": "Missing ancestry to be completed. The placeholder represents an unknown span, not a single ancestor or generation."
+    },
+    {
+      "to": "chart-personal-said-usman-gap",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Kawashima Midori · Sophia University repository 2005239, section II.1",
+      "gapId": "hadji-said-tabunawan",
+      "note": "Kawashima Midori, section II.1: Tabunawan is described as Sayyidna’s sixth-generation descendant; intermediate names and counting convention are not specified.",
+      "from": "chart-038",
+      "sourceId": "kawashima-usman-sophia"
+    },
+    {
+      "to": "chart-personal-tabunawan",
+      "type": "ancestry-gap",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Kawashima Midori · Sophia University repository 2005239, section II.1",
+      "gapId": "hadji-said-tabunawan",
+      "note": "Kawashima Midori, section II.1: Tabunawan is described as Sayyidna’s sixth-generation descendant; intermediate names and counting convention are not specified.",
+      "from": "chart-personal-said-usman-gap",
+      "sourceId": "kawashima-usman-sophia"
     }
   ]
 }

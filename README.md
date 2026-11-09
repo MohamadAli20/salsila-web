@@ -10,7 +10,7 @@ An interactive genealogy archive starting with Binidayan and Bayang in Ranao. Or
 
 ## Two genealogy views
 
-**Full family tree** is the default Binidayan view. It renders 179 source-chart entries plus 7 family-account entries (including one unknown ancestry-span placeholder) as HTML cards, with 196 recorded connections and 2 dashed pending ancestry routes as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
+**Full family tree** is the default Binidayan view. It renders 179 source-chart entries plus 14 family-account entries (including one unknown ancestry-span placeholder) as HTML cards, with 203 recorded connections and 4 dashed pending ancestry routes as SVG paths. The uploaded image is not the tree background. Search, zoom, drag, readable zoom, expanded canvas, connected-card highlighting, profile navigation, personal notes, and a searchable directory are available.
 
 **Branch view · partial** retains the smaller structured parent/partnership dataset, with generation controls, collapse/expand, and focused branches. Bayang currently uses this structured view. Both views use our own design.
 
@@ -78,3 +78,11 @@ The Layout selector defaults to Compressed, with tighter spaces between cards, g
 Compact overview now uses name-only cards by default. Full detailed tree restores card details. Focus family shows the selected entry’s immediate recorded family connections; Show more expands another step. Per-card +/− controls collapse or expand descendants. Expand branches restores collapsed branches; Fit branch frames the selected entry’s visible descendants, and Fit all restores the whole chart.
 
 Ultra compact is the default: connected groups wrap into bands of about six cards, with chart-level labels distinguishing wrapped rows from ancestry generations. Initial distant branches collapse at the third chart level, with hidden-descendant counts. Expand branches and Fit all reveal the full diagram. Search reveals collapsed entries. Long connector lanes are reused only for non-overlapping spans. The fully expanded view is narrower but taller than Compact overview.
+
+The extended branch includes Usman Imam, Tabunawan and an unnamed mother from Bayang (Kawashima Midori, Sophia record 2005239), plus Mamadra and reported family connections (Alicasan, November 9, 2026). Tabunawan is the sixth-generation descendant; missing ancestry runs from Hadji Said to Tabunawan. Typed sibling connections and a maternal-cousin account retain their specific evidence limits. See `docs/alicasan-2026-11-09.md` for the research audit and identity caveat.
+
+The main diagram now places Hadji Said lineage in column 2, followed by Calanda–Bayango in column 3. Column 2 identifies Kawashima’s Sophia parentage reference; column 3 credits Alicasan’s account for the additional family connections. Cross-column sibling and maternal-cousin lines connect the existing Samurong/Ginaronai boxes directly. Mouse dragging disables SVG text selection while preserving record selection and zoom.
+
+Source backup: `docs/references/kawashima-usman-imam-record.html` provides the original Sophia link, offline summary, short source excerpts and checksums. Repository maintenance prevented downloading the full original PDF; the backup manifest records that limitation.
+
+The user’s father clarifies Hadji Said → Tuan sa Magonaya → Gandamasir. Tuan sa Magonaya has a distinct record and third-column card; he is not merged with Hadji Said or Tuan sa Binidayan. Visible relationship labels omit repeated source names, while source headings and record notes preserve attribution.

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "binidayan",
+    "url": "https://acmaly88.page.tl/GOGODAN-SA-BINIDAYAN.htm",
+    "retrieved": "2026-11-09",
+    "response_sha256": "ec8814d452999905f89e3b114ba0c36bfb7c9a6a474aa8a6924b604fb57febdf",
+    "bytes": 319539
+  },
+  {
+    "source": "bayang",
+    "url": "https://acmaly88.page.tl/SALSILA-SA-BAYANG.htm",
+    "retrieved": "2026-11-09",
+    "response_sha256": "098067d199a232a74ff5ffc56da4fd7868b544d86c567fdd251bfe43cdae5769",
+    "bytes": 221131
+  },
+  {
+    "source": "sayawa-chart",
+    "url": "https://img.webme.com/pic/a/acmaly88/sayawachart-page-001.jpg",
+    "retrieved": "2026-11-09",
+    "response_sha256": "1d1e574bae45200b4452fcf3b41c9da1a1ea1045d25a9e037fdd0c49573abf18",
+    "bytes": 458565
+  }
+]
