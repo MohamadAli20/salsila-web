@@ -1787,7 +1787,7 @@
       "name": "Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "According to the corrected family account, Ginaronai was a man from Poon a Baebao, the second husband of Samurong, and the father of Calanda Ginaronai. Alicasan, November 9, 2026: Ginaronay is another spelling used for this entry; Mamadra is his half-brother. Their shared parent is not yet identified.",
+      "transcriptionNote": "Ginaronai (also spelled Ginaronay) was a man from Poon a Baebao, the second husband of Samurong, and the father of Calanda Ginaronai, according to the family account.",
       "unknownName": false,
       "placeOfOrigin": "Poon a Baebao",
       "gender": "male",
@@ -1795,13 +1795,7 @@
       "aliases": [
         "Ginaronay"
       ],
-      "additionalAccounts": [
-        {
-          "attribution": "Alicasan, November 9, 2026",
-          "date": "2026-11-09",
-          "note": "Mamadra is his half-brother; shared parent unidentified."
-        }
-      ]
+      "additionalAccounts": []
     },
     {
       "id": "chart-personal-bayango",
@@ -1809,7 +1803,16 @@
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
       "transcriptionNote": "According to the corrected family account, Bayango Gandamazir comes from the Digadong lineage; the intervening ancestors and generation count are unknown. Connected partner and reported second cousin of Calanda Ginaronai; their shared ancestor remains unresolved. Bayango is not recorded as a child of Samurong. The existing main family diagram names Gandamasir as Bayango’s father; a family informant identifies Gandamasir as a child of Tuan sa Magonaya, who was a child of Hadji Said. According to Alicasan, November 9, 2026, Bayango Gandamasir and Calanda Ginaronai are second cousins through the Digadong family. Their common ancestor and intervening ancestry have not yet been identified; this is a reported family relationship, not a calculated or independently verified kinship result.",
-      "unknownName": false
+      "unknownName": false,
+      "recordAttribution": "Legal documents · names and descendant relationships; ancestral oral accounts separately attributed",
+      "documentaryBasis": {
+        "scope": "Names and parent–child relationships from Calanda and Bayango through their descendants",
+        "documentTypes": [
+          "birth certificates",
+          "family civil records"
+        ],
+        "reviewStatus": "documentary basis reported by the family; document copies not reviewed in this change"
+      }
     },
     {
       "id": "chart-personal-kalanda",
@@ -1825,8 +1828,21 @@
         {
           "attribution": "Alicasan Calanda · family account",
           "note": "According to Alicasan Calanda, Calanda Ginaronai travelled to Manila to sell peanuts. The date, route, vessel and length of stay are not yet known. This oral account is open for research in passenger lists, port or shipping records and other relevant archives; no matching record has yet been identified."
+        },
+        {
+          "attribution": "Alicasan · November 2026",
+          "note": "Calanda Ginaronai and Mamadra are half-brothers. Their shared parent has not been specified."
         }
-      ]
+      ],
+      "recordAttribution": "Legal documents · names and descendant relationships; ancestral oral accounts separately attributed",
+      "documentaryBasis": {
+        "scope": "Names and parent–child relationships from Calanda and Bayango through their descendants",
+        "documentTypes": [
+          "birth certificates",
+          "family civil records"
+        ],
+        "reviewStatus": "documentary basis reported by the family; document copies not reviewed in this change"
+      }
     },
     {
       "id": "chart-personal-digadong-gap",
@@ -1875,7 +1891,7 @@
             "sourceUrl": "https://sophia.repo.nii.ac.jp/record/2005239/files/200000079942_000124000_173.pdf"
           }
         ],
-        "identityNote": "Mamadra, the half-brother connection to Ginaronay, and the maternal-cousin connection to Samurong are attributed to Alicasan, November 9, 2026. The intermediate ancestors between Sayyidna and Tabunawan are not named in this passage. The repository is under maintenance; local notes preserve short source excerpts and a summary, not the original PDF.",
+        "identityNote": "Mamadra, the half-brother connection to Calanda Ginaronai, and the maternal-cousin connection to Samurong are attributed to Alicasan, November 9, 2026. The intermediate ancestors between Sayyidna and Tabunawan are not named in this passage. The repository is under maintenance; local notes preserve short source excerpts and a summary, not the original PDF.",
         "sources": [
           {
             "title": "Kawashima Midori, commentary on Usman Imam’s lecture, section II.1 · original Sophia PDF",
@@ -1919,7 +1935,16 @@
         "range": "1883–1918",
         "status": "unverified layout assumption",
         "basis": "Usman born 1943; assumed parental age 25–60. Not a date from Kawashima."
-      }
+      },
+      "aliases": [
+        "Tabonawan"
+      ],
+      "additionalAccounts": [
+        {
+          "attribution": "Family identification · Ameroden sa Bayang",
+          "note": "Tabonawan in the salsila and Tabunawan in Kawashima’s commentary are identified as the same person in the family account. Paternal and maternal ancestry are from the salsila; they are not attributed to Kawashima."
+        }
+      ]
     },
     {
       "id": "chart-personal-usman-mother",
@@ -1952,9 +1977,9 @@
       "recordSource": "family-account",
       "recordDate": "2026-11-09",
       "recordAttribution": "Alicasan, November 9, 2026",
-      "transcriptionNote": "Half-brother of Ginaronay (also recorded as Ginaronai), and sibling of Usman Imam, according to Alicasan, November 9, 2026. Which parent is shared with Ginaronay, and whether the Usman sibling relationship is full or half, remain unspecified. No parentage for Mamadra is inferred.",
+      "transcriptionNote": "Mamadra is the half-brother of Calanda Ginaronai (also spelled Calanda Ginaronay), and a sibling of Usman Imam, according to the corrected Alicasan family account. The earlier half-brother attribution to Ginaronai, Calanda’s father, is superseded. The shared parent remains unspecified; no parentage for Mamadra is inferred.",
       "gender": "male",
-      "profileTitle": "Half-brother of Ginaronay · Sibling of Usman Imam"
+      "profileTitle": "Half-brother of Calanda Ginaronai · Sibling of Usman Imam"
     },
     {
       "id": "chart-personal-said-usman-gap",
@@ -1969,22 +1994,13 @@
       "researchSourceUrl": "https://sophia.repo.nii.ac.jp/record/2005239/files/200000079942_000124000_173.pdf"
     },
     {
-      "id": "chart-personal-tuan-magonaya",
-      "name": "Tuan sa Magonaya",
-      "recordSource": "family-account",
-      "recordDate": "2026-11-09",
-      "recordAttribution": "Family oral account recorded November 9, 2026",
-      "profileTitle": "Son of Hadji Said · Father of Gandamasir",
-      "transcriptionNote": "According to the family account, Hadji Said had a child called Tuan sa Magonaya, whose children included Gandamasir. This is a separate person from Hadji Said / Sayyidna Tuan Muhammad Said. It is not merged with the separate original chart entry Tuan sa Binidayan. This parentage is a family account, not a finding attributed to Kawashima Midori."
-    },
-    {
       "id": "chart-personal-gandamasir",
       "name": "Gandamasir",
       "recordSource": "family-account",
       "recordDate": "2026-11-09",
       "recordAttribution": "Family oral account recorded November 9, 2026",
-      "profileTitle": "Son of Tuan sa Magonaya · Father of Bayango",
-      "transcriptionNote": "According to the family account, Gandamasir was one of the children of Tuan sa Magonaya, a child of Hadji Said. The existing Calanda–Bayango diagram records Gandamasir as the father of Bayango. These family-account links are separate from the Kawashima research branch through Tabunawan and Usman Imam.",
+      "profileTitle": "Son of Tuan sa Binidayan · Father of Bayango",
+      "transcriptionNote": "According to the family account, Gandamasir was one of the children of Tuan sa Binidayan, a child of Hadji Said. The existing Calanda–Bayango diagram records Gandamasir as the father of Bayango. These family-account links are separate from the Kawashima research branch through Tabunawan and Usman Imam.",
       "gender": "male"
     }
   ],
@@ -3321,7 +3337,7 @@
       "relationship": "half-brother",
       "relationshipSource": "Alicasan, November 9, 2026",
       "sharedParentKnown": false,
-      "from": "chart-personal-ginaronai"
+      "from": "chart-personal-kalanda"
     },
     {
       "to": "chart-personal-usman-ali",
@@ -3335,18 +3351,7 @@
       "from": "chart-personal-mamadra"
     },
     {
-      "from": "chart-038",
-      "to": "chart-personal-tuan-magonaya",
-      "type": "lineage",
-      "recordSource": "family-account",
-      "recordDate": "2026-11-09",
-      "recordAttribution": "Family oral account recorded November 9, 2026",
-      "relationship": "parent-child",
-      "relationshipSource": "Family oral account recorded November 9, 2026",
-      "note": "Hadji Said → child called Tuan sa Magonaya · oral family account, not attributed to Kawashima research."
-    },
-    {
-      "from": "chart-personal-tuan-magonaya",
+      "from": "chart-039",
       "to": "chart-personal-gandamasir",
       "type": "lineage",
       "recordSource": "family-account",
@@ -4890,6 +4895,16 @@
       "recordDate": "2026-11-09",
       "recordAttribution": "Family oral account",
       "note": "Mohamad Ali Dimaporo and Calanda Ginaronai are reported second cousins in the family account. Their shared ancestors and connecting ancestry are not yet identified. This refers to Mohamad Ali Dimaporo (chart-132), not the earlier Sultan Dimaporo (chart-126)."
+    },
+    {
+      "from": "chart-personal-samurong",
+      "targetName": "Mampay",
+      "type": "reported-first-cousins",
+      "status": "unresolved",
+      "recordSource": "family-account",
+      "recordAttribution": "Alicasan",
+      "familyLine": "Digadong",
+      "note": "Ayon kay Alicasan, buong pinsan sina Samurong at Mampay sa ugat ng Digadong. Hindi tinukoy kung sino ang magkaparehong ninuno o kung sa ama o ina dumadaan ang koneksiyon."
     }
   ],
   "layoutConstraints": [

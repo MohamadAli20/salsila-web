@@ -13,7 +13,7 @@ assert.notEqual(mid,father);assert.equal(graph.labels.filter(l=>l.unknownName).l
 for(const l of own){if([sam,'chart-personal-samurong-mother','chart-personal-usman-mother'].includes(l.id))assert.equal(l.gender,'female');else if(['chart-personal-ginaronai','chart-personal-tabunawan','chart-personal-mamadra','chart-personal-gandamasir'].includes(l.id))assert.equal(l.gender,'male');else assert(!Object.hasOwn(l,'gender'));assert(!Object.hasOwn(l,'ethnicity'));assert(!Object.hasOwn(l,'x'),'Do not fabricate original image coordinates for personal records');}
 assert(!graph.edges.some(e=>e.from==='chart-019'&&e.to===father),'Digadong clan origin must not become direct parentage');
 assert(!graph.edges.some(e=>e.from===sam&&['chart-126','chart-132'].includes(e.to)),'Unresolved cousin report must not turn into a graph edge');
-assert.equal(graph.reportedRelationships.filter(r=>r.status==='unresolved').length,5);
+assert.equal(graph.reportedRelationships.filter(r=>r.status==='unresolved').length,6);
 assert(build(graph,sam,2).levels.has(child));assert(build(graph,father,2).levels.has(child));
 assert(build(graph,child,1).ids.has('chart-personal-bayango'),'Connected spouse record must remain available without inferred gender labels');
 const ali=graph.labels.find(l=>l.id==='chart-132');assert(ali.publicFigure);assert(ali.aliases.includes('Sult. Ali'));assert(ali.biography.sources.some(s=>s.url.startsWith('https://www.msumain.edu.ph/')));assert(ali.biography.facts.every(f=>f.sourceUrl));
@@ -45,7 +45,7 @@ assert(build(graph,mother,99).levels.has(kalanda));
 const usman='chart-personal-usman-ali',tabunawan='chart-personal-tabunawan',usmanMother='chart-personal-usman-mother',mamadra='chart-personal-mamadra';
 assert(graph.edges.some(e=>e.from===tabunawan&&e.to===usman&&e.relationship==='parent-child'));
 assert(graph.edges.some(e=>e.from===usmanMother&&e.to===usman&&e.relationship==='parent-child'));
-assert(graph.edges.some(e=>e.from===father&&e.to===mamadra&&e.relationship==='half-brother'));
+assert(graph.edges.some(e=>e.from===kalanda&&e.to===mamadra&&e.relationship==='half-brother'));
 assert(graph.edges.some(e=>e.from===mamadra&&e.to===usman&&e.relationship==='sibling'));
 assert(!graph.edges.some(e=>e.to===mamadra&&e.type==='lineage'),'Do not invent Mamadra’s parents');
 assert(!build(graph,'chart-038',99).levels.has(usman),'Pending descent is not a verified parent-child chain');
@@ -62,10 +62,12 @@ assert(graph.ancestryGaps.some(e=>e.from==='chart-personal-said-usman-gap'&&e.to
 assert(!graph.ancestryGaps.some(e=>e.to===usman));
 assert.equal(graph.labels.find(l=>l.id===usman).name,'Usman Imam Sheik Al-Aman');
 
-const magonaya='chart-personal-tuan-magonaya',gandamasir='chart-personal-gandamasir';
-assert.notEqual(magonaya,'chart-038');assert.notEqual(magonaya,'chart-039');
-for(const [a,b] of [['chart-038',magonaya],[magonaya,gandamasir],[gandamasir,'chart-personal-bayango']])assert(graph.edges.some(e=>e.from===a&&e.to===b&&e.relationship==='parent-child'&&!e.sourceId));
-assert(!graph.edges.some(e=>e.from==='chart-038'&&e.to===gandamasir),'Keep Tuan sa Magonaya between Hadji Said and Gandamasir');
-assert(graph.labels.find(l=>l.id===magonaya).recordAttribution.includes('Family oral account'));
+const gandamasir='chart-personal-gandamasir';
+assert(!graph.labels.some(l=>l.id==='chart-personal-tuan-magonaya'));
+assert(graph.edges.some(e=>e.from==='chart-039'&&e.to===gandamasir));
+assert(!graph.edges.some(e=>e.from==='chart-038'&&e.to===gandamasir));
 
 assert(graph.reportedRelationships.some(r=>r.from==='chart-132'&&r.targetId==='chart-personal-kalanda'&&r.type==='reported-second-cousins'));
+
+assert(!graph.labels.find(l=>l.id===father).transcriptionNote.includes("Mamadra is his half-brother"));
+assert(!graph.labels.find(l=>l.id===father).additionalAccounts.some(a=>a.note.includes("half-brother")));

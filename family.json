@@ -621,6 +621,18 @@
       "discoveryNote": "Found November 9, 2026 through the built-in web research search tool using: site:sophia.repo.nii.ac.jp Tabunawan. The result returned a Sophia PDF URL and indexed Japanese text. These notes preserve excerpts and a working translation, not the original PDF; verification against the PDF is pending. Japanese search term: タブナワン.",
       "backupDescription": "Backup contains saved research notes, short excerpts, and discovery steps. The original Sophia PDF has not been downloaded; verification against it is pending.",
       "credit": "Kawashima Midori (commentary); Usman Imam Sheik Al-Aman; Mitsuko Saito (translation). Journal of Sophia Asian Studies 22 (2004), pp. 173–195. Original publication and repository: Sophia University."
+    },
+    {
+      "id": "ameroden-tabonawan",
+      "region": "binidayan",
+      "type": "research",
+      "title": "Ameroden sa Bayang · Tabonawan ancestry",
+      "author": "Ontay & Marogong.Net · published salsila account",
+      "url": "https://acmaly88.page.tl/AMERODEN-SA-BAYANG.htm",
+      "description": "Lists Tabonawan, Imam sa Binidayan, as a child of Babaida and an unnamed child of Paki. Gives ancestry for Babaida through Bagur and Amai Makapondag. Identification with Tabunawan, Usman Imam’s father, remains tentative.",
+      "backupUrl": "docs/references/ameroden-tabonawan-record.html",
+      "backupDescription": "Saved research notes and source details only; not a full-page backup.",
+      "credit": "Ontay & Marogong.Net · Ameroden sa Bayang."
     }
   ]
 }

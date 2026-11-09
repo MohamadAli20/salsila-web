@@ -39,6 +39,14 @@ The intermediate ancestors are not named in this passage. Preserve a missing-anc
 
 ## Separate Alicasan account
 
-Mamadra's sibling connection to Usman Imam, his half-brother connection to Ginaronay, and the maternal-cousin relationship between Usman's mother and Samurong are attributed to Alicasan, November 9, 2026. They are not asserted as facts from this Kawashima passage.
+Mamadra's sibling connection to Usman Imam, his half-brother connection to Calanda Ginaronai, and the maternal-cousin relationship between Usman's mother and Samurong are attributed to Alicasan, November 9, 2026. They are not asserted as facts from this Kawashima passage.
 
 The former display label “Usman Ali” was corrected to “Usman Imam” by the user. The old label is retained as an earlier family label for search, not as a published name from this source.
+
+## Al-Hur — mother of Sayyidna (November 9, 2026)
+
+Source: the same Sophia document, **section I.1, サイイドナーのこと**, in Usman Imam Sheik Al-Aman’s lecture; Japanese translation by Saito Mitsuko, notes by Saito and Kawashima. This attribution is distinct from Kawashima’s section II commentary.
+
+Short indexed-source excerpt: **母親フール（al-Hūr）** — “his mother, al-Hūr.” Working summary: the lecture says she instructed Sayyidna, aged twelve, to travel to Mecca for pilgrimage and study.
+
+Retrieval: the web research search query `site:sophia.repo.nii.ac.jp "サイイドナー" "母"` returned the original Sophia PDF. Opening that result in the research tool returned indexed Japanese text; the mother’s name appears in the paragraph beginning サイイドナーは、ミンダナオ島. This is saved source evidence from indexed text, not a visual transcription of the PDF. The original PDF download was attempted again and returned HTTP 503. **No full PDF backup was obtained.** The diagram now names Al-Hur on this basis, with this access limitation retained in the profile.

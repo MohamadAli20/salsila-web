@@ -61,3 +61,28 @@ Usman Ali, Tabunawan, Mamadra, and the maternal-cousin and half-brother accounts
 ## Verified Sophia parentage correction
 
 Sophia record 2005239, Kawashima Midori’s commentary section II.1, names Tabunawan as Usman Imam’s father, identifies the unnamed mother as from Bayang, and describes **Tabunawan** as the sixth-generation descendant of Sayyidna. This supersedes earlier notes attributing parentage solely to Alicasan or treating Usman as the sixth-generation descendant. See `docs/alicasan-2026-11-09.md` for current attribution. The repository is under maintenance; `docs/references/` holds offline research notes and checksums, not a full PDF backup.
+
+
+## Sayyidna’s parents — November 9, 2026 review
+
+Kawashima (2017), p.16–17, identifies Sapatula (Shafatullah) as Sayyidna’s father in the oral tradition and discusses his brother who became Sultan of Tampasok. The consulted paper mentions Sayyidna’s mother but does not give the proposed name Al-Hur. An unnamed maternal box is retained pending a precise source for that name. Amana and Maruhom Sapaatullah are moved to the combined Muhammad Said column; Amana’s connection remains sourced to the salsila.
+
+### Al-Hur source located — November 9, 2026
+
+The earlier unnamed maternal box is now Al-Hur (al-Hūr; フール). Sophia record 2005239, section I.1, names her in Usman Imam’s lecture, translated by Saito Mitsuko with notes by Saito and Kawashima. The name was recovered by opening the search-indexed PDF text, not from the 2017 paper. A short Japanese excerpt, retrieval steps and attribution are saved in the existing Sophia source notes. The direct PDF download still returns HTTP 503; no full PDF backup is claimed.
+
+### Individual source attribution — November 2026
+
+Amana: Salsila. Maruhom Sapaatullah: Salsila; Shafā‘at Allāh (exact source romanization): Kawashima reference. Al-Hur: Sophia publication of Usman Imam’s lecture, translated by Saito Mitsuko with notes/commentary by Kawashima Midori. Mamadra and his sibling/half-brother connections: Alicasan account, November 2026. Individual source badges distinguish these attributions.
+
+### Digadong ancestry box
+
+An unresolved clan-ancestry box connects with dashed routes to Samurong and Mampay’s reported first-cousin relationship, per Alicasan. It is not an identified person, a direct parent or a specified generation count.
+
+### Ginaronai profile correction
+
+Removed the outdated Mamadra half-brother claim from Ginaronai’s profile. The relationship belongs to Calanda Ginaronai and Mamadra, according to Alicasan, November 2026. Their shared parent is unspecified.
+
+### Documentary basis for Calanda–Bayango descendants
+
+The family clarifies that Calanda and Bayango’s names and descendant parent–child records are based on legal documents, such as birth certificates, rather than Alicasan’s oral account. The diagram uses D (Legal documents) for these cards. This change records the stated documentary basis; no document scans were supplied or inspected here. Alicasan remains the attribution for ancestral/cousin claims and oral historical accounts.

@@ -13,7 +13,6 @@
     "chart-personal-usman-mother",
     "chart-personal-mamadra",
     "chart-personal-said-usman-gap",
-    "chart-personal-tuan-magonaya",
     "chart-personal-gandamasir"
   ],
   "edges": [
@@ -99,7 +98,7 @@
       "relationship": "half-brother",
       "relationshipSource": "Alicasan, November 9, 2026",
       "sharedParentKnown": false,
-      "from": "chart-personal-ginaronai"
+      "from": "chart-personal-kalanda"
     },
     {
       "to": "chart-personal-usman-ali",
@@ -113,18 +112,7 @@
       "from": "chart-personal-mamadra"
     },
     {
-      "from": "chart-038",
-      "to": "chart-personal-tuan-magonaya",
-      "type": "lineage",
-      "recordSource": "family-account",
-      "recordDate": "2026-11-09",
-      "recordAttribution": "Family oral account recorded November 9, 2026",
-      "relationship": "parent-child",
-      "relationshipSource": "Family oral account recorded November 9, 2026",
-      "note": "Hadji Said → child called Tuan sa Magonaya · oral family account, not attributed to Kawashima research."
-    },
-    {
-      "from": "chart-personal-tuan-magonaya",
+      "from": "chart-039",
       "to": "chart-personal-gandamasir",
       "type": "lineage",
       "recordSource": "family-account",
@@ -153,7 +141,7 @@
     "Common ancestors underlying the reported Samurong–Dimaporo first-cousin relationship",
     "Shared ancestor supporting the reported Bayango–Calanda second-cousin relationship",
     "Identity of Samurong’s first spouse",
-    "Shared parent of Ginaronay and Mamadra; full/half status of Mamadra–Usman siblings",
+    "Shared parent of Calanda Ginaronai and Mamadra; full/half status of Mamadra–Usman siblings",
     "Maternal common ancestors and cousin degree of Samurong and Usman’s mother",
     "Intermediate Hadji Said → Tabunawan ancestors and generation-count convention",
     "Whether Magonana in the Japanese text corresponds to Magonaya"
