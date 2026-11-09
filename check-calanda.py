@@ -5,7 +5,7 @@ for g in r.findall('.//s:g',ns):
  if q is None or not i:continue
  tr=list(map(float,re.findall(r'-?\d+(?:\.\d+)?',g.get('transform',''))));dx,dy=tr if len(tr)==2 else(0,0);x,y,w,h=[float(q.get(k,0)) for k in('x','y','width','height')];boxes.append((i,x+dx,y+dy,x+dx+w,y+dy+h))
 def segments(d):
- tok=re.findall('[MLHVmlhv]|-?\\d+(?:\\.\\d+)?',d);pos=(0,0);j=0;cmd=None
+ tok=re.findall(r'[MLHVmlhv]|-?\d+(?:\.\d+)?',d);pos=(0,0);j=0;cmd=None
  while j<len(tok):
   if tok[j].isalpha():cmd=tok[j];j+=1
   if cmd in ('M','L'):pt=(float(tok[j]),float(tok[j+1]));j+=2
@@ -17,7 +17,8 @@ def segments(d):
   if cmd=='M':cmd='L'
 collisions=[]
 for p in r.findall('.//s:path',ns):
- d=p.get('d','')
+ d=p.get('data-route',p.get('d',''))
+ if p.get('data-jump-decoration'):continue
  for (x,y),(u,v) in segments(d):
   for i,a,b,c,e in boxes:
    hit=(abs(x-u)<.01 and a+.5<x<c-.5 and max(min(y,v),b+.5)<min(max(y,v),e-.5))or(abs(y-v)<.01 and b+.5<y<e-.5 and max(min(x,u),a+.5)<min(max(x,u),c-.5))
@@ -25,7 +26,7 @@ for p in r.findall('.//s:path',ns):
 
 assert not collisions, f"Connectors cross person boxes: {collisions}"
 
-paths={p.get('d') for p in r.findall('.//s:path',ns)}
+paths={p.get('data-route',p.get('d')) for p in r.findall('.//s:path',ns)}
 for expected in ['M4780,3595 H5740','M5920,3340 V3500','M5920,3420 H6200 V4020 H5920 V4100','M5000,3245 H5705']:
  assert expected in paths, f'Missing moved-family connector: {expected}'
 people={g.get('data-id'):g for g in r.findall('.//s:g',ns) if g.get('data-id')}

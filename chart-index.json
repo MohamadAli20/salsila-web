@@ -1320,7 +1320,8 @@
           }
         ],
         "identityNote": "The source transcription calls this entry “Sult. Ali.” The genealogy account identifies Sultan Ali as Mohamad Ali Dimaporo and names Dimaporo and Borngao as parents. This is distinct from the earlier Dimaporo entry. Biographical sources do not independently verify every chart connection."
-      }
+      },
+      "transcriptionNote": " Mohamad Ali Dimaporo and Calanda Ginaronai are reported second cousins in the family account. Their shared ancestors and connecting ancestry are not yet identified. This refers to Mohamad Ali Dimaporo (chart-132), not the earlier Sultan Dimaporo (chart-126)."
     },
     {
       "id": "chart-133",
@@ -1815,7 +1816,7 @@
       "name": "Calanda Ginaronai",
       "recordSource": "family-account",
       "recordDate": "2026-11-03",
-      "transcriptionNote": "According to the corrected family account, Calanda Ginaronai is the child of Samurong and Ginaronai from Poon a Baebao. Calanda is recorded as the partner of Bayango Gandamazir. Bayango and Calanda are reported second cousins; their common ancestor remains unresolved. According to Alicasan Calanda, Calanda Ginaronai travelled to Manila to sell peanuts. The date, route, vessel and length of stay are not yet known. This oral account is open for research in passenger lists, port or shipping records and other relevant archives; no matching record has yet been identified. According to Alicasan, November 9, 2026, Bayango Gandamasir and Calanda Ginaronai are second cousins through the Digadong family. Their common ancestor and intervening ancestry have not yet been identified; this is a reported family relationship, not a calculated or independently verified kinship result.",
+      "transcriptionNote": "According to the corrected family account, Calanda Ginaronai is the child of Samurong and Ginaronai from Poon a Baebao. Calanda is recorded as the partner of Bayango Gandamazir. Bayango and Calanda are reported second cousins; their common ancestor remains unresolved. According to Alicasan Calanda, Calanda Ginaronai travelled to Manila to sell peanuts. The date, route, vessel and length of stay are not yet known. This oral account is open for research in passenger lists, port or shipping records and other relevant archives; no matching record has yet been identified. According to Alicasan, November 9, 2026, Bayango Gandamasir and Calanda Ginaronai are second cousins through the Digadong family. Their common ancestor and intervening ancestry have not yet been identified; this is a reported family relationship, not a calculated or independently verified kinship result. Mohamad Ali Dimaporo and Calanda Ginaronai are reported second cousins in the family account. Their shared ancestors and connecting ancestry are not yet identified. This refers to Mohamad Ali Dimaporo (chart-132), not the earlier Sultan Dimaporo (chart-126).",
       "unknownName": false,
       "aliases": [
         "Calanda Ginaronia"
@@ -4878,6 +4879,17 @@
       "reportedGeneration": 6,
       "note": "Kawashima Midori, Sophia record 2005239, section II.1: Tabunawan (Usman Imam’s father) is described as Sayyidna’s sixth-generation descendant. Intermediate names are not supplied; the diagram does not invent six parent–child steps.",
       "sourceId": "kawashima-usman-sophia"
+    },
+    {
+      "from": "chart-132",
+      "targetId": "chart-personal-kalanda",
+      "targetName": "Calanda Ginaronai",
+      "type": "reported-second-cousins",
+      "status": "unresolved",
+      "recordSource": "family-account",
+      "recordDate": "2026-11-09",
+      "recordAttribution": "Family oral account",
+      "note": "Mohamad Ali Dimaporo and Calanda Ginaronai are reported second cousins in the family account. Their shared ancestors and connecting ancestry are not yet identified. This refers to Mohamad Ali Dimaporo (chart-132), not the earlier Sultan Dimaporo (chart-126)."
     }
   ],
   "layoutConstraints": [

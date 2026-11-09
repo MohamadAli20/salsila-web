@@ -13,7 +13,7 @@ assert.notEqual(mid,father);assert.equal(graph.labels.filter(l=>l.unknownName).l
 for(const l of own){if([sam,'chart-personal-samurong-mother','chart-personal-usman-mother'].includes(l.id))assert.equal(l.gender,'female');else if(['chart-personal-ginaronai','chart-personal-tabunawan','chart-personal-mamadra','chart-personal-gandamasir'].includes(l.id))assert.equal(l.gender,'male');else assert(!Object.hasOwn(l,'gender'));assert(!Object.hasOwn(l,'ethnicity'));assert(!Object.hasOwn(l,'x'),'Do not fabricate original image coordinates for personal records');}
 assert(!graph.edges.some(e=>e.from==='chart-019'&&e.to===father),'Digadong clan origin must not become direct parentage');
 assert(!graph.edges.some(e=>e.from===sam&&['chart-126','chart-132'].includes(e.to)),'Unresolved cousin report must not turn into a graph edge');
-assert.equal(graph.reportedRelationships.filter(r=>r.status==='unresolved').length,4);
+assert.equal(graph.reportedRelationships.filter(r=>r.status==='unresolved').length,5);
 assert(build(graph,sam,2).levels.has(child));assert(build(graph,father,2).levels.has(child));
 assert(build(graph,child,1).ids.has('chart-personal-bayango'),'Connected spouse record must remain available without inferred gender labels');
 const ali=graph.labels.find(l=>l.id==='chart-132');assert(ali.publicFigure);assert(ali.aliases.includes('Sult. Ali'));assert(ali.biography.sources.some(s=>s.url.startsWith('https://www.msumain.edu.ph/')));assert(ali.biography.facts.every(f=>f.sourceUrl));
@@ -67,3 +67,5 @@ assert.notEqual(magonaya,'chart-038');assert.notEqual(magonaya,'chart-039');
 for(const [a,b] of [['chart-038',magonaya],[magonaya,gandamasir],[gandamasir,'chart-personal-bayango']])assert(graph.edges.some(e=>e.from===a&&e.to===b&&e.relationship==='parent-child'&&!e.sourceId));
 assert(!graph.edges.some(e=>e.from==='chart-038'&&e.to===gandamasir),'Keep Tuan sa Magonaya between Hadji Said and Gandamasir');
 assert(graph.labels.find(l=>l.id===magonaya).recordAttribution.includes('Family oral account'));
+
+assert(graph.reportedRelationships.some(r=>r.from==='chart-132'&&r.targetId==='chart-personal-kalanda'&&r.type==='reported-second-cousins'));
